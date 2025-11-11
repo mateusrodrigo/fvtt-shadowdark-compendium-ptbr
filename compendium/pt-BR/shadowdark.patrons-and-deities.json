@@ -1,0 +1,84 @@
+{
+  "label": "Patronos e Deuses",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "Deities": "Deuses",
+    "Patrons": "Patronos"
+  },
+  "entries": {
+    "5fPrD7qhcNYXxmgD": {
+      "name": "Almazzat",
+      "description": "<p>Um arqui-demônio com cabeça de lobo, seis olhos e seis chifres. Almazzat busca arrancar as Areias das Eras de seu pai, Kytheros.</p>"
+    },
+    "6qeBzYJUTgrMhUcW": {"verificado":"ok",
+      "name": "Ramlaat (Caótico)",
+      "description": "<p>Ramlaat é o Saqueador, o Bárbaro, o Enxame. Muitos orcs o adoram e vivem segundo o Rito de Sangue, uma profecia que diz que apenas os mais fortes sobreviverão à ruína que se aproxima.</p>"
+    },
+    "7Ay6ImjgTQAMDc0M": {
+      "name": "Todos os Deuses Nórdicos",
+      "description": "<p>Os fiéis adoram todos os Deuses Antigos em diferentes momentos, mas muitos se identificam mais fortemente com um em particular. Prestar respeito a todos os deuses não é traição; é uma honra.</p>"
+    },
+    "EpJT45EeH6ZmqoFp": {
+      "name": "Kytheros",
+      "description": "<p>O Senhor do Tempo que vê todos os futuros possíveis. Kytheros busca o cumprimento de todos os destinos conforme foram destinados a ser.</p>"
+    },
+    "FhDBOHUircue27aV": {"verificado":"ok",
+      "name": "Gede (Neutra)",
+      "description": "<p>A deusa dos banquetes, da alegria e da natureza selvagem. Gede é normalmente pacífica, mas tempestades primordiais irrompem quando sua fúria desperta. Muitos elfos e halflings a veneram.</p>"
+    },
+    "Kw1FhdDLUUjdqpLw": {
+      "name": "Mugdulblub",
+      "description": "<p>A Gosma Anciã que vaza pelas fendas da memória e pela escuridão entre as estrelas. Mugdulblub busca a dissolução de toda forma física.</p>"
+    },
+    "R6m1FzSnuw5OnSpB": {
+      "name": "Freya",
+      "description": "<p>A deusa do amor e do ódio. A Rainha das Donzelas do Escudo, cujas valquírias carregam as almas dignas para o Grande Banquete. A Primeira Vidente, que deposita seus presságios em ossos, sangue e entranhas. Freya inspira os poetas e depois os atormenta com a ausência de inspiração.</p>"
+    },
+    "YiYcBAvmzIlXK53d": {
+      "name": "O Homem-Salgueiro",
+      "description": "<p>Uma figura espectral e alongada que ronda florestas enevoadas e observa dos limites dos pesadelos. O Homem-Salgueiro busca o medo.</p>"
+    },
+    "bRTH2GeVuEbWw2Dw": {"verificado":"ok",
+      "name": "Shune, a Perversa (Caótica)",
+      "description": "<p>Shune sussurra segredos arcanos a feiticeiros e bruxas que a chamam nas horas sombrias. Ela planeja destronar Ord para que possa controlar por si só o vasto fluxo da magia.</p>"
+    },
+    "cQGIVxXN6caEcOWt": {
+      "name": "Shune, a Perversa",
+      "description": "<p>Uma deusa, a Bruxa-Mãe que fala com seus filhos no piscar das velas e no tilintar dos ossos secos. Shune busca segredos ocultos e saberes perdidos.</p>"
+    },
+    "hNbUUJnD6HIda5tl": {"verificado":"ok",
+      "name": "Santa Terragnis (Leal)",
+      "description": "<p>Uma cavaleira lendária que é a padroeira da maioria dos humanos leais. Ela ascendeu à divindade há muito tempo e é a personificação da retidão e da justiça.</p>"
+    },
+    "iblZelXFcIZFbPFH": {
+      "name": "Odin",
+      "description": "<p>O Pai de Todos. Odin, o de Um Olho Só, valoriza a força e a astúcia. Seus corvos gêmeos voam pela noite, espreitando sonhos e memórias. Guerreiros dignos são levados ao Grande Salão de Valhala quando morrem, para banquetearem e lutar ao seu lado pela eternidade.</p>"
+    },
+    "lLaLJrEcGxU4Kc1W": {
+      "name": "Titania",
+      "description": "<p>A volúvel Rainha das Fadas, que vê toda a existência como um sonho caprichoso, cheio de significados ocultos e dramas pungentes. Titania busca travessuras, beleza e arte.</p>"
+    },
+    "oT5Urxeq9eAeXJZf": {"verificado":"ok",
+      "name": "Memnon (Caótico)",
+      "description": "<p>Memnon foi a primeira manifestação do Caos. Ele é o gêmeo de Madeera, um ser leonino de juba vermelha, cuja ambição suprema é rasgar as leis cósmicas do Pacto da pele de sua irmã.</p>"
+    },
+    "p91vJhT8FXvb2mLj": {"verificado":"ok",
+      "name": "Madeera, o Convênio (Leal)",
+      "description": "<p>Madeera foi a primeira manifestação da Lei. Ela carrega em sua pele todas as leis da realidade — um decreto chamado Convênio — inscritas em símbolos precisos.</p>"
+    },
+    "r1j3fFsxwgxvIqxl": {"verificado":"ok",
+      "name": "Os Perdidos (?)",
+      "description": "<p>Dois dos Nove se perderam nas eras, seus nomes apagados da história e da memória. Ainda assim, sua lenda sussurrada vive em textos antigos e lugares esquecidos...</p>"
+    },
+    "rlrWLhbyaJZNrbND": {
+      "name": "Loki",
+      "description": "<p>O Enganador, que vence com astúcia e disfarce. O lobo que se passa por cordeiro. Loki é eloquente e irritante; suas palavras cortam como aço, e seu riso uiva como um vendaval. Seus seguidores não buscam Valhala, pois sabem que ela cairá quando chegar o Ragnarok.</p>"
+    },
+    "w9GdZSr5XYNjIeeR": {"verificado":"ok",
+      "name": "Ord (Neutro)",
+      "description": "<p>Ord, o Inflexível, o Sábio, o Guardião dos Segredos. Ele é o deus da magia, do conhecimento, dos segredos e do equilíbrio.</p>"
+    }
+  }
+}

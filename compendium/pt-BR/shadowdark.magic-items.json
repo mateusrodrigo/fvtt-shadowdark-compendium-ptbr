@@ -1,0 +1,1245 @@
+{
+  "label": "Itens Mágicos",
+  "mapping": {
+    "description": "system.description",
+    "effects": "effects",
+    "img": "img"
+  },
+  "folders": {},
+  "entries": {
+    "0Ws5acsixawAITFi": {
+      "name": "Cubo da Perfeição de Brak (Car)",
+      "description": "<p><em>Um pequeno cubo com pinturas de goblins em cada face, cada uma retratando a transcendência de um traço físico ou mental.</em></p><p><strong>Benefício</strong>. Role o cubo jogando um [[/r d6]]. Seu atributo correspondente aumenta permanentemente para 18 (+4). 1. Força. 2. Destreza. 3. Constituição. 4. Inteligência. 5. Sabedoria. 6. Carisma.</p><p>Após ser rolado, o <em>Cubo da Perfeição de Brak</em> se teleporta para um local aleatório no multiverso.</p>",
+      "effects": [
+        {
+          "_id": "1sKZFEAOhR1t3W5D",
+          "changes": [
+            {
+              "key": "system.abilities.cha.value",
+              "mode": 5,
+              "priority": null,
+              "value": "18"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/strike-axe-blood-red.webp",
+          "name": "Habilidade Permanente (Car)",
+          "origin": "Item.B3iC2SrJAnnNifTE",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "img": "icons/sundries/gaming/dice-runed-brown.webp"
+    },
+    "0c0G5Dnzq9Il8zZY": {
+      "name": "Engrenagem Kytheriana",
+      "description": "<p>Uma roda dentada do tamanho de uma moeda, polida até um brilho prateado.</p><p><strong>Benefício</strong>. Você começa cada sessão com um marcador de sorte.</p>",
+      "effects": [],
+      "img": "icons/commodities/tech/cog-large-steel-white.webp"
+    },
+    "2Ht3xGj1QvHt3znG": {
+      "name": "Braçadeiras de Defesa",
+      "description": "<p><em>Braçadeiras de aço traçadas com runas anãs de proteção.</em></p><p><strong>Benefício</strong>. Você recebe +1 de bônus na sua classe de armadura.</p>",
+      "effects": [],
+      "img": "icons/equipment/wrist/bracer-armored-steel-purple.webp"
+    },
+    "7pECwim9a2CVzFLy": {
+      "name": "Cubo da Perfeição de Brak (Con)",
+      "description": "<p><em>Um pequeno cubo com pinturas de goblins em cada face, cada uma retratando a transcendência de um traço físico ou mental.</em></p><p><strong>Benefício</strong>. Role o cubo jogando um [[/r d6]]. Seu atributo correspondente aumenta permanentemente para 18 (+4). 1. Força. 2. Destreza. 3. Constituição. 4. Inteligência. 5. Sabedoria. 6. Carisma.</p><p>Após ser rolado, o <em>Cubo da Perfeição de Brak</em> se teleporta para um local aleatório no multiverso.</p>",
+      "effects": [
+        {
+          "_id": "zrPgEyvt0Qpp6rca",
+          "changes": [
+            {
+              "key": "system.abilities.con.base",
+              "mode": 5,
+              "priority": null,
+              "value": "18"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/strike-axe-blood-red.webp",
+          "name": "Habilidade Permanente (Con)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "img": "icons/sundries/gaming/dice-runed-brown.webp"
+    },
+    "98cxnRdtTLv0Onka": {
+      "name": "Espada Curta do Ladrão",
+      "description": "<p><em>Uma lâmina curta e acinzentada, cheia de entalhes e cicatrizes.</em></p><p><strong>Bônus</strong>. Espada curta +1. +2 se empunhada por um halfling ou ladrão.</p><p><strong>Benefício</strong>. Uma vez por dia, recupere um marcador de sorte que acabou de gastar.</p>",
+      "effects": [
+        {
+          "_id": "4QneUXW9pG2CMpKS",
+          "changes": [
+            {
+              "key": "system.bonuses.attackBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+          "name": "Bônus de Ataque",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": false,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        },
+        {
+          "_id": "JAfTcoh8jcncSGJM",
+          "changes": [
+            {
+              "key": "system.bonuses.damageBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/weapons/ammunition/arrow-head-war-flight.webp",
+          "name": "Bônus no Dano de Ataque",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": false,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "img": "icons/weapons/swords/sword-guard-worn-purple.webp"
+    },
+    "FWQK9qFGagcEXCq5": {
+      "name": "Manoplas do Poder",
+      "description": "<p><em>Pesadas manoplas de bronze com gravuras de gigantes hercúleos.</em></p><p><strong>Benefício</strong>. Seu atributo de Força se torna 18 (+4) enquanto estiver usando estas manoplas.</p>",
+      "effects": [
+        {
+          "_id": "mEwSq29I1Sr8gG2t",
+          "changes": [
+            {
+              "key": "system.abilities.str.base",
+              "mode": 5,
+              "priority": null,
+              "value": "18"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/strike-axe-blood-red.webp",
+          "name": "Habilidade Permanente (For)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "img": "icons/equipment/hand/gauntlet-clawed-steel-blue.webp"
+    },
+    "K7PJLC0GUhtQ7aX2": {
+      "name": "Cubo da Perfeição de Brak (Int)",
+      "description": "<p><em>Um pequeno cubo com pinturas de goblins em cada face, cada uma retratando a transcendência de um traço físico ou mental.</em></p><p><strong>Benefício</strong>. Role o cubo jogando um [[/r d6]]. Seu atributo correspondente aumenta permanentemente para 18 (+4). 1. Força. 2. Destreza. 3. Constituição. 4. Inteligência. 5. Sabedoria. 6. Carisma.</p><p>Após ser rolado, o <em>Cubo da Perfeição de Brak</em> se teleporta para um local aleatório no multiverso.</p>",
+      "effects": [
+        {
+          "_id": "94JaF8oYeiAAWASd",
+          "changes": [
+            {
+              "key": "system.abilities.int.base",
+              "mode": 5,
+              "priority": null,
+              "value": "18"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/strike-axe-blood-red.webp",
+          "name": "Habilidade Permanente (Int)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "img": "icons/sundries/gaming/dice-runed-brown.webp"
+    },
+    "KAx02m6uAzOSBGXX": {
+      "name": "Poção de Invisibilidade",
+      "description": "<p><em>Este frasco de vidro parece vazio, mas um líquido salpica audivelmente dentro dele.</em></p><p><strong>Benefício</strong>. Ao beber esta poção, você fica invisível por 10 rodadas ou até atacar ou conjurar uma magia.</p><p>@UUID[Compendium.shadowdark.spell-effects.SMXbMbXcj5hLvTjY]{Efeito de Magia: Invisibilidade}</p>",
+      "effects": [],
+      "img": "icons/consumables/potions/vial-cork-empty.webp"
+    },
+    "Mb7OBENXa5XnClS9": {
+      "name": "Sede de Sangue",
+      "effects": [
+        {
+          "_id": "2NdFJHTHy28UaTCh",
+          "changes": [
+            {
+              "key": "system.bonuses.critical.multiplier",
+              "mode": 5,
+              "priority": null,
+              "value": "4"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/hand-grip-staff-yellow-brown.webp",
+          "name": "Multiplicador de Crítico",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": false,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        },
+        {
+          "_id": "A3cEweAbyqxNxdzl",
+          "changes": [
+            {
+              "key": "system.bonuses.attackBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+          "name": "Bônus de Ataque",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": false,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        },
+        {
+          "_id": "Qj2rqAj7XeIsjzzs",
+          "changes": [
+            {
+              "key": "system.bonuses.damageBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/weapons/ammunition/arrow-head-war-flight.webp",
+          "name": "Bônus no Dano de Ataque",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": false,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "img": "icons/weapons/axes/axe-battle-eyes-red.webp",
+      "description": ""
+    },
+    "MyHXrPewu36OmWB6": {
+      "name": "Armadura Ofídica",
+      "description": "<p><em>Couro lustroso e liso de escamas esmeralda salpicadas.</em></p><p><strong>Bônus</strong>. Armadura de couro +1.</p><p><strong>Benefício</strong>. Você tem vantagem em testes para evitar os efeitos de veneno.</p>",
+      "effects": [],
+      "img": "icons/equipment/chest/breastplate-layered-leather-green.webp"
+    },
+    "N27A6nb0epkHZ3lR": {
+      "name": "Pergaminho de Mãos Flamejantes",
+      "description": "<p>@UUID[Compendium.shadowdark.spells.ItN82uLU3PhJFLNm]{Mãos Flamejantes}</p>",
+      "effects": [],
+      "img": "icons/sundries/scrolls/scroll-writing-orange-black.webp"
+    },
+    "RPe1Y9rnhOq7Dl6p": {
+      "name": "Escaravelho da Proteção",
+      "description": "<p><em>Um broche feito de um escaravelho com chifres banhado a ouro.</em></p><p><strong>Benefício</strong>. Se você morrer, faça um teste de [[check 18 con]]. Se tiver sucesso, você fica inconsciente em vez de morrer.</p>",
+      "effects": [],
+      "img": "icons/commodities/treasure/brooch-gold-ruby.webp"
+    },
+    "RQyOkC3sGAe5gsn2": {
+      "name": "Haste Imóvel",
+      "description": "<p><em>Uma curta haste de ferro adornada com joias e um botão em uma das extremidades.</em></p><p><strong>Benefício</strong>. Ao clicar no botão, a haste fica fixa no espaço. Clicar novamente encerra o efeito.</p>",
+      "effects": [],
+      "img": "icons/weapons/staves/staff-metal-mask.webp"
+    },
+    "WB4r3ZgJ3TfRBEx5": {
+      "name": "Botas do Gato",
+      "description": "<p><em>Botas de pele de veado cinzentas, tão finas e macias quanto chinelos.</em></p><p><strong>Benefício</strong>. Você pode saltar até uma distância próxima a partir da imobilidade. Seus testes para se mover silenciosamente são sempre fáceis (CD 9).</p>",
+      "effects": [],
+      "img": "icons/equipment/feet/boots-leather-black.webp"
+    },
+    "X5FwZjvgzeSXvNDQ": {
+      "name": "Asterion",
+      "description": "<p><strong>Benefício</strong>. Uma criatura não pode mover o portador contra a vontade dele.</p>",
+      "effects": [
+        {
+          "_id": "CFbdBIST0hT7qCyu",
+          "changes": [
+            {
+              "key": "system.bonuses.attackBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+          "name": "Bônus de Dano de Arma",
+          "origin": "Compendium.shadowdark.magic-items.Item.X5FwZjvgzeSXvNDQ",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": false,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        },
+        {
+          "_id": "OZskI153kjpkFy09",
+          "changes": [
+            {
+              "key": "system.bonuses.damageBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/weapons/ammunition/arrow-head-war-flight.webp",
+          "name": "Bônus de Dano de Arma",
+          "origin": "Compendium.shadowdark.magic-items.Item.X5FwZjvgzeSXvNDQ",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": false,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp"
+    },
+    "ZamB6OED5J1EeU81": {
+      "name": "Espada dos Antigos",
+      "description": "<p><em>Uma lâmina lascada e enferrujada com um cabo de couro engraxado.</em></p><p><strong>Bônus</strong>. Espada longa +2.</p><p><strong>Benefício</strong>. A espada é inquebrável e pode cortar qualquer material.</p><p>O dono pode invocar a espada para sua mão se ela estiver no mesmo plano.</p>",
+      "effects": [
+        {
+          "_id": "9qMTrleWtCMKO3Xl",
+          "changes": [
+            {
+              "key": "system.bonuses.attackBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "2"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+          "name": "Bônus de Ataque",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": false,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        },
+        {
+          "_id": "78SoFRRmEjEMdPIT",
+          "changes": [
+            {
+              "key": "system.bonuses.damageBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "2"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/weapons/ammunition/arrow-head-war-flight.webp",
+          "name": "Bônus no Dano de Ataque",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": false,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "img": "icons/weapons/swords/sword-guard-worn-brown.webp"
+    },
+    "ZhykyK0shgnyC4Fh": {
+      "name": "Cubo da Perfeição de Brak (For)",
+      "description": "<p><em>Um pequeno cubo com pinturas de goblins em cada face, cada uma retratando a transcendência de um traço físico ou mental.</em></p><p><strong>Benefício</strong>. Role o cubo jogando um [[/r d6]]. Seu atributo correspondente aumenta permanentemente para 18 (+4). 1. Força. 2. Destreza. 3. Constituição. 4. Inteligência. 5. Sabedoria. 6. Carisma.</p><p>Após ser rolado, o <em>Cubo da Perfeição de Brak</em> se teleporta para um local aleatório no multiverso.</p>",
+      "effects": [
+        {
+          "_id": "N3a7CEwOlseizR4z",
+          "changes": [
+            {
+              "key": "system.abilities.str.base",
+              "mode": 5,
+              "priority": null,
+              "value": "18"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/strike-axe-blood-red.webp",
+          "name": "Habilidade Permanente (For)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "img": "icons/sundries/gaming/dice-runed-brown.webp"
+    },
+    "ZypO4jCOurSK2aOB": {
+      "name": "Cubo da Perfeição de Brak",
+      "description": "<p><em>Um pequeno cubo com pinturas de goblins em cada face, cada uma retratando a transcendência de um traço físico ou mental.</em></p><p><strong>Benefício</strong>. Role o cubo jogando um [[/r d6]]. Seu atributo correspondente aumenta permanentemente para 18 (+4).</p><ol><li><p>@UUID[Compendium.shadowdark.magic-items.ZhykyK0shgnyC4Fh]{Força}</p></li><li><p>@UUID[Compendium.shadowdark.magic-items.lUuyDaiDHJbDg82j]{Destreza}</p></li><li><p>@UUID[Compendium.shadowdark.magic-items.7pECwim9a2CVzFLy]{Constituição}</p></li><li><p>@UUID[Compendium.shadowdark.magic-items.K7PJLC0GUhtQ7aX2]{Inteligência}</p></li><li><p>@UUID[Compendium.shadowdark.magic-items.wrtcUfAY6yXwSqLY]{Sabedoria}</p></li><li>@UUID[Compendium.shadowdark.magic-items.0Ws5acsixawAITFi]{Carisma}</li></ol><p>Após ser rolado, o <em>Cubo da Perfeição de Brak</em> se teleporta para um local aleatório no multiverso.</p>",
+      "effects": [
+        {
+          "_id": "07RIJ800mgt95fNl",
+          "changes": [
+            {
+              "key": "system.abilities.cha.base",
+              "mode": 5,
+              "priority": null,
+              "value": "18"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/strike-axe-blood-red.webp",
+          "name": "Habilidade Permanente",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "img": "icons/sundries/gaming/dice-runed-brown.webp"
+    },
+    "gNah418e2ykhDWDE": {
+      "name": "Nome Verdadeiro",
+      "description": "<p><em>O nome secreto e único de uma criatura, registrado no Pacto. Poucas criaturas conhecem seus próprios Nomes Verdadeiros.</em></p><p><strong>Benefício</strong>. Você tem vantagem em jogadas de ataque e testes de conjuração que tenham como alvo uma criatura cujo Nome Verdadeiro você pronuncie.</p>",
+      "effects": [],
+      "img": "icons/sundries/documents/document-symbol-triangle-pink.webp"
+    },
+    "iEbHLvRPWNXo32qm": {
+      "name": "Vigilante",
+      "description": "<p><strong>Benefício</strong>. O portador não pode ser surpreendido.</p>",
+      "effects": [
+        {
+          "_id": "Rzbo47LZEvpyHfqg",
+          "changes": [
+            {
+              "key": "system.bonuses.attackBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+          "name": "Bônus de Ataque",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": false,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        },
+        {
+          "_id": "pwG7d70XZD8JJL5p",
+          "changes": [
+            {
+              "key": "system.bonuses.damageBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/weapons/ammunition/arrow-head-war-flight.webp",
+          "name": "Bônus no Dano de Ataque",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": false,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "img": "icons/weapons/polearms/pike-flared-brown.webp"
+    },
+    "jEeDexWHYy7wKsfa": {
+      "name": "Cajado de Cura",
+      "description": "<p><em>Um bastão de carvalho nodoso com um grande nó em uma das pontas.</em></p><p><strong>Bônus</strong>. Cajado +1.</p><p><strong>Benefício</strong>. Uma vez por dia, você pode tocar uma criatura com o cajado para curá-la em [[/r 1d6]] pontos de vida.</p>",
+      "effects": [
+        {
+          "_id": "HhILvM8lD0Nby5gq",
+          "changes": [
+            {
+              "key": "system.bonuses.attackBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+          "name": "Bônus de Ataque",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": false,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        },
+        {
+          "_id": "FqtIDxjhOFDvkQFn",
+          "changes": [
+            {
+              "key": "system.bonuses.damageBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/weapons/ammunition/arrow-head-war-flight.webp",
+          "name": "Bônus no Dano de Ataque",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": false,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "img": "icons/weapons/staves/staff-engraved-red.webp"
+    },
+    "jucTGEjsqJ1znHdf": {
+      "name": "Poção de Cura",
+      "description": "<p><em>Um frasco de vidro com um líquido efervescente de sabor limão-baunilha.</em></p><p><strong>Benefício</strong>. Quem beber esta poção recupera pontos de vida conforme o nível.</p><p><strong>NV 1–3</strong>: [[/r 1d6]] pontos de vida.</p><p><strong>NV 4–6</strong>: [[/r 2d8]] pontos de vida.</p><p><strong>NV 7–9</strong>: [[/r 3d10]] pontos de vida.</p><p><strong>NV 10+</strong>: [[/r 4d12]] pontos de vida.</p>",
+      "effects": [],
+      "img": "icons/consumables/potions/bottle-round-corked-orante-red.webp"
+    },
+    "lUuyDaiDHJbDg82j": {
+      "name": "Cubo da Perfeição de Brak (Des)",
+      "description": "<p><em>Um pequeno cubo com pinturas de goblins em cada face, cada uma retratando a transcendência de um traço físico ou mental.</em></p><p><strong>Benefício</strong>. Role o cubo jogando um [[/r d6]]. Seu atributo correspondente aumenta permanentemente para 18 (+4). 1. Força. 2. Destreza. 3. Constituição. 4. Inteligência. 5. Sabedoria. 6. Carisma.</p><p>Após ser rolado, o <em>Cubo da Perfeição de Brak</em> se teleporta para um local aleatório no multiverso.</p>",
+      "effects": [
+        {
+          "_id": "2iAdf3ZD4FdzPonT",
+          "changes": [
+            {
+              "key": "system.abilities.dex.base",
+              "mode": 5,
+              "priority": null,
+              "value": "18"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/strike-axe-blood-red.webp",
+          "name": "Habilidade Permanente (Des)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "img": "icons/sundries/gaming/dice-runed-brown.webp"
+    },
+    "mXkpNk8z0eZU8kKj": {
+      "name": "Pergaminho de Trancar Portal",
+      "description": "<p>@UUID[Compendium.shadowdark.spells.q600IZtPTAgkz6vB]{Trancar Portal}</p>",
+      "effects": [],
+      "img": "icons/sundries/scrolls/scroll-bound-green.webp"
+    },
+    "oS1VcB7hqcsjkUZv": {
+      "name": "Poção de Extirpação",
+      "description": "<p><em>Uma substância acre e alcatroada em um frasco de ferro com rolha de chumbo.</em></p><p><strong>Benefício</strong>. Você pode derramar a poção sobre um objeto ou criatura ocupando até uma área próxima. O alvo é totalmente removido da realidade e não pode ser retornado por nada menos que uma magia <em>desejo</em>.</p><p><strong>Personalidade</strong>. Caótica. Protesta em voz alta enquanto é usada e nunca concorda que o alvo é a escolha correta para extirpação.</p>",
+      "effects": [],
+      "img": "icons/consumables/potions/potion-vial-corked-labeled-purple.webp"
+    },
+    "t4RYKztP70zmAbGD": {
+      "name": "Pérola do Poder",
+      "description": "<p><em>Uma pérola opalescente e roliça que brilha com um fulgor interno.</em></p><p><strong>Benefício</strong>. Uma vez por dia, você pode recuperar a capacidade de conjurar uma magia que perdeu. Isso não pode restaurar uma magia perdida devido a uma falha crítica de conjuração.</p>",
+      "effects": [],
+      "img": "icons/commodities/gems/pearl-natural.webp"
+    },
+    "vHwzxeO0sX9GlRbj": {
+      "name": "Saco de Contenção",
+      "description": "<p><em>Uma bolsa de couro gasta com cordões bem apertados.</em></p><p><strong>Benefício</strong>. Este saco tem um espaço interdimensional interno que pode comportar até 10 espaços de equipamento.</p><p><strong>Maldição</strong>. Colocar este item dentro de outro <em>Saco de Contenção</em> ou de um <em>Buraco Portátil</em> destrói ambos os itens e tudo o que estiver dentro deles.</p>",
+      "effects": [
+        {
+          "_id": "MquW5uUJ7QQO7eFk",
+          "changes": [
+            {
+              "key": "system.bonuses.gearSlots",
+              "mode": 2,
+              "priority": null,
+              "value": "10"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/defensive/shield-barrier-deflect-teal.webp",
+          "name": "Espaços de Equipamento Adicionais",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "img": "icons/containers/bags/sack-leather-purple.webp"
+    },
+    "w3UsdCcYKnwcAgbH": {
+      "name": "Joia de Barbalt",
+      "description": "<p><em>Um rubi reluzente do tamanho de um coco, preso por garras douradas.</em></p><p><strong>Benefício</strong>. Você obtém sucesso crítico com 18–20.</p><p><strong>Maldição</strong>. Você sofre falha crítica com 1–3.</p>",
+      "effects": [
+        {
+          "_id": "UojiuFQ7ufucHAMl",
+          "changes": [
+            {
+              "key": "system.bonuses.critical.failureThreshold",
+              "mode": 5,
+              "priority": null,
+              "value": "3"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/life/cross-area-circle-green-white.webp",
+          "name": "Limiar de Falha Crítica",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        },
+        {
+          "_id": "b7lXcLAavPlpMhqp",
+          "changes": [
+            {
+              "key": "system.bonuses.critical.successThreshold",
+              "mode": 5,
+              "priority": null,
+              "value": "18"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/fire/flame-burning-fist-strike.webp",
+          "name": "Limiar de Sucesso Crítico",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "img": "icons/commodities/gems/pearl-red-gold.webp"
+    },
+    "wrtcUfAY6yXwSqLY": {
+      "name": "Cubo da Perfeição de Brak (Sab)",
+      "description": "<p><em>Um pequeno cubo com pinturas de goblins em cada face, cada uma retratando a transcendência de um traço físico ou mental.</em></p><p><strong>Benefício</strong>. Role o cubo jogando um [[/r d6]]. Seu atributo correspondente aumenta permanentemente para 18 (+4). 1. Força. 2. Destreza. 3. Constituição. 4. Inteligência. 5. Sabedoria. 6. Carisma.</p><p>Após ser rolado, o <em>Cubo da Perfeição de Brak</em> se teleporta para um local aleatório no multiverso.</p>",
+      "effects": [
+        {
+          "_id": "cUIGFlc2YR57pzXl",
+          "changes": [
+            {
+              "key": "system.abilities.wis.base",
+              "mode": 5,
+              "priority": null,
+              "value": "18"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/strike-axe-blood-red.webp",
+          "name": "Habilidade Permanente (Sab)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "img": "icons/sundries/gaming/dice-runed-brown.webp"
+    },
+    "yyUwr6H9imWcJ9YS": {
+      "name": "Varinha de Cegar/Ensurdecer",
+      "description": "<p>@UUID[Compendium.shadowdark.spells.ItoZZ0nli29N5d7G]{Cegar/Ensurdecer}</p><p>CD 12</p>",
+      "effects": [],
+      "img": "icons/weapons/wands/wand-gem-purple.webp"
+    },
+    "z4eAFex0bk8qiQWl": {
+      "name": "Capa Élfica",
+      "description": "<p><em>Uma capa ampla com capuz que muda de cor para combinar com os arredores.</em></p><p><strong>Benefício</strong>. Seus testes para se esconder são sempre fáceis (CD 9). Uma vez por dia, você pode ficar invisível por 5 rodadas. A invisibilidade termina se você atacar ou conjurar uma magia.</p>",
+      "effects": [],
+      "img": "icons/equipment/back/cloak-collared-feathers-green.webp"
+    }
+  }
+}

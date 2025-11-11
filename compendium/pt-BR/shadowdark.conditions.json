@@ -1,0 +1,1870 @@
+{
+  "label": "Condições",
+  "mapping": {
+    "description": "system.description",
+    "effects": "effects"
+  },
+  "folders": {},
+  "entries": {
+    "0McK66FvDi42pjiu": {
+      "name": "Preso",
+      "description": "<p>O personagem não pode se mover até ser libertado.</p>",
+      "effects": [
+        {
+          "_id": "Pw5zyo8apyAphCG2",
+          "changes": [],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/environment/traps/trap-jaw-steel.webp",
+          "name": "Preso",
+          "origin": "Item.0McK66FvDi42pjiu",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "2UFWFSeffj7vrSSR": {
+      "name": "Inconsciente",
+      "description": "<p>O personagem está inconsciente.</p>",
+      "effects": [
+        {
+          "_id": "iTrME6gdEDXnxloZ",
+          "changes": [],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
+          "name": "Inconsciente",
+          "origin": "Item.2UFWFSeffj7vrSSR",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "4OcLCPW1pxzTua7d": {
+      "name": "Enfeitiçado",
+      "description": "<p>O personagem está enfeitiçado.</p>",
+      "effects": [
+        {
+          "_id": "qSuLDWBjPNH2wizr",
+          "changes": [],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+          "name": "Enfeitiçado",
+          "origin": "Item.4OcLCPW1pxzTua7d",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "5S5y0GWE2akNYJiq": {
+      "name": "Exaurido (6)",
+      "effects": [
+        {
+          "_id": "iatMWq8uzO8KPaxd",
+          "changes": [
+            {
+              "key": "system.abilities.wis.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "-6"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/unholy/strike-body-life-soul-green.webp",
+          "name": "Exaurido (6)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "6Hd5Dzf2TnXL9Gxs": {
+      "name": "Amedrontado",
+      "description": "<p>O personagem está amedrontado.</p>",
+      "effects": [
+        {
+          "_id": "CyZNMVHNjIMTM0g7",
+          "changes": [],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/control/fear-fright-white.webp",
+          "name": "Amedrontado",
+          "origin": "Item.6Hd5Dzf2TnXL9Gxs",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "74xpXmPIMUYnyt1M": {
+      "name": "Dreno de Vida (3)",
+      "effects": [
+        {
+          "_id": "PAkmxzlF6cIsPNkt",
+          "changes": [
+            {
+              "key": "system.abilities.con.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "-3"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/unholy/hand-light-pink.webp",
+          "name": "Dreno de Vida (3)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "7DNtQwX31lpChHZH": {
+      "name": "Compelido",
+      "description": "<p>O personagem está compelido.</p>",
+      "effects": [
+        {
+          "_id": "jtCuGSncFiHgfNgZ",
+          "changes": [],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/control/energy-stream-link-spiral-white.webp",
+          "name": "Compelido",
+          "origin": "Item.7DNtQwX31lpChHZH",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "7yyr32LQtbwxDTAF": {
+      "name": "Rindo",
+      "description": "<p>O personagem está rindo.</p>",
+      "effects": [
+        {
+          "_id": "8N8VrjrYr7pGris5",
+          "changes": [],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/sonic/scream-wail-shout-teal.webp",
+          "name": "Rindo",
+          "origin": "Item.7yyr32LQtbwxDTAF",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "BcWf0hoWC2DZyaFH": {
+      "name": "Exaurido (5)",
+      "effects": [
+        {
+          "_id": "iatMWq8uzO8KPaxd",
+          "changes": [
+            {
+              "key": "system.abilities.wis.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "-5"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/unholy/strike-body-life-soul-green.webp",
+          "name": "Exaurido (5)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "DihIx1S94zeXV3oM": {
+      "name": "Petrificado",
+      "effects": [
+        {
+          "_id": "Ck88Wezyv7vfvNGV",
+          "changes": [],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/creatures/magical/construct-stone-earth-gray.webp",
+          "name": "Petrificado",
+          "origin": "Item.XbrayNCUis3pV0XU",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "FoXNI5CfBkJOvJ9c": {
+      "name": "Adormecido",
+      "effects": [
+        {
+          "_id": "9LKEdqM5gksbj8xV",
+          "changes": [],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/control/sleep-bubble-purple.webp",
+          "name": "Adormecido",
+          "origin": "Item.FoXNI5CfBkJOvJ9c",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "GQDiR0cXfb86m83P": {
+      "name": "Exaurido (4)",
+      "effects": [
+        {
+          "_id": "iatMWq8uzO8KPaxd",
+          "changes": [
+            {
+              "key": "system.abilities.wis.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "-4"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/unholy/strike-body-life-soul-green.webp",
+          "name": "Exaurido (4)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "Grd46xo0lgHLtfVe": {
+      "name": "Cego",
+      "description": "<p>O personagem cego tem desvantagem em tarefas que exigem visão.</p>",
+      "effects": [
+        {
+          "_id": "xE08WjX14HjHwSJC",
+          "changes": [],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/creatures/eyes/humanoid-single-blind.webp",
+          "name": "Cego",
+          "origin": "Item.Grd46xo0lgHLtfVe",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "HBDRaw3YhM22PJK2": {
+      "name": "Dreno de Vida (2)",
+      "effects": [
+        {
+          "_id": "PAkmxzlF6cIsPNkt",
+          "changes": [
+            {
+              "key": "system.abilities.con.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "-2"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/unholy/hand-light-pink.webp",
+          "name": "Dreno de Vida (2)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "LDzTLiVPs1Qvyrzk": {
+      "name": "Invisível",
+      "description": "<p>O personagem está invisível.</p>",
+      "effects": []
+    },
+    "MUNwczWej0Bo8x4S": {
+      "name": "Efeito: Estimulante",
+      "description": "<p>@UUID[Compendium.shadowdark.class-abilities.Item.EhaA5tBROfrws1Kx]{Estimulante}</p>",
+      "effects": [
+        {
+          "_id": "M044441XNDJq00mV",
+          "changes": [],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": 10,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
+          "name": "Vantagem em Percepção",
+          "origin": "Item.E9GhofNgwIJ7N2A4",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "NytuNX2lLUibvXSB": {
+      "name": "Banido",
+      "effects": []
+    },
+    "OL2kOP05K96L9JV9": {
+      "name": "Possuído",
+      "description": "<p>O personagem está possuído.</p>",
+      "effects": [
+        {
+          "_id": "rEjr6iPhgVuFTCWl",
+          "changes": [],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/perception/hand-eye-pink.webp",
+          "name": "Possuído",
+          "origin": "Item.OL2kOP05K96L9JV9",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "OvpXs6E4W6Ta6LJZ": {
+      "name": "Enfraquecido (Sab)",
+      "description": "<p>O personagem está enfraquecido.</p>",
+      "effects": [
+        {
+          "_id": "38EONK96mLJWmtGS",
+          "changes": [
+            {
+              "key": "system.abilities.wis.base",
+              "mode": 5,
+              "priority": null,
+              "value": "3"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/unholy/strike-hand-glow-pink.webp",
+          "name": "Habilidade Permanente (Sab)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "PY16IzWMkbYbGAWJ": {
+      "name": "Doença (4)",
+      "effects": [
+        {
+          "_id": "PAkmxzlF6cIsPNkt",
+          "changes": [
+            {
+              "key": "system.abilities.con.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "-4"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/death/skull-poison-green.webp",
+          "name": "Doença (4)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "ROTpAUAHx5s4AZZh": {
+      "name": "Paralisado",
+      "description": "<p>O personagem está paralisado.</p>",
+      "effects": [
+        {
+          "_id": "5Q6foTiBhvvLG7y3",
+          "changes": [],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp",
+          "name": "Paralisado",
+          "origin": "Item.ROTpAUAHx5s4AZZh",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "SQzniFDNODQRLoNi": {
+      "name": "Estupefato",
+      "description": "<p>O personagem está estupefato.</p>",
+      "effects": [
+        {
+          "_id": "gbK3h5sv3mNm3v3R",
+          "changes": [],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/water/barrier-ice-water-cube.webp",
+          "name": "Estupefato",
+          "origin": "Item.SQzniFDNODQRLoNi",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "T7PD6qqfanwAMEzo": {
+      "name": "Amaldiçoado",
+      "description": "<p>O personagem está amaldiçoado.</p>",
+      "effects": [
+        {
+          "_id": "h8IoE9DUt8lyCAgQ",
+          "changes": [],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+          "name": "Amaldiçoado",
+          "origin": "Item.T7PD6qqfanwAMEzo",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "WRFmdFxvPhVKXQB2": {
+      "name": "Doença (1)",
+      "effects": [
+        {
+          "_id": "PAkmxzlF6cIsPNkt",
+          "changes": [
+            {
+              "key": "system.abilities.con.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "-1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/death/skull-poison-green.webp",
+          "name": "Doença (1)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "XPk44UuWpkKBxyf3": {
+      "name": "Enfraquecido (Car)",
+      "description": "<p>O personagem está enfraquecido.</p>",
+      "effects": [
+        {
+          "_id": "F7lcubzHfIM4jQDu",
+          "changes": [
+            {
+              "key": "system.abilities.cha.base",
+              "mode": 5,
+              "priority": null,
+              "value": "3"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/unholy/strike-hand-glow-pink.webp",
+          "name": "Habilidade Permanente (Car)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "dmEiJzqy55xVYfD2": {
+      "name": "Enfraquecido (Int)",
+      "description": "<p>O personagem está enfraquecido.</p>",
+      "effects": [
+        {
+          "_id": "niI5k5QCYV7npdse",
+          "changes": [
+            {
+              "key": "system.abilities.int.base",
+              "mode": 5,
+              "priority": null,
+              "value": "3"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/unholy/strike-hand-glow-pink.webp",
+          "name": "Habilidade Permanente (Int)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "eAWhmC9ZXzjhIa1H": {
+      "name": "Dreno de Vida (1)",
+      "effects": [
+        {
+          "_id": "PAkmxzlF6cIsPNkt",
+          "changes": [
+            {
+              "key": "system.abilities.con.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "-1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/unholy/hand-light-pink.webp",
+          "name": "Dreno de Vida (1)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "fDUPAItc64pmW5zM": {
+      "name": "Enfeitiçado",
+      "description": "<p>O personagem está enfeitiçado e considera a fonte como um amigo.</p>",
+      "effects": [
+        {
+          "_id": "g02s1plvTDRI6Ido",
+          "changes": [],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/life/heart-shadow-red.webp",
+          "name": "Enfeitiçado",
+          "origin": "Item.fDUPAItc64pmW5zM",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "fHiOjFwljNOeJ2aX": {
+      "name": "Exaurido (1)",
+      "effects": [
+        {
+          "_id": "iatMWq8uzO8KPaxd",
+          "changes": [
+            {
+              "key": "system.abilities.wis.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "-1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/unholy/strike-body-life-soul-green.webp",
+          "name": "Exaurido (1)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "fMXSo5UqQD0fedRc": {
+      "name": "Doença (2)",
+      "effects": [
+        {
+          "_id": "PAkmxzlF6cIsPNkt",
+          "changes": [
+            {
+              "key": "system.abilities.con.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "-2"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/death/skull-poison-green.webp",
+          "name": "Doença (2)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "fkb9HwrPEq9mlZbb": {
+      "name": "Enfraquecido (Con)",
+      "description": "<p>O personagem está enfraquecido.</p>",
+      "effects": [
+        {
+          "_id": "uBrDknMQigqBcbl0",
+          "changes": [
+            {
+              "key": "system.abilities.con.base",
+              "mode": 5,
+              "priority": null,
+              "value": "3"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/unholy/strike-hand-glow-pink.webp",
+          "name": "Habilidade Permanente (Con)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "iU2qaminUz77BQ0L": {
+      "name": "Balbuciando",
+      "description": "<p>O personagem está balbuciando.</p>",
+      "effects": [
+        {
+          "_id": "7mCWjMOGoEUpJlGc",
+          "changes": [],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/creatures/abilities/mouth-teeth-human.webp",
+          "name": "Balbuciando",
+          "origin": "Item.iU2qaminUz77BQ0L",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "jT3yIGZpBlEYa2va": {
+      "name": "Exaurido (3)",
+      "effects": [
+        {
+          "_id": "iatMWq8uzO8KPaxd",
+          "changes": [
+            {
+              "key": "system.abilities.wis.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "-3"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/unholy/strike-body-life-soul-green.webp",
+          "name": "Exaurido (3)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "lsVOr4eduzSNGkVY": {
+      "name": "Enfraquecido (Des)",
+      "description": "<p>O personagem está enfraquecido.</p>",
+      "effects": [
+        {
+          "_id": "O8bVaWHv6gSA7mPq",
+          "changes": [
+            {
+              "key": "system.abilities.dex.base",
+              "mode": 5,
+              "priority": null,
+              "value": "3"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/unholy/strike-hand-glow-pink.webp",
+          "name": "Habilidade Permanente (Des)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "mqOVlejHMZAvqnn4": {
+      "name": "Exaurido (2)",
+      "effects": [
+        {
+          "_id": "iatMWq8uzO8KPaxd",
+          "changes": [
+            {
+              "key": "system.abilities.wis.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "-2"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/unholy/strike-body-life-soul-green.webp",
+          "name": "Exaurido (2)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "ov1K3L3kuKj8hCUG": {
+      "name": "Enfraquecido (For)",
+      "description": "<p>O personagem está enfraquecido.</p>",
+      "effects": [
+        {
+          "_id": "O8bVaWHv6gSA7mPq",
+          "changes": [
+            {
+              "key": "system.abilities.str.base",
+              "mode": 5,
+              "priority": null,
+              "value": "3"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/unholy/strike-hand-glow-pink.webp",
+          "name": "Habilidade Permanente (For)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "pcBuNszkAjGRJ0XX": {
+      "name": "Frágil",
+      "description": "<p>O personagem está frágil e recebe dano em dobro.</p>",
+      "effects": [
+        {
+          "_id": "XGGzrINaGvRwwXPC",
+          "changes": [],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/commodities/bones/bone-broken-grey.webp",
+          "name": "Frágil",
+          "origin": "Item.pcBuNszkAjGRJ0XX",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "piycdXLudXTFLG0k": {
+      "name": "Invisível (Furtivo)",
+      "description": "<p>O personagem está invisível.</p>",
+      "effects": [
+        {
+          "_id": "LmXXpHviIuB684gX",
+          "changes": [],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": 3,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+          "name": "Invisível",
+          "origin": "Item.SMXbMbXcj5hLvTjY",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "pkvfOgSt7c86e1dw": {
+      "name": "Dreno de Vida (4)",
+      "effects": [
+        {
+          "_id": "PAkmxzlF6cIsPNkt",
+          "changes": [
+            {
+              "key": "system.abilities.con.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "-4"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/unholy/hand-light-pink.webp",
+          "name": "Dreno de Vida (4)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "rW7oltlWDmteEpV7": {
+      "name": "Polimorfado",
+      "description": "<p>O personagem está polimorfado.</p>",
+      "effects": [
+        {
+          "_id": "xyhx2skwDPYWZ20G",
+          "changes": [],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+          "name": "Polimorfado",
+          "origin": "Item.rW7oltlWDmteEpV7",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "rbOmeG3R2mmiiIMT": {
+      "name": "Cérebro de Inseto",
+      "effects": [
+        {
+          "_id": "YPYxo5WhLBPCnkRd",
+          "changes": [
+            {
+              "key": "system.abilities.int.base",
+              "mode": 5,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/creatures/invertebrates/centipede-brown.webp",
+          "name": "Cérebro de Inseto",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "vmcHEQWOyX933G1R": {
+      "name": "Hipnotizado",
+      "effects": [
+        {
+          "_id": "3XkiakzqwT78EG4j",
+          "changes": [],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+          "name": "Hipnotizado",
+          "origin": "Item.vmcHEQWOyX933G1R",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "wDCrj4X7ccqB2jA8": {
+      "name": "Doença (3)",
+      "effects": [
+        {
+          "_id": "PAkmxzlF6cIsPNkt",
+          "changes": [
+            {
+              "key": "system.abilities.con.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "-3"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": 1,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/death/skull-poison-green.webp",
+          "name": "Doença (3)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    }
+  }
+}

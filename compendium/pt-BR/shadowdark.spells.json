@@ -1,0 +1,643 @@
+{
+  "label": "Magias",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "Priest": "Sacerdote",
+    "Seer": "Vidente",
+    "Tier 1": "Círculo 1",
+    "Tier 2": "Círculo 2",
+    "Tier 3": "Círculo 3",
+    "Tier 4": "Círculo 4",
+    "Tier 5": "Círculo 5",
+    "Witch": "Bruxa",
+    "Wizard": "Mago"
+  },
+  "entries": {
+    "07syJLlt7uUSQgct": {
+      "name": "Névoa",
+      "description": "<p>Uma densa nuvem de névoa se forma em uma área próxima ao seu redor, dificultando a visão. A nuvem se move com você. Ataques contra criaturas dentro da névoa têm desvantagem.</p>"
+    },
+    "0Gp5pSzPcelJVp3T": {
+      "name": "Controlar Água",
+      "description": "<p>Você move e molda a água. Pode fazer uma seção de água com até 30 metros de largura e profundidade mudar de forma, desafiar a gravidade ou fluir em outra direção.</p>"
+    },
+    "0VCMisYBNpLkx28M": {
+      "name": "Enfeitiçar Pessoa",
+      "description": "<p>Você encanta magicamente um humanoide de NV 2 ou menos dentro de alcance próximo, que o considera um amigo enquanto o feitiço durar.</p><p>O feitiço termina se você ou seus aliados fizerem algo prejudicial ao alvo.</p><p>O alvo sabe que foi enfeitiçado magicamente após o término do feitiço.</p><p>Role [[/r 1d8]] para determinar a quantidade de dias de duração.</p><p>@UUID[Compendium.shadowdark.spell-effects.Z0YwWUGs3WYC6OGn]{Efeito de Magia: Enfeitiçar Pessoa}</p>"
+    },
+    "0ejsM2UIZDHs5u2f": {
+      "name": "Queda Suave",
+      "description": "<p>Você pode tentar lançar esta magia quando estiver caindo.</p><p>Seu ritmo de descida desacelera, permitindo que você aterrisse em segurança sobre os pés.</p>"
+    },
+    "16XuBF2xjUnoepyp": {
+      "name": "Seta Ácida",
+      "description": "<p>Você conjura um projétil corrosivo que atinge um inimigo, causando [[/r 1d6]] de dano por rodada. O projétil permanece no alvo enquanto você mantiver a concentração.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.NXZlCiZI9X3AJc4m]{Efeito de Magia: Seta Ácida}</p>"
+    },
+    "1ZAZQsFvPBEZPkVP": {
+      "name": "Polimorfia",
+      "description": "<p>Você transforma uma criatura tocada em outra criatura natural de tamanho igual ou menor. Qualquer equipamento carregado pela criatura se funde à nova forma.</p><p>O alvo adquire as estatísticas físicas da criatura, mas mantém suas estatísticas não físicas.</p><p>Se o alvo chegar a 0 pontos de vida, ele retorna à sua forma verdadeira com metade dos pontos de vida que tinha antes.</p><p>Você pode escolher como alvo qualquer criatura voluntária ou uma criatura não voluntária cujo nível seja igual ou inferior à metade do seu (arredondado para baixo, mínimo 1).</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Hc3xUBBlZLxWNKYV]{Efeito de Magia: Polimorfia}</p>"
+    },
+    "1bakBCbVDXHiRvTN": {
+      "name": "Trovão de Thor",
+      "description": "<p>Thor lança um raio que atinge um alvo. O alvo sofre [[/r 3d6]] de dano.</p>"
+    },
+    "1dQg691JnfczSzIe": {
+      "name": "Adivinhação",
+      "description": "<p>Você lança ossos divinatórios ou encara o vazio entre as estrelas em busca de um presságio.</p><p>Você pode fazer ao Mestre uma pergunta cuja resposta seja \"sim\" ou \"não\". O Mestre responde honestamente.</p><p>Se lançar esta magia mais de uma vez em 24 horas, trate uma falha no teste de conjuração como uma falha crítica.</p>"
+    },
+    "1kZcu5aIUsIUbJzM": {
+      "name": "Fabricar",
+      "description": "<p>Esta magia não pode ter criaturas como alvo.</p><p>Você transforma uma quantidade de matéria-prima do tamanho de uma árvore em uma obra acabada. Por exemplo, pode converter um monte de tijolos ou pedras em uma ponte. A obra retorna à forma de matéria-prima quando a magia termina.</p>"
+    },
+    "1kzQiWXZDs6BOVxs": {
+      "name": "Silêncio",
+      "description": "<p>Você emudece magicamente todos os sons em um cubo de alcance próximo dentro da área da magia. Criaturas dentro da área ficam surdas, e qualquer som que fizerem não pode ser ouvido.</p><p>@UUID[Compendium.shadowdark.spell-effects.aAdqy5QwVJrT8JWE]{Efeito de Magia: Surdez}</p>"
+    },
+    "22pcP3fv7Mz1vJSs": {
+      "name": "Clã das Bruxas",
+      "description": "<p>Você invoca a magia compartilhada entre você e suas companheiras bruxas.</p><p>Você recupera o uso de uma magia de 3º círculo ou menor que já havia gasto no dia.</p><p>Após conjurar esta magia com sucesso, você não pode fazê-lo novamente até completar um descanso.</p>"
+    },
+    "2v8sc7cnMSzpECyi": {
+      "name": "Arma Purificadora",
+      "description": "<p>Uma arma que você toca é envolta em chamas purificadoras. Ela causa [[/r 1d4]] de dano adicional ([[/r 1d6]] contra mortos-vivos) durante a duração do efeito.</p><p>@UUID[Compendium.shadowdark.spell-effects.7hKYL9hdnsvCUM9c]{Efeito de Magia: Arma Purificadora}</p>"
+    },
+    "3U4gQZLbhYtkEcej": {
+      "name": "Falar com os Mortos",
+      "description": "<p>Um corpo morto que você toca responde às suas perguntas com uma voz distante e rouca.</p><p>Você pode fazer ao corpo morto até três perguntas de \"sim\" ou \"não\" (uma por vez). O Mestre responde honestamente \"sim\" ou \"não\" para cada uma.</p><p>Se lançar esta magia mais de uma vez em 24 horas, trate uma falha no teste de conjuração como uma falha crítica.</p>"
+    },
+    "3nOduBggYvyIPykI": {
+      "name": "Disco Flutuante",
+      "description": "<p>Você cria um disco circular flutuante de força mágica com centro côncavo. Ele pode carregar até 20 espaços de equipamento. Flutua na altura da cintura e permanece automaticamente dentro de alcance próximo de você. Não pode atravessar desníveis ou fossos mais altos que um humano.</p><p>@UUID[Compendium.shadowdark.spell-effects.VMkeCfccn7zp2up7]{Efeito de Magia: Disco Flutuante}</p>"
+    },
+    "3wYzASfDHA4FKGH3": {
+      "name": "Passo Nebuloso",
+      "description": "<p>Em uma nuvem de fumaça, você se teleporta para uma área próxima que possa ver.</p>"
+    },
+    "3yI7Ejl7UrYMMdTe": {
+      "name": "Augúrio",
+      "description": "<p>Você interpreta o significado de presságios e pressentimentos sobrenaturais. Faça ao Mestre uma pergunta sobre um curso específico de ação. O Mestre dirá se a ação levará a “boa fortuna” ou “desgraça”.</p>"
+    },
+    "471T74oeeDcmvzOM": {
+      "name": "Poção",
+      "description": "<p>Como parte da conjuração desta magia, você deve abençoar um único gole de qualquer líquido.</p><p>O líquido ganha propriedades curativas por 1 dia. Uma criatura que o beber pode encerrar os efeitos de um veneno ou parar imediatamente de morrer (permanecendo com 0 PV).</p>"
+    },
+    "4VD0Q8x9Lw0VpbaH": {
+      "name": "Enfraquecer",
+      "description": "<p>Uma criatura que você toca tem um atributo aleatório reduzido para 3 (-4) por uma semana. Role um [[/r d6]] para determinar qual atributo:</p><p>1. Força, 2. Destreza, 3. Constituição, 4. Inteligência, 5. Sabedoria, 6. Carisma.</p><p>Se você falhar no teste de conjuração, é você quem tem um atributo aleatório reduzido para 3 por uma semana.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Ya5tD4kFDne19zZO]{Efeito de Magia: Enfraquecer (FOR)}</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.1PzBYve4rd4MH6K2]{Efeito de Magia: Enfraquecer (DES)}</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Eojo6v3WsiHEDcKm]{Efeito de Magia: Enfraquecer (CON)}</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.0DDkeYKSrNj6JG1l]{Efeito de Magia: Enfraquecer (INT)}</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Jlv9MzbDrXu92djm]{Efeito de Magia: Enfraquecer (SAB)}</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.OTHSzCFY9zLlwzFF]{Efeito de Magia: Enfraquecer (CAR)}</p>"
+    },
+    "5238nq4yqxIA53wL": {
+      "name": "Armadura Arcana",
+      "description": "<p>Uma camada invisível de força mágica protege seus pontos vitais. Sua classe de armadura torna-se 14 (18 em um sucesso crítico no teste de conjuração) pela duração da magia.</p><p>@UUID[Compendium.shadowdark.spell-effects.h9MTxzrrPmyhEmRL]{Efeito de Magia: Armadura Arcana}</p><p>@UUID[Compendium.shadowdark.spell-effects.Gyol5I0ZdApO8MPe]{Efeito de Magia: Armadura Arcana (Crítico)}</p>"
+    },
+    "524WqghzcYDMxaPo": {
+      "name": "Metamorfo",
+      "description": "<p>Você se transforma, junto com todo o equipamento que carrega, em outra criatura natural que já tenha visto de nível 10 ou inferior. Você assume as estatísticas físicas da criatura, mas mantém suas estatísticas não físicas (como INT, SAB e CAR).</p><p>Se seus pontos de vida chegarem a 0 enquanto estiver sob o efeito desta magia, você retorna à sua forma verdadeira com 1 PV.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.F89CJeindj8k8oiC]{Efeito de Magia: Metamorfo}</p>"
+    },
+    "55VYMMlUp2BhYyeR": {
+      "name": "Arma Sagrada",
+      "description": "<p>Uma arma que você toca é imbuída com uma bênção sagrada.</p><p>A arma torna-se mágica e recebe +1 nas jogadas de ataque e de dano durante a duração do efeito.</p><p>@UUID[Compendium.shadowdark.spell-effects.r2JNgS2474vuq9oy]{Efeito de Magia: Arma Sagrada}</p>"
+    },
+    "6N33hyLWYZCRgkeX": {
+      "name": "Dissipar Magia",
+      "description": "<p>Encerra uma magia que afete um alvo que você possa ver dentro do alcance.</p>"
+    },
+    "71VbHnopcTmRXz47": {
+      "name": "Orbe Prismático",
+      "description": "<p>Você lança um orbe pulsante de energia em direção a um alvo dentro do alcance.</p><p>Escolha um tipo de energia entre fogo, frio ou eletricidade. O orbe causa [[/r 3d8]] de dano e libera uma explosão concussiva do tipo de energia escolhido.</p><p>Se o tipo de energia for antitético à natureza do alvo (por exemplo, energia fria contra um elemental de fogo), o orbe causa o dobro do dano.</p>"
+    },
+    "7Z57aIE3y6ym1f56": {
+      "name": "Seda de Aranha",
+      "description": "<p>Uma seda pegajosa de aranha cobre suas mãos e pés.</p><p>Pela duração da magia, você pode andar em superfícies verticais como se fossem chão plano.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.4UAVHmqFCt47sh7D]{Efeito de Magia: Seda de Aranha}</p>"
+    },
+    "7uTblEDfklCO1et7": {
+      "name": "Raio Relâmpago",
+      "description": "<p>Você dispara de suas mãos um raio azul e branco de relâmpago, atingindo todas as criaturas em linha reta até uma distância longa.</p><p>Cada criatura atingida sofre [[/r 3d6]] de dano.</p>"
+    },
+    "8vzMZpe3czsy8lLl": {
+      "name": "Olhar do Vazio",
+      "description": "<p>Seus olhos ficam negros enquanto você contempla o vazio entre as estrelas.</p><p>Uma criatura de NV 6 ou menos que você possa ver fica sob seu controle. Você decide as ações dela em seu turno.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.nctlTXcIkACzb0yd]{Efeito de Magia: Olhar do Vazio}</p>"
+    },
+    "9MlXio0rabdfEgIr": {
+      "name": "Enfeitiçar Pessoa",
+      "description": "<p>Você encanta magicamente um humanoide de NV 2 ou menos dentro de alcance próximo, que o considera um amigo enquanto o feitiço durar.</p><p>O feitiço termina se você ou seus aliados fizerem algo prejudicial ao alvo.</p><p>O alvo sabe que foi enfeitiçado magicamente após o término do feitiço.</p><p>Role [[/r 1d8]] para determinar a quantidade de dias de duração.</p><p>@UUID[Compendium.shadowdark.spell-effects.Z0YwWUGs3WYC6OGn]{Efeito de Magia: Enfeitiçar Pessoa}</p>"
+    },
+    "9gjMszk1mGwEcSo6": {
+      "name": "Imobilizar Pessoa",
+      "description": "<p>Você paralisa magicamente um humanoide de NV 4 ou menos que possa ver dentro do alcance.</p><p>@UUID[Compendium.shadowdark.spell-effects.SN9lU9LUViWo1Plm]{Efeito de Magia: Imobilizar Pessoa}</p>"
+    },
+    "AZo6rYWOo0SHvpxZ": {
+      "name": "Telecinese",
+      "description": "<p>Você ergue uma criatura ou objeto com a força da mente. Escolha um alvo que pese até 450 kg. Você pode movê-lo uma distância próxima em qualquer direção e mantê-lo suspenso no ar.</p>"
+    },
+    "AnJVapep2NJoicUP": {
+      "name": "Envio",
+      "description": "<p>Você envia uma breve mensagem mental a qualquer criatura com a qual seja familiar e que esteja no mesmo plano de existência.</p>"
+    },
+    "B091clRxdPW3SQ4G": {
+      "name": "Esfera Resiliente",
+      "description": "<p>Você conjura uma esfera vítrea e sem peso ao seu redor que se estende até uma distância curta.</p><p>Durante a duração da magia, nada pode atravessar ou esmagar a esfera.</p><p>Você pode rolar a esfera uma distância próxima em seu turno.</p>"
+    },
+    "B6aferQ27yPEF4C7": {
+      "name": "Pele de Pedra",
+      "description": "<p>Sua pele torna-se como granito. Durante a duração da magia, sua classe de armadura torna-se 17 (20 em um sucesso crítico no teste de conjuração).</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.deNtIVyGoXaDPrmJ]{Efeito de Magia: Pele de Pedra}</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.5rK6guXTllcryhLv]{Efeito de Magia: Pele de Pedra (Crítico)}</p>"
+    },
+    "Bu0YbZfePyD4dCBr": {
+      "name": "Íra",
+      "description": "<p>Suas armas tornam-se mágicas +2 e causam [[/r 1d8]] de dano adicional pela duração da magia.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.pKu2XsypNq65vkbV]{Efeito de Magia: Íra}</p>"
+    },
+    "CAVHqukh4EsioLQI": {
+      "name": "Olho Arcano",
+      "description": "<p>Você conjura um olho invisível do tamanho de uma uva dentro do alcance.</p><p>Você pode enxergar através do olho. Ele enxerga no escuro até uma distância próxima, pode voar na mesma distância em seu turno e passar por aberturas tão estreitas quanto o buraco de uma fechadura.</p>"
+    },
+    "CH5fnXxghhGQlr7h": {
+      "name": "Proteção Contra o Mal",
+      "description": "<p>Durante a duração da magia, seres caóticos têm desvantagem em jogadas de ataque e testes hostis de conjuração contra o alvo. Esses seres também não podem possuí-lo, controlá-lo ou encantá-lo.</p><p>Quando conjurada em um alvo já possuído, a entidade faz um teste de CAR contra o último teste de conjuração. Em caso de falha, a entidade é expulsa.</p><p>@UUID[Compendium.shadowdark.spell-effects.H7v5Izebo8O45DXB]{Efeito de Magia: Proteção Contra o Mal}</p>"
+    },
+    "CawYInZc9iM0jBOj": {
+      "name": "Regenerar",
+      "description": "<p>Uma criatura que você toca recupera [[/r 1d4]] pontos de vida em seu turno durante a duração da magia. Este feitiço também regenera partes do corpo perdidas.</p>"
+    },
+    "DIqnzk2352ycs9e6": {
+      "name": "Casca Antimagia",
+      "description": "<p>Um cubo invisível de antimagia do tamanho de uma área próxima aparece centrado em você.</p><p>Dentro do cubo, nenhuma magia pode ser conjurada. Itens mágicos e feitiços não têm efeito na zona, e nenhuma magia pode atravessá-la.</p><p>O cubo move-se com você. Magias como dissipar magia não têm efeito sobre ele.</p><p>Outra casca antimagia não interfere nesta.</p>"
+    },
+    "Dk64m8eDsEx235lo": {
+      "name": "Luz das Bruxas",
+      "description": "<p>Você invoca uma luz flutuante que paira no ar e ilumina até uma área próxima ao redor dela.</p><p>A luz pode mudar de cor e assumir formas vagas. Ela pode flutuar até uma distância próxima em seu turno.</p>"
+    },
+    "DnPIdKsSRUj623pi": {
+      "name": "Chuva de Fogo Sagrada",
+      "description": "<p>Você invoca uma coluna sagrada de fogo que consome uma criatura que possa ver dentro do alcance. O alvo sofre [[/r 2d6]] de dano.</p>"
+    },
+    "DrwHiFrcGjIBJNQF": {
+      "name": "Forma Gasosa",
+      "description": "<p>Você e seu equipamento se transformam em uma nuvem de fumaça pela duração da magia.</p><p>Você pode voar e atravessar qualquer fenda por onde a fumaça passaria. Pode perceber o terreno e movimentos ao redor em uma distância próxima.</p><p>Você não pode conjurar magias enquanto estiver nesta forma.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.u6apLIMU1w4EIW06]{Efeito de Magia: Forma Gasosa}</p>"
+    },
+    "ECq0V2V5QnsHfBWG": {
+      "name": "Cura em Massa",
+      "description": "<p>Todos os aliados dentro de alcance próximo recuperam [[/r 2d6]] pontos de vida.</p>"
+    },
+    "EQNDaZJ71fyOYCHb": {
+      "name": "Raio Lunar",
+      "description": "<p>Um raio ondulante de luz prateada da lua atinge uma criatura dentro de alcance longo. Ela sofre [[/r 3d6]] de dano.</p>"
+    },
+    "ESN7yIHq9KrItCI8": {
+      "name": "Sussurro",
+      "description": "<p>Você sussurra no ouvido de outra criatura, implantando uma memória falsa em sua mente.</p><p>Você descreve uma breve lembrança falsa que o alvo acreditará ser verdadeira a partir de então.</p><p>Se falhar no teste de conjuração, o Mestre escolhe uma breve lembrança falsa para implantar em sua mente, em vez disso.</p>"
+    },
+    "F9tt99DLLvAGukpg": {
+      "name": "Teletransporte",
+      "description": "<p>Você e quaisquer criaturas dispostas dentro de alcance curto se teletransportam para um local especificado no mesmo plano de existência.</p><p>Você pode viajar até um símbolo de teletransporte conhecido ou até um local onde já esteve. Caso contrário, há 50% de chance de chegar ao destino incorreto.</p>"
+    },
+    "Fm29B4cFuPRGGBNK": {
+      "name": "Imagem Espelhada",
+      "description": "<p>Você cria um número de duplicatas ilusórias de si mesmo igual à metade do seu nível (arredondado para baixo, mínimo 1). As duplicatas o cercam e imitam seus movimentos.</p><p>Cada vez que uma criatura o ataca, o ataque erra e faz uma das duplicatas se dissipar.</p><p>Quando todas as ilusões desaparecerem, a magia termina.</p><p>@UUID[Compendium.shadowdark.spell-effects.vI70AaskCqH9tKJ7]{Efeito de Magia: Imagem Espelhada}</p>"
+    },
+    "FrdLzy8cWPcVS2Mz": {
+      "name": "Clariaudiência/Clarividência",
+      "description": "<p>Você observa uma esfera de cristal ou um espelho d’água, evocando imagens de um lugar distante.</p><p>Durante a duração da magia, você pode ver e ouvir uma criatura ou local de sua escolha que esteja no mesmo plano.</p><p>Esta magia tem CD 18 para ser conjurada se você tentar espiar uma criatura ou local que lhe seja desconhecido.</p><p>A cada rodada, as criaturas observadas podem fazer um teste de Sabedoria contra seu último teste de conjuração. Em caso de sucesso, elas percebem sua observação mágica.</p>"
+    },
+    "GzUzNLgHDaSfLqT4": {
+      "name": "Profecia",
+      "description": "<p>Você comunga diretamente com seu deus em busca de orientação.</p><p>Faça ao Mestre uma pergunta. Ele responderá de forma verdadeira, de acordo com o conhecimento que sua divindade possui. As divindades são poderosas, mas não oniscientes.</p><p>Você não pode lançar esta magia novamente até completar sua penitência.</p>"
+    },
+    "H1FzDvXkyv1rScmR": {
+      "name": "Círculo Mágico",
+      "description": "<p>Você conjura um círculo de runas que forma um cubo de alcance próximo centrado em você e nomeia um tipo de criatura (por exemplo, demônios).</p><p>Durante a duração da magia, criaturas do tipo escolhido não podem atacar nem lançar magias hostis contra ninguém dentro do círculo. Essas criaturas também não podem possuir, controlar ou encantar quem estiver dentro dele.</p>"
+    },
+    "IDKMzqjvNbBvWcES": {
+      "name": "Alucinação",
+      "description": "<p>Uma criatura dentro de alcance próximo cujo nível seja menor ou igual ao seu é dominada por visões do que ainda pode acontecer.</p><p>Durante a duração da magia, o alvo não pode agir em seu turno, a menos que passe em um teste de Sabedoria igual ao seu último teste de conjuração.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.PLPiCgwZaEetlx5O]{Efeito de Magia: Alucinação}</p>"
+    },
+    "IKeJTVUWWMWy9Rvp": {
+      "name": "Vassoura Voadora",
+      "description": "<p>Você conjura uma vassoura voadora em sua mão.</p><p>O cavaleiro da vassoura pode voar uma distância próxima a cada rodada e pairar no ar.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.23KrUIOKwPNwVSCh]{Efeito de Magia: Vassoura Voadora}</p>"
+    },
+    "IaY71lOkmpEJpUSi": {
+      "name": "Bênção",
+      "description": "<p>Uma criatura que você toca recebe um token de sorte.</p>"
+    },
+    "ImNCjjU9ewcFDQO2": {
+      "name": "Comunhão",
+      "description": "<p>Você busca o conselho de seu deus. Faça ao Mestre até três perguntas de \"sim\" ou \"não\". O Mestre responderá a cada uma delas de forma verdadeira.</p><p>Se você lançar esta magia mais de uma vez em 24 horas, trate uma falha no teste de conjuração como uma falha crítica.</p>"
+    },
+    "ItN82uLU3PhJFLNm": {
+      "name": "Mãos Flamejantes",
+      "description": "<p>Você abre os dedos com os polegares tocando-se, liberando um círculo de chamas que preenche uma área próxima ao seu redor.</p><p>As criaturas dentro da área de efeito sofrem [[/r 1d6]] de dano.</p><p>Objetos inflamáveis desatendidos entram em combustão.</p>"
+    },
+    "ItoZZ0nli29N5d7G": {
+      "name": "Cegar/Ensurdecer",
+      "description": "<p>Você profere uma censura divina, cegando ou ensurdecendo uma criatura que possa ver dentro do alcance. A criatura sofre desvantagem em tarefas que exijam o sentido perdido.</p><p>@UUID[Compendium.shadowdark.spell-effects.SOkcvkzrGMGQKhmk]{Efeito de Magia: Cegueira}</p><p>@UUID[Compendium.shadowdark.spell-effects.aAdqy5QwVJrT8JWE]{Efeito de Magia: Surdez}</p>"
+    },
+    "JuO97AW78TLywZKW": {
+      "name": "Marionete",
+      "description": "<p>Um humanoide de NV 2 ou menos que você toca fica preso aos seus movimentos. Em seu turno, a criatura imita todos os seus gestos.</p><p>Se imitá-lo causar dano direto a si mesma ou a um aliado, ela pode realizar um teste de [[check 15 car]]. Em caso de sucesso, resiste à imitação.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Cu3dona3PiHxO1lK]{Efeito de Magia: Marionete}</p>"
+    },
+    "JwaJs0s9eVpPHgA3": {
+      "name": "Teia",
+      "description": "<p>Você cria um cubo de teia de aranha densa e pegajosa do tamanho de uma área próxima dentro do alcance da magia. Uma criatura presa na teia não pode se mover e deve ser bem-sucedida em um teste de Força oposto ao seu teste de conjuração para se libertar.</p><p>@UUID[Compendium.shadowdark.spell-effects.28PPFz1MYTsfPwzh]{Efeito de Magia: Teia}</p>"
+    },
+    "KQ3l8nmg6WShKdMj": {
+      "name": "Destino",
+      "description": "<p>Você distorce dolorosamente os fios dourados do destino de uma criatura. Uma criatura que você escolher dentro do alcance sofre [[/r 1d10]] de dano e perde todos os tokens de sorte que possuía.</p>"
+    },
+    "KiQcQ3BlmlSpRi5s": {
+      "name": "Comando",
+      "description": "<p>Você emite uma ordem verbal para uma criatura dentro do alcance que possa compreendê-lo. A ordem deve ser uma única palavra, como “ajoelhe-se”. O alvo obedece à ordem enquanto você mantiver a concentração.</p><p>Se a ordem for diretamente prejudicial à criatura, ela pode fazer um teste de Carisma contra o seu último teste de conjuração. Em caso de sucesso, a magia termina.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.y7UlIRecQ47S8qCy]{Efeito de Magia: Comando}</p>"
+    },
+    "KkJffGRbdKjIhwLr": {
+      "name": "Cântico",
+      "description": "<p>Você inicia um cântico sobrenatural que eleva sua visão além de suas limitações normais.</p><p>Durante a duração da magia, você pode ver todas as coisas invisíveis e ocultas como se estivessem claramente visíveis. Esta magia não permite enxergar de formas que normalmente você não conseguiria, como no escuro ou através de paredes.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.ZLO5oq3gTJ762o3F]{Efeito de Magia: Cântico}</p>"
+    },
+    "LT35njlHjofzgDMl": {
+      "name": "Olho de Gato",
+      "description": "<p>Suas íris se expandem até preencherem os olhos e suas pupilas se tornam fendas verticais negras. Você pode ver criaturas invisíveis e portas secretas pela duração da magia.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.jKkFbA7VzDfOKvN5]{Efeito de Magia: Olho de Gato}</p>"
+    },
+    "M702ErO4KOtMJzsK": {
+      "name": "Animar Mortos",
+      "description": "<p>Você toca os restos mortais de um humanoide, que se levanta como um zumbi ou esqueleto sob seu controle.</p><p>Os restos devem ter pelo menos três membros e a cabeça intacta. A criatura morta-viva age em seu turno. Após 1 dia, a criatura desmorona em pó fúnebre.</p>"
+    },
+    "M7RO2ZWyGbujabbr": {
+      "name": "Enxame",
+      "description": "<p>Um enxame denso de morcegos, ratos ou gafanhotos surge em um cubo de tamanho próximo em torno de um ponto que você possa ver dentro do alcance.</p><p>Todas as criaturas que iniciarem seu turno dentro do enxame sofrem [[/r 2d6]] de dano e ficam cegas.</p>"
+    },
+    "MLC3FZLhUafLk4Pt": {
+      "name": "Chuva de Sapos",
+      "description": "<p>Uma chuva de sapos indignados atinge um cubo de tamanho próximo em torno de um ponto que você possa ver dentro do alcance.</p><p>Todas as criaturas dentro da chuva de sapos sofrem [[/r 1d6]] de dano. Os sapos sobreviventes saltam para longe e desaparecem.</p>"
+    },
+    "MkpBTRyylYi3oQr6": {
+      "name": "Corvo",
+      "description": "<p>Você sussurra uma mensagem aos próprios corvos de Odin, e eles a carregam através de todos os mundos até seu destinatário.</p><p>Diga uma frase curta e o nome de seu destinatário, esteja ele vivo ou morto. Essa criatura ouve sua mensagem sussurrada em sua mente.</p>"
+    },
+    "N4v17mtxJlVBbgpn": {
+      "name": "Luz",
+      "description": "<p>Um objeto que você toca emite uma luz brilhante e sem calor, iluminando até uma distância próxima por 1 hora em tempo real.</p><p>@UUID[Compendium.shadowdark.gear.Item.PkQXG3AaHNMVwGTc]{Magia de Luz}</p><p>@UUID[Compendium.shadowdark.gear.Item.BBDG7QpHOFXG6sKe]{Magia de Luz (Alcance Duplo)}</p><p>@UUID[Compendium.shadowdark.gear.Item.rjNBToTJCYLLdVcT]{Magia de Luz (Duração Estendida)}</p>"
+    },
+    "N9NvonT0RL6PyiiV": {
+      "name": "Curar Ferimentos",
+      "description": "<p>Seu toque restaura a vida que se esvai.</p><p>Role um número de d6s igual a [[/roll (1 + (floor(@level.value/2)))d6]]{1 + metade do seu nível (arredondado para baixo)}.</p><p>Um alvo que você tocar recupera essa quantidade de pontos de vida.</p>"
+    },
+    "NdxoRY1HUpq3aD1V": {
+      "name": "Mãe da Noite",
+      "description": "<p>Você suplica à Mãe da Noite que lhe conceda poder.</p><p>Faça um único desejo, declarando-o da forma mais exata possível. Seu desejo se concretiza, conforme interpretado pelo Mestre.</p><p>Se falhar no teste de conjuração, a Mãe da Noite o puxa para o Crepúsculo para julgamento. Você não pode lançar esta magia novamente até satisfazer suas exigências.</p>"
+    },
+    "OcB5595AAIzchHfl": {
+      "name": "Expulsar",
+      "description": "<p>Você repele uma criatura, expulsando-a de sua presença.</p><p>Escolha uma criatura que possa ver. Durante a duração da magia, essa criatura não pode se aproximar a uma distância próxima de você. Ela ainda pode atacá-lo de fora dessa área.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.8vSJhm0X9PRdKTyX]{Efeito de Magia: Expulsar}</p>"
+    },
+    "P44kXQZ8PDtOWzag": {
+      "name": "Recipiente da Alma",
+      "description": "<p>Você transfere a alma de uma criatura que tocar de NV 9 ou menos para um recipiente, como um jarro. O corpo da criatura entra em coma, mas não morre.</p><p>Se o recipiente for aberto ou quebrado, a alma da criatura retorna ao corpo.</p><p>Você pode possuir o corpo vazio com seu próprio espírito, assumindo o controle dele. Seu corpo fica em coma durante esse tempo. Se o corpo morrer enquanto você o possui, sua alma retorna ao seu corpo original.</p>"
+    },
+    "P9LFIH0PW4Zlx3RG": {
+      "name": "Proteção Contra Energia",
+      "description": "<p>Uma criatura que você toca torna-se imune à fúria selvagem dos elementos.</p><p>Escolha fogo, frio ou eletricidade. Durante a duração da magia, o alvo é imune a danos causados pela energia do tipo escolhido.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.KXfv6edqcRQdnc7m]{Efeito de Magia: Proteção Contra Energia (Fogo)}</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.8mFFTIDKLulz3Yp6]{Efeito de Magia: Proteção Contra Energia (Frio)}</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.HxMd3lV8CPpvL3my]{Efeito de Magia: Proteção Contra Energia (Eletricidade)}</p>"
+    },
+    "PZ0qPp6lG9SVMoAr": {
+      "name": "Invisibilidade",
+      "description": "<p>Uma criatura que você toca torna-se invisível durante a duração da magia.</p><p>A magia termina se o alvo atacar ou lançar uma magia.</p><p>@UUID[Compendium.shadowdark.spell-effects.SMXbMbXcj5hLvTjY]{Efeito de Magia: Invisibilidade}</p>"
+    },
+    "Pc1xrhY9eutcralv": {
+      "name": "Clariaudiência/Clarividência",
+      "description": "<p>Você observa uma esfera de cristal ou um espelho d’água, evocando imagens de um lugar distante.</p><p>Durante a duração da magia, você pode ver e ouvir uma criatura ou local de sua escolha que esteja no mesmo plano.</p><p>Esta magia tem CD 18 para ser conjurada se você tentar observar uma criatura ou local que lhe seja desconhecido.</p><p>A cada rodada, as criaturas observadas podem fazer um teste de Sabedoria contra seu último teste de conjuração. Em caso de sucesso, tornam-se cientes de sua observação mágica.</p>"
+    },
+    "QE2CBnD3Vegkn5cR": {
+      "name": "Maldição",
+      "description": "<p>Uma criatura que você toca é afligida por uma das seguintes maldições:</p><p>• Pústulas e verrugas horrendas</p><p>• Toda comida tem gosto de cinzas</p><p>• Voz torna-se aguda</p><p>• Pesadelos perturbadores</p><p>• Sempre perde em jogos de azar</p><p>• Um aliado torna-se inimigo</p><p>• Medo de algo comum</p>"
+    },
+    "QTJ2o32K9NE0GCVF": {
+      "name": "Homem-Salgueiro",
+      "description": "<p>Você invoca o Homem-Salgueiro para aparecer na mente de uma criatura, enchendo-a de terror sobrenatural.</p><p>Escolha uma criatura de NV 2 ou menos dentro do alcance. Essa criatura deve imediatamente realizar um teste de moral.</p><p>Mesmo criaturas que normalmente não estão sujeitas a testes de moral (como mortos-vivos) devem fazê-lo.</p><p><strong>Homem-Salgueiro.</strong></p><p>Um homem pálido e sem rosto, com membros alongados e garras curvas que arranham o chão. Move-se em espasmos rápidos a cada piscar de olhos.</p>"
+    },
+    "R2wsJJPkIQwLa6Ea": {
+      "name": "Passagem Mágica",
+      "description": "<p>Um túnel do seu tamanho se abre em uma barreira que você toca e permanece pelo tempo de duração.</p><p>A passagem pode ter até uma distância próxima de comprimento e deve seguir uma linha reta.</p>"
+    },
+    "RA0fvMGZEepFAV2L": {
+      "name": "Restauração",
+      "description": "<p>Com o toque de suas mãos, você expulsa maldições e doenças. Uma maldição, enfermidade ou aflição de sua escolha que afete a criatura-alvo termina.</p>"
+    },
+    "RQGpRHGd04HiuI2Q": {
+      "name": "Domínio",
+      "description": "<p>Seres poderosos vêm em seu auxílio.</p><p>Os seres devem ter um total combinado de até 16 níveis. Personagens Caóticos invocam demônios ou diabos, enquanto personagens Leais ou Neutros invocam anjos.</p><p>As entidades agem de livre vontade para ajudá-lo em seu turno. Após 10 rodadas, retornam aos seus reinos.</p><p>Você não pode lançar esta magia novamente até completar uma penitência.</p>"
+    },
+    "RbTZZt6qa2MAQz96": {
+      "name": "Veneno",
+      "description": "<p>Um objeto usado ou carregado que você toca torna-se tóxico durante a duração da magia. Qualquer criatura em contato com o objeto no início de seu turno sofre [[/r 1d6]] de dano.</p>"
+    },
+    "RqVDf7YqZ6AfNFck": {
+      "name": "Voar",
+      "description": "<p>Seus pés se erguem do chão e você toma os ares como um beija-flor. Você pode voar uma distância próxima durante a duração da magia e consegue pairar no ar.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.IzCONbtholryomxC]{Efeito de Magia: Voar}</p>"
+    },
+    "Rt1sdRbZ43mfec1t": {
+      "name": "Detectar Magia",
+      "description": "<p>Você sente a presença de magia dentro de uma distância próxima pela duração da magia. Se se concentrar por duas rodadas, pode discernir suas propriedades gerais. Barreiras sólidas bloqueiam este feitiço.</p><p>@UUID[Compendium.shadowdark.spell-effects.74WjFjHmUmLAiNGC]{Efeito de Magia: Detectar Magia}</p>"
+    },
+    "SHQa9bCk8v8wQweV": {
+      "name": "Arrombar",
+      "description": "<p>Uma porta, janela, portão, baú ou portal que você possa ver dentro do alcance se abre instantaneamente, superando todas as travas e barreiras mundanas.</p><p>Esta magia produz um som alto de batida, audível por todos nas proximidades.</p>"
+    },
+    "T17hSoJlvZ9kfvNY": {
+      "name": "Míssil Mágico",
+      "description": "<p>Você tem vantagem em seu teste para conjurar esta magia.</p><p>Um projétil luminoso de energia força sai de sua mão aberta, causando [[/r 1d4]] de dano a um alvo.</p>"
+    },
+    "T8NL6GglkMi1FmVr": {
+      "name": "Visco Encantado",
+      "description": "<p>Duas criaturas que você possa ver a uma distância próxima tornam-se encantadas uma pela outra por [[/r 1d8]] dias.</p><p>Cada vez que uma das criaturas afetadas sofrer dano, ela pode realizar um teste de [[check 15 car]]. Em caso de sucesso, a magia termina.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.CFnP5fuBHsNZzrkY]{Efeito de Magia: Visco Encantado}</p>"
+    },
+    "TDfCS0FVOPCogm4A": {
+      "name": "Encantar",
+      "description": "<p>Você conjura uma ilusão convincente, visível e audível, dentro do alcance.</p><p>As criaturas que percebem a ilusão reagem a ela como se fosse real, embora ela não possa causar dano verdadeiro.</p><p>Tocar a ilusão revela instantaneamente sua natureza falsa.</p><p>Você pode forçar uma criatura que interaja com a ilusão a realizar um teste de [[check 15 sab]]. Se falhar, ela fica encantada pela ilusão durante a duração da magia e tenta protegê-la.</p>"
+    },
+    "TEPKpwnZcxSQt0tj": {
+      "name": "Caldeirão",
+      "description": "<p>Você conjura um caldeirão borbulhante ao seu lado. Ele pode produzir um dos seguintes efeitos:</p><p>• Qualquer item mundano quebrado colocado dentro do caldeirão é consertado.</p><p>• Um sapo gordo e coaxante salta para fora e segue suas instruções pelas próximas 3 rodadas.</p><p>• Você pode colocar até 3 espaços de itens dentro do caldeirão. O caldeirão expele esses itens na próxima vez que você conjurar esta magia (expelir itens conta como o único efeito do caldeirão).</p>"
+    },
+    "TKDuwFu1hP2lX549": {
+      "name": "Controlar Água",
+      "description": "<p>Você move e molda a água. Pode fazer com que uma seção de até 30 metros de largura e profundidade mude de forma, desafie a gravidade ou flua em outra direção.</p>"
+    },
+    "UM8jX1AsGm1FQVs2": {
+      "name": "Caminho dos Sonhos",
+      "description": "<p>Você e quaisquer criaturas dispostas dentro de uma distância curta entram no sonho de uma criatura adormecida que você nomeia e que esteja no mesmo plano.</p><p>Você e seus companheiros podem sair do sonho da criatura, aparecendo ao lado dela como se tivessem se teleportado até lá.</p>"
+    },
+    "USZdyAHWo75zcgIX": {
+      "name": "Boneca de Alfinetes",
+      "description": "<p>Você prende um fio de cabelo ou pedaço de carne retirado de uma criatura em uma pequena boneca de estopa conjurada pela magia.</p><p>Em seu turno, enquanto se concentra nesta magia, você pode espetar um alfinete na boneca. Cada vez que fizer isso, a criatura dona do cabelo ou carne sofre [[/r 2d6]] de dano. Após o término da magia, o pedaço de cabelo ou carne se reduz a cinzas.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.zjm48oHhbVG4XeoB]{Efeito de Magia: Boneca de Alfinetes}</p>"
+    },
+    "UWGzL8qsentdrvar": {
+      "name": "Porta Dimensional",
+      "description": "<p>Você se teletransporta, junto de até uma outra criatura disposta dentro de uma distância curta, para qualquer ponto que possa ver.</p>"
+    },
+    "Udd1so1LKvek6Z3P": {
+      "name": "Hipnotizar",
+      "description": "<p>Uma criatura de NV 3 ou menos que possa vê-lo fica atordoada e subjugada.</p><p>Se a linha de visão entre a criatura e você for interrompida, ela pode realizar um teste de [[check 15 car]]. Em caso de sucesso, a magia termina.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.6wfBZBYV85NQTcJz]{Efeito de Magia: Hipnotizar}</p>"
+    },
+    "UnuvZF7OhxP4W1WW": {
+      "name": "Árvore do Mundo",
+      "description": "<p>As raízes da Árvore do Mundo, fonte de toda a vida, se enlaçam à alma de uma criatura que você toca.</p><p>Durante a duração da magia, o alvo não pode ter seus pontos de vida reduzidos abaixo de 1.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.FDyJAnR0Fk9cZZEf]{Efeito de Magia: Árvore do Mundo}</p>"
+    },
+    "WCWsRH7oi6ARjE6F": {
+      "name": "Luz",
+      "description": "<p>Um objeto que você toca emite uma luz brilhante e sem calor, iluminando até uma distância próxima por 1 hora em tempo real.</p><p>@UUID[Compendium.shadowdark.gear.Item.PkQXG3AaHNMVwGTc]{Magia de Luz}</p><p>@UUID[Compendium.shadowdark.gear.Item.BBDG7QpHOFXG6sKe]{Magia de Luz (Alcance Duplo)}</p><p>@UUID[Compendium.shadowdark.gear.Item.rjNBToTJCYLLdVcT]{Magia de Luz (Duração Estendida)}</p>"
+    },
+    "WlnajkFi0WquohS1": {
+      "name": "Mudança de Plano",
+      "description": "<p>Você dobra o espaço e o tempo, transportando-se junto de todas as criaturas dispostas dentro de uma distância curta para um local em outro plano de existência de sua escolha.</p><p>A menos que você já tenha estado no local de destino, aparece em um ponto aleatório dentro do plano escolhido.</p>"
+    },
+    "XBt4wA37ypUiXkp6": {
+      "name": "Detectar Pensamentos",
+      "description": "<p>Você penetra na mente de uma criatura que possa ver dentro do alcance da magia.</p><p>A cada rodada, você descobre os pensamentos imediatos do alvo.</p><p>No turno da criatura, ela pode fazer um teste de Sabedoria oposto ao seu último teste de conjuração. Se obtiver sucesso, percebe sua presença em sua mente e a magia termina.</p>"
+    },
+    "XDCTxgslSO8DnEBa": {
+      "name": "Golpe Sagrado",
+      "description": "<p>Você invoca chamas punitivas sobre uma criatura que possa ver dentro do alcance. Ela sofre [[/r 1d6]] de dano.</p>"
+    },
+    "XqmdS3rvMT9LlznC": {
+      "name": "Alterar-se",
+      "description": "<p>Você muda magicamente sua forma física, adquirindo uma característica que modifica sua anatomia existente.</p><p>Por exemplo, você pode crescer guelras funcionais no pescoço ou garras de urso nos dedos. Esta magia não pode criar asas ou membros adicionais.</p><p>@UUID[Compendium.shadowdark.spell-effects.f2RsbovyTLEZvxuF]{Efeito de Magia: Alterar-se}</p>"
+    },
+    "YDZEbLXu1PJrPAdY": {
+      "name": "Cogumelo",
+      "description": "<p>Você conjura um cogumelo roliço e salpicado em sua mão. Ele desaparece no final do seu próximo turno.</p><p>Uma criatura que comer o cogumelo recupera [[/r 1d6]] pontos de vida.</p>"
+    },
+    "YPS5BHJdHe3rDIWE": {
+      "name": "Mordida Ocular",
+      "description": "<p>Uma criatura que você escolher sofre [[/r 1d4]] de dano e não pode vê-lo até o fim do próximo turno dela.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.0RrksUfAZkp4LpGe]{Efeito de Magia: Mordida Ocular}</p>"
+    },
+    "Z8NfrRd9udGR3ClT": {
+      "name": "Imobilizar Monstro",
+      "description": "<p>Você paralisa uma criatura que possa ver dentro do alcance. Se o alvo for de NV 9 ou superior, ele pode realizar um teste de Força contra seu último teste de conjuração no início do turno para encerrar a magia.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.PUFCnXLjvBQSM2YO]{Efeito de Magia: Imobilizar Monstro}</p>"
+    },
+    "ZNBBGiXdR7bEpE79": {
+      "name": "Proteção Contra o Mal",
+      "description": "<p>Durante a duração da magia, seres caóticos têm desvantagem em jogadas de ataque e testes de conjuração hostis contra o alvo. Esses seres também não podem possuí-lo, controlá-lo ou encantá-lo.</p><p>Quando lançada sobre um alvo já possuído, a entidade faz um teste de Carisma contra o último teste de conjuração. Em caso de falha, é expulsa.</p><p>@UUID[Compendium.shadowdark.spell-effects.H7v5Izebo8O45DXB]{Efeito de Magia: Proteção Contra o Mal}</p>"
+    },
+    "aAtNTK2HLJ77HB3z": {
+      "name": "Augúrio",
+      "description": "<p>Você interpreta o significado de presságios e augúrios sobrenaturais. Faça uma pergunta ao Mestre sobre um curso específico de ação. O Mestre dirá se a ação levará à “fortuna” ou à “ruína”.</p>"
+    },
+    "ahqUZZwx5YLL44tn": {
+      "name": "Invocar Extraplanar",
+      "description": "<p>Você estende sua vontade até os planos exteriores, convocando uma criatura.</p><p>Você invoca um elemental ou ser extraplanar de NV 7 ou menor. A criatura fica sob seu controle e age em seu turno.</p><p>Se perder a concentração nesta magia, você perde o controle da criatura, que se torna hostil a você e seus aliados.</p><p>Você deve passar em um teste de conjuração em seu turno para retornar a criatura aos planos exteriores.</p>"
+    },
+    "b1ZHAbGQRFPqgLMv": {
+      "name": "Polimorfia",
+      "description": "<p>Você transforma uma criatura que toca em outra criatura natural de tamanho igual ou menor à sua escolha. Qualquer equipamento carregado pelo alvo se funde à nova forma.</p><p>O alvo adquire as estatísticas físicas da criatura, mas mantém as não físicas.</p><p>Se o alvo chegar a 0 pontos de vida, retorna à sua forma verdadeira com metade dos pontos de vida anteriores.</p><p>Você pode escolher qualquer criatura disposta como alvo ou uma criatura relutante cujo nível seja menor ou igual à metade do seu, arredondado para baixo (mínimo 1).</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Hc3xUBBlZLxWNKYV]{Efeito de Magia: Polimorfia}</p>"
+    },
+    "bBpkTU6jTEg75Xpg": {
+      "name": "Pântano Fervente",
+      "description": "<p>Você transforma um cubo de terreno de tamanho próximo dentro do alcance em um pântano lamacento e fervente de areia movediça.</p><p>Uma criatura presa no pântano não pode se mover e deve ser bem-sucedida em um teste de Destreza contra seu teste de conjuração para se libertar.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.VOx6yLlQ23XwVvuG]{Efeito de Magia: Pântano Fervente}</p>"
+    },
+    "bfsyqJoukCiEdl8o": {
+      "name": "Ragnarok",
+      "description": "<p>Você olha profundamente nas tramas do destino, descobrindo o fim de uma alma após a batalha do Ragnarok. Ela viverá ou morrerá?</p><p>Escolha uma criatura dentro do alcance. Você só pode escolher a mesma criatura uma vez com esta magia.</p><p>A criatura deve passar em um teste de Constituição igual ao seu teste de conjuração ou morre instantaneamente.</p>"
+    },
+    "c3AotHi0DiEMVoIg": {
+      "name": "Vingança Divina",
+      "description": "<p>Você se torna o avatar divino da fúria de seu deus, envolto em chamas sagradas ou em uma aura negra de corrupção fumegante.</p><p>Durante a duração da magia, você pode voar uma distância próxima, suas armas tornam-se mágicas e você recebe +4 em jogadas de ataque e dano com armas.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.o74l0TnCb0E2fAKp]{Efeito de Magia: Vingança Divina}</p>"
+    },
+    "cGsiYBXDxKLvYEK0": {
+      "name": "Levitar",
+      "description": "<p>Você pode flutuar uma distância próxima na vertical por rodada em seu turno.</p><p>Também pode se empurrar contra superfícies sólidas para se mover horizontalmente.</p><p>@UUID[Compendium.shadowdark.spell-effects.sLb9GOXx9F6XCb2o]{Efeito de Magia: Levitar}</p>"
+    },
+    "cjMeJWmom6jpB2JA": {
+      "name": "Anátema",
+      "description": "<p>Todos os aliados repudiam e abandonam a criatura que você toca por 1 dia.</p><p>Cada vez que você ou seus aliados causarem dano ao alvo, os antigos aliados dele podem realizar um teste de [[check 15 sab]] para encerrar os efeitos da magia.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.vApjjHkL9nghvbQT]{Efeito de Magia: Anátema}</p>"
+    },
+    "d95yPyWc4MoHvRSc": {
+      "name": "Toque da Morte",
+      "description": "<p>Uma criatura que você tocar e que seja de NV 9 ou menos morre instantaneamente.</p><p>Considere uma falha no teste de conjuração desta magia como uma falha crítica e role o contratempo com desvantagem.</p>"
+    },
+    "dBBfp7KpHXBcSEjg": {
+      "name": "Alarme",
+      "description": "<p>Você toca um objeto, como um batente de porta, colocando um alarme mágico nele.</p><p>Se qualquer criatura que você não tenha designado ao conjurar a magia tocar ou cruzar o objeto, um sino mágico toca em sua mente.</p>"
+    },
+    "dcJYXGh3oSYl7rlH": {
+      "name": "Serpente do Mundo",
+      "description": "<p>O veneno torturante da Serpente do Mundo escorre das armas de uma criatura que você toca.</p><p>O alvo causa x2 de dano com cada ataque (x4 em um acerto crítico) durante a duração da magia.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.sZ6msFePi3R6DUju]{Efeito de Magia: Serpente do Mundo}</p>"
+    },
+    "eKnWZ0LDw93oEqFt": {
+      "name": "Invisibilidade",
+      "description": "<p>Uma criatura que você toca torna-se invisível pela duração da magia.</p><p>A magia termina se o alvo atacar ou conjurar uma magia.</p><p>@UUID[Compendium.shadowdark.spell-effects.SMXbMbXcj5hLvTjY]{Efeito de Magia: Invisibilidade}</p>"
+    },
+    "eQnV4AQwj9kOkGmn": {
+      "name": "Presságio de Freya",
+      "description": "<p>Durante a duração da magia, você não perde a capacidade de conjurar magias ao falhar em um teste de conjuração.</p><p>Se falhar criticamente em um teste de conjuração, pode rolar novamente uma vez. Deve usar o novo resultado.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.HBIVwYRcojImlOOx]{Efeito de Magia: Presságio de Freya}</p>"
+    },
+    "eaQU9WEyceXc5WVS": {
+      "name": "Ossos de Vidro",
+      "description": "<p>Uma criatura que você toca torna-se frágil. Ela sofre o dobro de dano durante a duração da magia.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.qNd9stCSD6ZJyoOj]{Efeito de Magia: Ossos de Vidro}</p>"
+    },
+    "ed4uEm53IRBonnxY": {
+      "name": "Mudança de Plano",
+      "description": "<p>Você dobra o espaço e o tempo, transportando-se junto de todas as criaturas dispostas dentro de uma distância curta para um local em outro plano de existência à sua escolha.</p><p>A menos que você já tenha estado no local pretendido, aparece em um ponto aleatório dentro do plano de destino.</p>"
+    },
+    "fWuTV4r9FIUDe1EX": {
+      "name": "Escudo da Fé",
+      "description": "<p>Uma força protetora forjada de sua convicção divina o envolve. Você recebe um bônus de +2 na classe de armadura durante a duração da magia.</p><p>@UUID[Compendium.shadowdark.spell-effects.4dCcpPeyRKWt9XkC]{Efeito de Magia: Escudo da Fé}</p>"
+    },
+    "gxSxaMo8eh8mLYYH": {
+      "name": "Porta Dimensional",
+      "description": "<p>Você se teletransporta, junto de até uma outra criatura disposta dentro de uma distância curta, para qualquer ponto que possa ver.</p>"
+    },
+    "h0v78fVEcl2Ms5x3": {
+      "name": "Ler as Runas",
+      "description": "<p>Você consulta os deuses e lança pedras rúnicas, interpretando o significado dos resultados.</p><p>Faça uma pergunta de sim ou não ao Mestre. O Mestre deve responder com a verdade: \"sim\" ou \"não\".</p>"
+    },
+    "hMGQuETjBxuMwjsR": {
+      "name": "Desejo",
+      "description": "<p>Essa poderosa magia altera a própria realidade.</p><p>Faça um único desejo, declarando-o da forma mais exata possível. Seu desejo se realiza, conforme interpretado pelo Mestre.</p><p>Considere uma falha no teste de conjuração desta magia como uma falha crítica e role o contratempo com desvantagem.</p>"
+    },
+    "hhCpwnqFy8ntO0jU": {
+      "name": "Repreender o Profano",
+      "description": "<p>Você repreende criaturas que se opõem ao seu alinhamento, forçando-as a fugir. É necessário apresentar um símbolo sagrado para lançar esta magia.</p><p>Se você for leal ou neutro, a magia afeta demônios, diabos e seres extraplanares. Se for caótico, afeta anjos e criaturas naturais do mundo selvagem.</p><p>Criaturas afetadas dentro de uma distância próxima devem realizar um teste de Carisma contra o seu teste de conjuração. Se falharem por 10 ou mais e forem de nível igual ou inferior ao seu, são destruídas. Caso contrário, em uma falha, fogem de você por 5 rodadas.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.aQfBagCGogkjgCS8]{Efeito de Magia: Repreender o Profano}</p>"
+    },
+    "j2gvzfnMGQwxqgGg": {
+      "name": "Bola de Fogo",
+      "description": "<p>Você arremessa uma pequena chama que explode em uma onda de fogo. Todas as criaturas em um cubo de tamanho próximo ao ponto de impacto sofrem [[/r 4d6]] de dano.</p>"
+    },
+    "jGBrG0nNtz3a0pVu": {
+      "name": "Evocar Fúria",
+      "description": "<p>Você desperta a fúria berserker adormecida dentro de alguém.</p><p>Um humanoide disposto que você tocar entra em um estado de fúria. O alvo torna-se imune a testes de moral, tem vantagem em testes de Força e ataques corpo a corpo, e causa +[[/r 1d4]] de dano enquanto a magia durar.</p><p>Se o alvo não atacar outra criatura em seu turno, a magia termina.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.79D3CwKRi78k9BM7]{Efeito de Magia: Evocar Fúria}</p>"
+    },
+    "k8rxMuOr28JyTeuH": {
+      "name": "Julgamento",
+      "description": "<p>Você bane instantaneamente uma criatura que toca, enviando-a — junto de todos os seus pertences — para enfrentar o julgamento de seu deus.</p><p>Você pode banir uma criatura inteligente de NV 10 ou menor.</p><p>Quando a criatura retorna em 5 rodadas, ela é totalmente curada se suas ações agradaram ao seu deus. Caso tenha enfurecido a divindade, retorna com apenas 1 ponto de vida. Se o deus não puder julgá-la, ela permanece inalterada.</p>"
+    },
+    "kIhOl6LmoqN8OkkG": {
+      "name": "Carvalho, Freixo e Espinheiro",
+      "description": "<p>Durante a duração da magia, fadas, demônios e diabos não podem atacá-lo. Essas criaturas também não podem possuí-lo, compelir ou encantá-lo.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.88nOOPKvH7t6mhVu]{Efeito de Magia: Carvalho, Freixo e Espinheiro}</p>"
+    },
+    "lZgyICYRkzScPVDU": {
+      "name": "Pilar de Sal",
+      "description": "<p>Uma criatura que você escolher transforma-se em uma estátua feita de sal endurecido.</p><p>Você pode escolher uma criatura que possa ver e que seja de NV 5 ou menos.</p><p>Se conseguir manter a concentração nesta magia por 3 rodadas consecutivas, a transformação torna-se permanente.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.6yYj2FkmYppGAl9N]{Efeito de Magia: Pilar de Sal}</p>"
+    },
+    "loUHimH1DsDtiImF": {
+      "name": "Forma de Lobo",
+      "description": "<p>Você e seus equipamentos se transformam em um lobo durante a duração da magia. Você assume a FOR, DES, CON, PV, CA, velocidade, ataques e características físicas do lobo, mas mantém sua INT, SAB e CAR.</p><p>Você pode lançar magias nesta forma. Se chegar a 0 PV, retorna à sua forma verdadeira também com 0 PV.</p><p>Se for de nível 5 ou superior, pode se transformar em um lobo terrível ou em um lobo do inverno, em vez disso.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.B9ChlhtUjECrLlre]{Efeito de Magia: Forma de Lobo (Lobo)}</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.3vCyl2kqfz31N1yP]{Efeito de Magia: Forma de Lobo (Lobo Terrível)}</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.cC4hF54uctVhvvCo]{Efeito de Magia: Forma de Lobo (Lobo do Inverno)}</p>"
+    },
+    "mByUvcHIVEPWscfH": {
+      "name": "Afastar Mortos-Vivos",
+      "description": "<p>Você repreende criaturas mortas-vivas, forçando-as a fugir. É necessário apresentar um símbolo sagrado para lançar esta magia.</p><p>Criaturas mortas-vivas dentro de uma distância próxima devem fazer um teste de CAR oposto ao seu teste de conjuração. Se falharem por 10 ou mais e forem de nível igual ou inferior ao seu, são destruídas. Caso contrário, em uma falha, fogem de você por 5 rodadas.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.T4LUCIffieQPMGsN]{Efeito de Magia: Afastar Mortos-Vivos}</p>"
+    },
+    "mSj7rWHDvhIIBsAm": {
+      "name": "Falar com os Mortos",
+      "description": "<p>Um corpo morto que você toca responde às suas perguntas com uma voz distante e ofegante.</p><p>Você pode fazer ao corpo até três perguntas de sim ou não (uma de cada vez). O Mestre responde com a verdade — “sim” ou “não”.</p><p>Se lançar esta magia mais de uma vez em 24 horas, trate uma falha no teste de conjuração como uma falha crítica.</p>"
+    },
+    "n1I5OLR6M2e0jLbi": {
+      "name": "Sono",
+      "description": "<p>Você tece uma magia adormecedora que preenche um cubo de tamanho próximo a partir de você. Criaturas vivas na área de efeito caem em sono profundo se forem de NV 2 ou menos.</p><p>Ferimentos ou agitação intensa as despertam.</p><p>@UUID[Compendium.shadowdark.spell-effects.FrFilluk4S5VaWut]{Efeito de Magia: Sono}</p>"
+    },
+    "oWLFhPwhdJKAJAmP": {
+      "name": "Ilusão",
+      "description": "<p>Você cria uma ilusão convincente, visual e audível, que preenche até um cubo de tamanho próximo dentro do alcance.</p><p>A ilusão não causa dano, mas criaturas que acreditam nela reagem como se fosse real.</p><p>Uma criatura que inspecionar a ilusão à distância deve passar em um teste de Sabedoria contra seu último teste de conjuração para perceber sua falsa natureza.</p><p>Tocar a ilusão também revela que ela é falsa.</p>"
+    },
+    "oeJmT9gfvZ5Ha19w": {
+      "name": "Objeto Fixo",
+      "description": "<p>Um objeto que você toca e que pese no máximo 2,5 kg torna-se fixo em sua posição atual. Ele pode suportar até 2.500 kg de peso durante a duração da magia.</p>"
+    },
+    "ojJm3ByDjjHefy2u": {
+      "name": "Alterar-se",
+      "description": "<p>Você muda magicamente sua forma física, adquirindo uma característica que modifica sua anatomia existente.</p><p>Por exemplo, você pode crescer guelras funcionais no pescoço ou garras de urso nos dedos. Esta magia não pode criar asas ou membros adicionais.</p><p>@UUID[Compendium.shadowdark.spell-effects.f2RsbovyTLEZvxuF]{Efeito de Magia: Alterar-se}</p>"
+    },
+    "oxISN13brsvDOJl1": {
+      "name": "Pesadelo",
+      "description": "<p>Você invade os sonhos de uma criatura adormecida, enchendo-os de horrores de tirar o fôlego.</p><p>Você pode escolher uma criatura de nível menor ou igual à metade do seu (mínimo 1). O alvo deve estar dormindo, e você precisa tê-lo visto pessoalmente antes.</p><p>Se conseguir manter o foco nesta magia por 3 rodadas consecutivas, a criatura morre de susto.</p>"
+    },
+    "pgK3RSSsg6CrReDr": {
+      "name": "Desintegrar",
+      "description": "<p>Um raio verde dispara de seu dedo e transforma uma criatura ou objeto em cinzas.</p><p>Uma criatura-alvo de NV 5 ou menos morre instantaneamente. Se for NV 6 ou superior, sofre [[/r 3d8]] de dano, em vez disso.</p><p>Um objeto não mágico de até o tamanho de uma grande árvore é destruído.</p>"
+    },
+    "q600IZtPTAgkz6vB": {
+      "name": "Trancar Portal",
+      "description": "<p>Você mantém magicamente um portal fechado durante a duração da magia. Uma criatura deve obter sucesso em um teste de FOR contra o seu teste de conjuração para abrir o portal.</p><p>A magia <em>Bater</em> (Knock) encerra este efeito.</p><p>@UUID[Compendium.shadowdark.spell-effects.q109XEqMceJBEX7m]{Efeito de Magia: Trancar Portal}</p>"
+    },
+    "qwNa8DeMPxSofiML": {
+      "name": "Dar Descanso",
+      "description": "<p>Você envia instantaneamente uma criatura morta-viva que toca para seu descanso final, destruindo-a completamente.</p><p>Você pode escolher um morto-vivo de NV 9 ou menor como alvo.</p>"
+    },
+    "qz6bKMyDaGyifklx": {
+      "name": "Metamorfo",
+      "description": "<p>Você se transforma, junto com todo o seu equipamento, em outra criatura natural que já tenha visto e que seja de nível 10 ou inferior. Você assume as estatísticas físicas da criatura, mas mantém suas estatísticas mentais (INT, SAB e CAR).</p><p>Se chegar a 0 PV enquanto estiver sob o efeito desta magia, retorna à sua forma verdadeira com 1 PV.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.F89CJeindj8k8oiC]{Efeito de Magia: Metamorfo}</p>"
+    },
+    "r8c7cKBH7C2ZeKCF": {
+      "name": "Uivo",
+      "description": "<p>Todos os inimigos dentro de uma distância próxima devem realizar imediatamente um teste de moral. Esta magia não afeta criaturas imunes a testes de moral.</p>"
+    },
+    "rbxbreRgifutM9by": {
+      "name": "Zona da Verdade",
+      "description": "<p>Você obriga uma criatura que possa ver a dizer apenas a verdade. Ela não pode mentir deliberadamente enquanto estiver dentro do alcance da magia.</p><p>@UUID[Compendium.shadowdark.spell-effects.cL5aPfXcad9FtHoK]{Efeito de Magia: Zona da Verdade}</p>"
+    },
+    "sFAGFCh8390dnfi2": {
+      "name": "Transe",
+      "description": "<p>Você entra em transe, captando breves vislumbres do destino de uma criatura. Um humanoide que você tocar (você não pode escolher a si mesmo) recebe um marcador de sorte. Ele não pode ter mais de um marcador de sorte por vez.</p>"
+    },
+    "ssnOQiOeqkdVPHn3": {
+      "name": "Nuvem Mortal",
+      "description": "<p>Uma nuvem pútrida de veneno amarelado preenche um cubo de tamanho próximo dentro do alcance, espalhando-se por cantos e aberturas.</p><p>Criaturas dentro da nuvem ficam cegas e sofrem [[/r 2d6]] de dano no início de seus turnos.</p><p>Uma criatura de NV 9 ou menor que termine seu turno completamente dentro da nuvem morre.</p>"
+    },
+    "tJQXcMSwWK7RJ2ka": {
+      "name": "Sabedoria de Odin",
+      "description": "<p>Durante a duração da magia, adicione seu nível como bônus adicional aos seus testes de Sabedoria e de conjuração.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.1zAGVkhuWYmSaxgy]{Efeito de Magia: Sabedoria de Odin}</p>"
+    },
+    "tUUeGZQvWQMRmOVE": {
+      "name": "Confusão",
+      "description": "<p>Você hipnotiza uma criatura que possa ver dentro do alcance. O alvo não pode realizar ações e se move em uma direção aleatória em seu turno.</p><p>Se o alvo for de NV 9 ou superior, ele pode fazer um teste de Sabedoria contra o seu último teste de conjuração no início de seu turno para encerrar a magia.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.T0Lrknq9zQry0wwR]{Efeito de Magia: Confusão}</p>"
+    },
+    "tYAZnAhSqz7ly6Om": {
+      "name": "Dança das Sombras",
+      "description": "<p>Você molda a substância das sombras em uma ilusão convincente, visual e audível, em um ponto dentro de uma distância próxima.</p><p>A ilusão pode ter o tamanho de uma pessoa e se mover dentro de uma distância próxima de onde apareceu.</p><p>A ilusão não pode afetar objetos físicos. Tocar a ilusão revela sua falsa natureza.</p>"
+    },
+    "ttcu6Hcf7zUzxJmk": {
+      "name": "Palavra de Poder: Morte",
+      "description": "<p>Você profere a Palavra da Perdição. Uma criatura que você escolher e que seja de NV 9 ou menor morre instantaneamente se puder ouvi-lo.</p><p>Considere uma falha no teste de conjuração desta magia como uma falha crítica e role o contratempo com desvantagem.</p>"
+    },
+    "u5L1U39xj8Jfdl8A": {
+      "name": "Falar com os Mortos",
+      "description": "<p>Um corpo morto que você toca responde às suas perguntas com uma voz distante e ofegante.</p><p>Você pode fazer até três perguntas de sim ou não (uma de cada vez). O Mestre responde com a verdade — “sim” ou “não”.</p><p>Se lançar esta magia mais de uma vez em 24 horas, trate uma falha no teste de conjuração como uma falha crítica.</p>"
+    },
+    "u8WU3mY6O498LDsQ": {
+      "name": "Curar",
+      "description": "<p>Uma criatura que você toca recupera todos os seus pontos de vida.</p><p>Você não pode lançar esta magia novamente até completar um descanso.</p>"
+    },
+    "uHAZVTt5bXwQvhFy": {
+      "name": "Muralha de Força",
+      "description": "<p>Você ergue as mãos e conjura uma parede translúcida de pura força.</p><p>A parede fina deve ser contínua e pode cobrir uma área próxima em largura e comprimento. Você escolhe o formato.</p><p>Nada no mesmo plano pode atravessar fisicamente a muralha.</p>"
+    },
+    "uNxbpd7fENzDUxfd": {
+      "name": "Criar Morto-Vivo",
+      "description": "<p>Você convoca uma criatura morta-viva vingativa para servir aos seus comandos.</p><p>Ao lançar esta magia, você escolhe invocar um espectro (wight) ou aparição (wraith). Ela aparece ao seu lado e permanece sob seu controle.</p><p>A criatura age em seu turno. Após 1 dia, ela se desfaz em fumaça.</p>"
+    },
+    "uQT1o2UAJ9KbVrsv": {
+      "name": "Valquíria",
+      "description": "<p>Você invoca uma valquíria em seu auxílio. Ela aparece em um ponto dentro de uma distância próxima e age de livre vontade para ajudá-lo.</p><p>Ela retorna a Valhala quando a magia termina.</p><p>Você não pode lançar esta magia novamente até completar penitência.</p>"
+    },
+    "v1JCvx3zgq5OEGv9": {
+      "name": "Sacrifício",
+      "description": "<p>Como parte do lançamento desta magia, você deve sacrificar ritualmente uma criatura viva de NV 2 ou superior.</p><p>O alvo que você toca recebe um bônus em seu próximo teste ou jogada de ataque igual ao nível da criatura sacrificada.</p>"
+    },
+    "vJpDgIOWYiUYX5jv": {
+      "name": "Adivinhação",
+      "description": "<p>Você lança ossos divinatórios ou contempla o vazio entre as estrelas em busca de presságios.</p><p>Você pode fazer uma pergunta de sim ou não ao Mestre. O Mestre responde com a verdade — “sim” ou “não”.</p><p>Se lançar esta magia mais de uma vez em 24 horas, trate uma falha no teste de conjuração como uma falha crítica.</p>"
+    },
+    "wKrVyVF3ey5suZeA": {
+      "name": "Prisão da Alma",
+      "description": "<p>Você sela a alma de uma criatura viva, impedindo que a magia a afete diretamente.</p><p>Uma criatura que você toca torna-se quase imune a toda forma de magia. Durante a duração da magia, qualquer outra magia que a afete (benéfica ou prejudicial) tem CD 18 para ser lançada.</p><p>Esta magia termina assim que o alvo for afetado por outra magia.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.z7X1jRQHFTnSXpds]{Efeito de Magia: Prisão da Alma}</p>"
+    },
+    "y1nnbCGFwg31zZHk": {
+      "name": "Riso Enlouquecedor",
+      "description": "<p>Um alvo que você tocar e que seja de NV 4 ou menor desaba em risadas dolorosas e perturbadoras durante a duração da magia.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.9E4RVp3xfAK1uxrl]{Efeito de Magia: Riso Enlouquecedor}</p>"
+    },
+    "z3IMRW7fOvhdBCKH": {
+      "name": "Manto da Noite",
+      "description": "<p>Você se envolve em um manto de sombras em turbilhão. Durante a duração da magia, sua classe de armadura torna-se 17 (20 em um sucesso crítico de conjuração).</p><p>Você tem vantagem em testes de Destreza para se esconder e mover furtivamente enquanto o efeito durar.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.3viSgI4JpKsXdaFd]{Efeito de Magia: Manto da Noite}</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.vP9UrCnOXOe2ViZU]{Efeito de Magia: Manto da Noite (Crítico)}</p>"
+    },
+    "zT2CPkcKOyhLaDMJ": {
+      "name": "Truques de Loki",
+      "description": "<p>Você é tomado pela astúcia hipnótica de Loki. Criaturas que o ouvirem falar alterarão suas próprias crenças e memórias para se alinharem à sua sugestão.</p><p>Escolha uma criatura dentro do alcance que possa ouvi-lo e compreendê-lo. Você faz uma declaração plausível, verdadeira ou não.</p><p>O alvo deve fazer um teste de Sabedoria contra o seu teste de conjuração. Se falhar, ele passa a acreditar no que você afirmou como se fosse fato, independentemente do que saiba.</p>"
+    }
+  }
+}

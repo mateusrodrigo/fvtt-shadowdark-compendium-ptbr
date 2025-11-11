@@ -1,0 +1,108 @@
+{
+  "label": "Habilidades de Classe",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "Bard": "Bardo(a)",
+    "Basilisk Warrior": "Guerreiro(a) Basilisco",
+    "Desert Rider": "Cavaleiro(a) do Deserto",
+    "Knight of St. Ydris": "Cavaleiro(a) de St. Ydris",
+    "Pit Fighter": "Lutador(a) de Arena",
+    "Ranger": "Patrulheiro(a)",
+    "Ras-Godai": "Ras-Godai",
+    "Sea Wolf": "Lobo(a) do Mar",
+    "Seer": "Vidente",
+    "Witch": "Bruxo(a)"
+  },
+  "entries": {
+    "1hc2HGy3pZ89jvGM": {
+      "name": "Andar em Superfícies Verticais",
+      "description": "<p>1/dia, você pode andar em superfícies verticais como paredes por 1d4 rodadas.</p>"
+    },
+    "3fck7HFRfDywsjQk": {
+      "name": "Restaurador",
+      "description": "<p>@UUID[Compendium.shadowdark.gear.Item.QV93CYmgcgJ3UCPf]{Restaurador} Encerra um veneno ou doença.</p>"
+    },
+    "6snDwCm38HjvO1uv": {
+      "name": "Floreio",
+      "description": "<p><span>3/dia, recupere [[/roll 1d6]] pontos de vida quando acertar um inimigo com um ataque corpo a corpo.</span></p>"
+    },
+    "Ecajh7eY7lBEHuMv": {
+      "name": "Investida",
+      "description": "<p>3/dia, você pode investir em combate movendo-se pelo menos até o alcance próximo antes de atacar. Cada vez que fizer isso, seus ataques corpo a corpo causam o dobro de dano naquela rodada.</p>"
+    },
+    "EhaA5tBROfrws1Kx": {
+      "name": "Estimulante",
+      "description": "<p>@UUID[Compendium.shadowdark.gear.Item.dBQr9YPyhvwyPm0g]{Estimulante} Você não pode ser surpreendido por 10 rodadas.</p>"
+    },
+    "Jkl9j4RZ2WYy0Gmd": {
+      "name": "Olhar Petrificante",
+      "description": "<p>Uma criatura do seu nível ou inferior que cruzar seu olhar deve passar em um teste de CON CD 15 ou ficará petrificada por 1d4 rodadas. Ela ainda sofre dano normalmente enquanto estiver petrificada.</p><p>Você pode usar este talento um número de vezes por dia igual ao seu modificador de CON (mínimo 1).</p>"
+    },
+    "KfaSyGxX13IBVmKO": {
+      "name": "Esconder-se da Criatura",
+      "description": "<p>1/dia, escolha uma criatura de NV 9 ou menos que você possa ver; ela deve passar em um [[check 15 wis]] teste ou não poderá ver nem ouvir você por 1d4 rodadas.</p>"
+    },
+    "MbC7YucyY4D9dYre": {
+      "name": "Ignorar Todo Dano",
+      "description": "<p>1/dia, ignore todo o dano e efeitos de um único ataque.</p>"
+    },
+    "Ussun0GbRMiJZ8vP": {
+      "name": "Curativo",
+      "description": "<p><strong>Curativo.</strong> Equivalente a uma @UUID[Compendium.shadowdark.magic-items.Item.jucTGEjsqJ1znHdf]{Poção de Cura}.</p>"
+    },
+    "UzSmg3aLstFcNsUa": {
+      "name": "Unguento",
+      "description": "<p>@UUID[Compendium.shadowdark.gear.Item.m857P6MI00wAONTp]{Unguento} Cura 1 PV.</p>"
+    },
+    "cXyvO6H22jfOxcz4": {
+      "name": "Teleportar-se para o Familiar",
+      "description": "<p>1/dia, teleporte-se para a localização do seu familiar como uma ação de movimento.</p><p>Duplicar = +1 uso por dia.</p>"
+    },
+    "dsFmHTTuERiQePky": {
+      "name": "Possessão Demoníaca",
+      "description": "<p>3/dia, ganhe um bônus de +1 nas suas jogadas de dano que dura 3 rodadas.</p><p>Além disso, adicione metade do seu nível ao bônus de dano (arredonde para baixo).</p>"
+    },
+    "i0IHFrEbhd0MOvkQ": {
+      "name": "Adormecer uma Criatura",
+      "description": "<p>1/dia, escolha uma criatura viva de NV 5 ou menos que você possa ver dentro do alcance próximo; ela deve passar em um [[check 15 con]] teste ou cairá adormecida.</p>"
+    },
+    "i8PZF77jaVDkCE6n": {
+      "name": "Matadora de Inimigos",
+      "description": "<p>@UUID[Compendium.shadowdark.gear.Item.FeoRamUTz5jakMJ8]{Matadora de Inimigos} VANT em ataques e dano contra um tipo de criatura que você escolher por [[/r 1d6]] rodadas.</p>"
+    },
+    "jg2sUC3nIAI8sT18": {
+      "name": "Inspirar",
+      "description": "<p>Um alvo dentro do alcance próximo recebe um token de sorte.</p>"
+    },
+    "oCNpE6bnZjPIdOO1": {
+      "name": "Fascinar",
+      "description": "<p>(Foco). Você paralisa todos os alvos escolhidos de nível 4 ou inferior dentro do alcance próximo.</p>"
+    },
+    "pRO1kFMnFkkcYOgC": {
+      "name": "Presságio",
+      "description": "<p>3/dia, você pode realizar um [[check 9 wis]] teste. Em caso de sucesso, recebe um token de sorte (você não pode ter mais de um token de sorte por vez).</p>"
+    },
+    "so8ytbZuqmNvppI7": {
+      "name": "Fúria",
+      "description": "<p>1/dia, entre em fúria: imune a dano por 3 rodadas.</p>"
+    },
+    "vndvnruyp9aZ3f5l": {
+      "name": "Paralisar um Alvo",
+      "description": "<p>1/dia, paralise um alvo de NV 9 ou menos que você tenha ferido com uma arma por 1d4 rodadas.</p>"
+    },
+    "xwE0DGzMTxMQWqRj": {
+      "name": "Andar sobre a Água",
+      "description": "<p>1/dia, você pode andar sobre a água como se fosse sólida por 1d4 rodadas.</p>"
+    },
+    "yDByoMchtApfpKcS": {
+      "name": "Passo de Fumaça",
+      "description": "<p>3/dia, teleporte-se para um local que possa ver dentro do alcance próximo. Isso não consome sua ação.</p>"
+    },
+    "z5uKTDf4wtkipQ4s": {
+      "name": "Implacável",
+      "description": "<p>3/dia, quando você for reduzido a 0 PV, faça um [[check 18 con]] teste (o talento Implacável se aplica a esta rolagem). Em caso de sucesso, você fica com 1 PV em vez disso.</p>"
+    }
+  }
+}

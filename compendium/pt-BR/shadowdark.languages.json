@@ -1,0 +1,68 @@
+{
+  "label": "Idiomas",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "Common": "Comuns",
+    "Rare": "Raros"
+  },
+  "entries": {
+    "Celestial": {"verificado":"ok",
+      "name": "Celestial",
+      "description": "<p>Anjos</p>"
+    },
+    "Common": {"verificado":"ok",
+      "name": "Comum",
+      "description": "<p>A maioria dos humanoides</p>"
+    },
+    "Diabolic": {"verificado":"ok",
+      "name": "Diabólico",
+      "description": "<p>Demônios, diabos</p>"
+    },
+    "Draconic": {"verificado":"ok",
+      "name": "Dracônico",
+      "description": "<p>Dragões</p>"
+    },
+    "Dwarvish": {"verificado":"ok",
+      "name": "Anânico",
+      "description": "<p>Anões</p>"
+    },
+    "Elvish": {"verificado":"ok",
+      "name": "Élfico",
+      "description": "<p>Elfos</p>"
+    },
+    "Giant": {"verificado":"ok",
+      "name": "Gigante",
+      "description": "<p>Gigantes, ogros, trolls</p>"
+    },
+    "Goblin": {"verificado":"ok",
+      "name": "Goblinóide",
+      "description": "<p>Bugbears, goblins, hobgoblins</p>"
+    },
+    "Merran": {"verificado":"ok",
+      "name": "Merrano",
+      "description": "<p>Seres aquáticos como tritões, sahuagin, sereias</p>"
+    },
+    "Orcish": {"verificado":"ok",
+      "name": "Órquico",
+      "description": "<p>Orcs</p>"
+    },
+    "Primordial": {"verificado":"ok",
+      "name": "Primordial",
+      "description": "<p>Entidades antigas, elementais</p>"
+    },
+    "Reptilian": {"verificado":"ok",
+      "name": "Reptiliano",
+      "description": "<p>Homens-lagarto, viperianos</p>"
+    },
+    "Sylvan": {"verificado":"ok",
+      "name": "Silvestre",
+      "description": "<p>Centauros, dríades, fadas</p>"
+    },
+    "Thanian": {"verificado":"ok",
+      "name": "Thaniano",
+      "description": "<p>Minotauros, homens-besta, mantícoras</p>"
+    }
+  }
+}

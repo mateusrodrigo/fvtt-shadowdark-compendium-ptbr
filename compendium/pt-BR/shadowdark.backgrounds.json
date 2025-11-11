@@ -1,0 +1,253 @@
+{
+  "label": "Antecedentes",
+    "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "Core": "Base",
+    "Diabolical": "Diabólico(a)",
+    "Nord": "Nórdico(a)"
+  },
+  "entries": {
+    "1CgMEWzO7oYmtAJI": {
+      "name": "Catador(a)",
+      "description": "<p>Você sabe distinguir o que é comestível e o que é mortal.</p>"
+    },
+    "2IzlwgK0gaN5dLZR": {
+      "name": "Marcado(a)",
+      "description": "<p>Você carrega uma marca profana. Seria uma maldição ou um presente?</p>"
+    },
+    "2bf6cUSTzdI7CMHE": {"verificado":"ok",
+      "name": "Joalheiro(a)",
+      "description": "<p>Você consegue avaliar facilmente o valor e a autenticidade.</p>"
+    },
+    "3DsDoOyPNZCm8NuZ": {
+      "name": "Errante",
+      "description": "<p>Você ainda não encontrou um jarl digno da sua lealdade.</p>"
+    },
+    "4QQNmFHKVIY6aOpW": {"verificado":"ok",
+      "name": "Marinheiro(a)",
+      "description": "<p>Pirata, corsário(a) ou mercador(a) — os mares são seus.</p>"
+    },
+    "4yyHJ6PnRarj7yQh": {
+      "name": "Executor(a)",
+      "description": "<p>Você faz cumprir a lei do jarl em sua aldeia.</p>"
+    },
+    "5X2qZ9nhGItRoEbj": {
+      "name": "Asceta",
+      "description": "<p>As pessoas o(a) temem, mas ainda buscam sua orientação.</p>"
+    },
+    "6mOOO14scyeP9RHY": {
+      "name": "Amnésico(a)",
+      "description": "<p>Seu passado é um borrão, mas algumas memórias retornam.</p>"
+    },
+    "6y5G8ftyLbC52Rhb": {
+      "name": "Foragido(a)",
+      "description": "<p>Um salvador anônimo o(a) ajudou a desaparecer.</p>"
+    },
+    "81vgneJwN31fxsLt": {
+      "name": "Construtor(a) Naval",
+      "description": "<p>Você sabe construir e reparar navios longos.</p>"
+    },
+    "9oLzgHFxOyD7y8rx": {
+      "name": "Nobre de Nascimento",
+      "description": "<p>Você é filho(a) de um jarl.</p>"
+    },
+    "AENjm94YYccY8zP4": {
+      "name": "Armeiro(a) de Arcos",
+      "description": "<p>Você sabe fabricar e consertar qualquer arco ou flecha.</p>"
+    },
+    "BPrzA42xfky9tKJY": {
+      "name": "Sacrifício",
+      "description": "<p>Você seria sacrificado(a) ritualmente, mas escapou.</p>"
+    },
+    "BnzYvlJv5QVk5zbz": {
+      "name": "Desalojado(a)",
+      "description": "<p>Você fugiu depois que um jarl rival atacou sua aldeia.</p>"
+    },
+    "Ca3oriMsfAdfg7kL": {"verificado":"ok",
+      "name": "Órfão(ã)",
+      "description": "<p>Um(a) guardião(ã) incomum resgatou e criou você.</p>"
+    },
+    "CbWJYt3JL7mvjCSG": {
+      "name": "Pária",
+      "description": "<p>Você foi expulso(a) por crimes reais ou supostos.</p>"
+    },
+    "Ek0cVNauz71yiuNN": {
+      "name": "Curandeiro(a)",
+      "description": "<p>Você entende como a vida e a morte se entrelaçam.</p>"
+    },
+    "Ev3IVBU0Sb7Fcwib": {"verificado":"ok",
+      "name": "Menestrel",
+      "description": "<p>Você viajou muito com seu charme e talento.</p>"
+    },
+    "FFpcGx1BHYtcCje2": {
+      "name": "Viajante Distante",
+      "description": "<p>Você conhece muitos povos e costumes longínquos.</p>"
+    },
+    "FRz7qiokf1r9BcjJ": {"verificado":"ok",
+      "name": "Batedor(a)",
+      "description": "<p>Você sobreviveu com furtividade, observação e velocidade.</p>"
+    },
+    "FZnDY1pVzHEIQt0A": {
+      "name": "Pescador(a)",
+      "description": "<p>Você conhece todas as criaturas e lendas do mar.</p>"
+    },
+    "GSP55wqhqc1BwneQ": {
+      "name": "Caçador(a)",
+      "description": "<p>Você sabe se mover silenciosamente nas terras selvagens.</p>"
+    },
+    "HC6jelhcQuBrysjO": {
+      "name": "Skald",
+      "description": "<p>Você é um poeta e conhece todas as baladas antigas.</p>"
+    },
+    "IciCrV0cEOXxV5GI": {
+      "name": "Sangue Divino",
+      "description": "<p>Você descende de um deus; isso o(a) marca.</p>"
+    },
+    "LhjuWtZ2jpvhLXPd": {"verificado":"ok",
+      "name": "Mercenário(a)",
+      "description": "<p>Você lutou contra amigos e inimigos, sem distinção, por moedas.</p>"
+    },
+    "MWFmtBqh0WrZG8sn": {
+      "name": "Tocado(a) pelas Fadas",
+      "description": "<p>Uma fada fez amizade com você na infância.</p>"
+    },
+    "NIx2lDW62eRK9tLu": {"verificado":"ok",
+      "name": "Banido(a)",
+      "description": "<p>Seu povo expulsou você por supostos crimes.</p>"
+    },
+    "Nz2sB1nyv4ebWXoF": {
+      "name": "Filho(a) do Lobo",
+      "description": "<p>Há muito tempo, você entrou na cidade vestindo peles.</p>"
+    },
+    "QGPfVeAbnZGwj9S7": {"verificado":"ok",
+      "name": "Herbalista",
+      "description": "<p>Você conhece plantas, remédios e venenos.</p>"
+    },
+    "Ss7yXzx0Z6dhKKHr": {"verificado":"ok",
+      "name": "Ladrão(a) da Guilda",
+      "description": "<p>Você tem conexões, contatos e dívidas.</p>"
+    },
+    "SyMVhs93jQqceGEm": {
+      "name": "Herdeiro(a) Heroico(a)",
+      "description": "<p>Você é descendente de um(a) guerreiro(a) lendário(a).</p>"
+    },
+    "TpcMjA90euBpch0M": {
+      "name": "Artesão(ã)",
+      "description": "<p>Você sabe fabricar e consertar qualquer item utilitário.</p>"
+    },
+    "UNZMpUhRPHKQSz9T": {
+      "name": "Sangue Demoníaco",
+      "description": "<p>Um dos seus ancestrais era um demônio poderoso.</p>"
+    },
+    "UlC61DRdwHpl8dpt": {"verificado":"ok",
+      "name": "Soldado(a)",
+      "description": "<p>Você serviu como combatente em um exército organizado.</p>"
+    },
+    "WPurxk1YhBu4ZwzW": {"verificado":"ok",
+      "name": "Cirurgião(ã)",
+      "description": "<p>Você conhece anatomia, cirurgia e primeiros socorros.</p>"
+    },
+    "XAvZJdWjVktu5WwW": {
+      "name": "Escolhido(a)",
+      "description": "<p>Uma entidade profana o(a) escolheu para um propósito.</p>"
+    },
+    "XRTdSQPsvCZwW1i2": {
+      "name": "Eremita",
+      "description": "<p>As terras selvagens (e suas criaturas) são sua família.</p>"
+    },
+    "bVjstfOGFSqWbzlf": {
+      "name": "Criador(a) de Gado",
+      "description": "<p>Você tem intuição natural com todos os animais.</p>"
+    },
+    "bjRcNLr4JLeLs2Mi": {
+      "name": "Aprendiz de Vidente",
+      "description": "<p>Você conhece parte das artes místicas.</p>"
+    },
+    "bwm7Abf6MxjyDm1L": {"verificado":"ok",
+      "name": "Bárbaro(a)",
+      "description": "<p>Você deixou a horda, mas ela nunca abandonou você por completo.</p>"
+    },
+    "cDYtsQeu2ZJOlvJp": {"verificado":"ok",
+      "name": "Erudito(a)",
+      "description": "<p>Você sabe muito sobre história antiga e lendas.</p>"
+    },
+    "cy4Xtbwqi7AUzVSz": {
+      "name": "Filho(a) de Bruxa",
+      "description": "<p>Queimaram sua mãe, mas pouparam você.</p>"
+    },
+    "eRi9oX0cqwQwV7tk": {"verificado":"ok",
+      "name": "Procurado(a)",
+      "description": "<p>Há um preço pela sua cabeça, mas você tem aliados.</p>"
+    },
+    "fKb9qljaHRlSkfQm": {
+      "name": "Assombrado(a)",
+      "description": "<p>Um espírito inquieto quer algo de você.</p>"
+    },
+    "gSggHQgdLa8BDO5U": {
+      "name": "Filho(a) da Floresta",
+      "description": "<p>Encontraram você no oco de um carvalho.</p>"
+    },
+    "gZV06HJiZrGHre14": {
+      "name": "Agricultor(a)",
+      "description": "<p>Você trabalha a terra e conhece todas as plantas.</p>"
+    },
+    "jYVGhsymvvgZpLEI": {
+      "name": "Ferreiro(a)",
+      "description": "<p>Armas, armaduras, ferraduras — você faz de tudo.</p>"
+    },
+    "jkZbwzeer9YNCf29": {"verificado":"ok",
+      "name": "Pivete(a)",
+      "description": "<p>Você cresceu nas ruas impiedosas de uma grande cidade.</p>"
+    },
+    "kSpgj2YjbaX9Ucr3": {
+      "name": "Abandonado(a)",
+      "description": "<p>Deixaram você para trás, mas você se recusou a morrer.</p>"
+    },
+    "lFoVSBNURSvYTb4U": {"verificado":"ok",
+      "name": "Patrulheiro(a)",
+      "description": "<p>Os bosques e as terras selvagens são seu verdadeiro lar.</p>"
+    },
+    "n1JXyisxRuOLlqQd": {"verificado":"ok",
+      "name": "Aprendiz de Mago",
+      "description": "<p>Você tem um talento e um bom olho para a magia.</p>"
+    },
+    "p76Dlv53bXSev2Vp": {
+      "name": "Liberto(a)",
+      "description": "<p>Você foi um servo, mas escapou ou conquistou sua liberdade.</p>"
+    },
+    "qzrK4PvIPTaOCViF": {"verificado":"ok",
+      "name": "Iniciado(a) de Seita",
+      "description": "<p>Você conhece segredos e rituais blasfemos.</p>"
+    },
+    "rSsf27FzRRbqr5tW": {
+      "name": "Chamado(a)",
+      "description": "<p>Você ouve um sussurro distante e o segue.</p>"
+    },
+    "sBbHjpCaF0iIoDNM": {"verificado":"ok",
+      "name": "Nobre",
+      "description": "<p>Um nome famoso abriu muitas portas para você.</p>"
+    },
+    "sJiI2S5M2XjFB6D1": {
+      "name": "Caído(a)",
+      "description": "<p>Você caiu em desgraça. Vai se redimir ou abraçar seu destino?</p>"
+    },
+    "ub0z2It70ZytMVzS": {
+      "name": "Criminoso(a)",
+      "description": "<p>Você foi exilado(a) de sua aldeia por um crime.</p>"
+    },
+    "vDOgJXmlBAZRXvnj": {"verificado":"ok",
+      "name": "Acólito(a)",
+      "description": "<p>Você é bem treinado(a) em ritos e doutrinas religiosas.</p>"
+    },
+    "vMAguyr7hTGKCcMi": {
+      "name": "Redentor(a)",
+      "description": "<p>Você deve redimir o nome da sua família.</p>"
+    },
+    "vWVStctij50sm35u": {
+      "name": "Comerciante",
+      "description": "<p>Você tem conexões mercantis em todas as aldeias.</p>"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "label": "Propriedades",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "Armor": "Armadura",
+    "Weapon": "Arma"
+  },
+  "entries": {
+    "61gM0DuJQwLbIBwu": {
+      "name": "Escudo",
+      "description": "<p>Fornece proteção adicional.</p>"
+    },
+    "98zYioBHqik74KBV": {
+      "name": "Bolas",
+      "description": "<p>Quando você atinge uma criatura com pernas do tamanho de um cavalo ou menor, a velocidade do alvo é reduzida para curta até que se liberte ([[check 15 str]] ou teste de DES).</p>"
+    },
+    "F4wv0ycualMPaoco": {
+      "name": "Desvantagem/Nadar",
+      "description": "<p>Você tem desvantagem em testes relacionados a natação ao usar esta armadura.</p>"
+    },
+    "HyqHR9AhIDkm4La9": {
+      "name": "Recarga",
+      "description": "<p>Você deve abrir mão do movimento para recarregar esta arma.</p>"
+    },
+    "K5d1agm6gzaTLr1k": {
+      "name": "Açoite",
+      "description": "<p>Ao realizar um ataque à distância com esta arma, ela não sai do seu alcance.</p>"
+    },
+    "M5iKSTKd3UgtZT8K": {
+      "name": "Shuriken",
+      "description": "<p>Pode ser lançado no chão. Criaturas vivas que pisarem nele recebem 1 de dano e só podem se mover à metade da velocidade por 10 rodadas.</p>"
+    },
+    "Op1yKvM7uq5pdopr": {
+      "name": "Destrutiva",
+      "description": "<p><span style=\"font-family: Signika, sans-serif\">Quando você é atingido por um ataque corpo a corpo, pode optar por destruir esta arma ou armadura para anular todo o dano do ataque.</span></p>"
+    },
+    "R9rw4pKdIHfJJoyJ": {
+      "name": "Retornável",
+      "description": "<p>Em um ataque à distância que erra, esta arma retorna para o arremessador.</p>"
+    },
+    "WhfSBiji8VG1mMzV": {
+      "name": "Desvantagem/Furtividade",
+      "description": "<p>Você tem desvantagem em testes de furtividade ao usar esta armadura.</p>"
+    },
+    "b6Gm2ULKj2qyy2xJ": {
+      "name": "Duas Mãos",
+      "description": "<p>Você deve usar esta arma com as duas mãos.</p>"
+    },
+    "bAzl6RH1PW95ZkFE": {
+      "name": "Destrutiva",
+      "description": "<p><span style=\"font-family: Signika, sans-serif\">Quando você é atingido por um ataque corpo a corpo, pode optar por destruir esta arma ou armadura para anular todo o dano do ataque.</span></p>"
+    },
+    "c35ROL1nXwC840kC": {
+      "name": "Arremessável",
+      "description": "<p>Você pode arremessar esta arma para fazer um ataque à distância usando FOR ou DES.</p>"
+    },
+    "e5RpI0crHweCVt8B": {
+      "name": "Quebrável",
+      "description": "<p>Esta arma se quebra em um resultado 1 natural na rolagem de ataque.</p>"
+    },
+    "jq0m0lGb7QOCSJXL": {
+      "name": "Ocupando Uma Mão",
+      "description": "<p>Você só pode usar uma mão ao manusear este item.</p>"
+    },
+    "kBLs47xhX1snaDGA": {
+      "name": "Sem Nadar",
+      "description": "<p>Você não pode nadar enquanto estiver usando esta armadura.</p>"
+    },
+    "qEIYaQ9j2EUmSrx6": {
+      "name": "Versátil",
+      "description": "<p>Você pode usar esta arma com uma ou duas mãos. Use o dado de dano maior se estiver empunhando-a com as duas.</p>"
+    },
+    "rqQwpoeWEqi0ZcYK": {
+      "name": "Leveza",
+      "description": "<p>Você pode usar sua Força ou Destreza ao atacar com esta arma.</p>"
+    },
+    "vobaPJfoZ1e50eab": {
+      "name": "Zarabatana",
+      "description": "<p>Atirar com esta arma a partir do esconderijo não revela sua posição.</p>"
+    }
+  }
+}

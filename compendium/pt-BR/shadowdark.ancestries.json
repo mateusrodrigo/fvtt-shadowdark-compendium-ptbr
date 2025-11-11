@@ -1,0 +1,37 @@
+{
+    "label": "Ancestralidade",
+    "mapping": {
+        "description": "system.description"
+    },
+    "folders": {},
+    "entries": {
+        "0lJ8Pj0UPsbSSUTm": {"verificado":"ok",
+            "name": "Meio-Orc",
+            "description": "<p>Guerreiros imponentes e de presas afiadas, tão audaciosos quanto os humanos e tão implacáveis quanto os orcs.</p></p>Você sabe os idiomas Comum e Orc.</p></p>@UUID[Compendium.shadowdark.talents.Item.LR6h4lXVXwx7AFQ6]{Poderoso}: Você recebe um bônus de +1 nas jogadas de ataque e de dano com armas corpo a corpo.</p>"
+        },
+        "80h0XXptGDZvGAIZ": {"verificado":"ok",
+            "name": "Anão",
+            "description": "Bravos e firmes, um povo tão resistente quanto os reinos de pedra que esculpem nas entranhas das montanhas.</p><p>Você sabe os idiomas Comum e Anão.</p></p>@UUID[Compendium.shadowdark.talents.Item.MW43tnJr6lqE1Ty8]{Robusto}: Comece com +2 PV. Role os pontos de vida por nível com vantagem.</p>"
+        },
+        "855WNm4l1T7S8akj": {"verificado":"ok",
+            "name": "Kobold",
+            "description": "<p>Pequenos humanoides com aparência de cães-lagartos, conhecidos por seu talento em engenhocas, construção de armadilhas e um toque de magia.</p></p>Você sabe os idiomas Comum e Dracônico.</p></p>@UUID[]{Talento}: Você recebe +1 em testes de conjuração ou pode começar cada sessão com uma ficha de sorte.</p>"
+        },
+        "QG1lAZeLfBtXR6zh": {"verificado":"ok",
+            "name": "Goblin",
+            "description": "<p>Verdes e astutos, são seres que prosperam em lugares escuros e apertados. Tão ferozes quanto são pequenos.</p><p>Você sabe os idiomas Comum e Goblin.</p></p>@UUID[Compendium.shadowdark.talents.Item.Gf5dApLfOorbQn4R]{Sentidos Aguçados}: Você não pode ser surpreendido.</p>"
+        },
+        "mpqXJtii4nj4ukKk": {"verificado":"ok",
+            "name": "Elfo",
+            "description": "<p>Etéreos e graciosos, um povo que reverencia o conhecimento e a beleza. Os elfos enxergam longe e vivem por muito tempo.</p><p>Você sabe os idiomas Comum, Élfico e Silvano.</p></p>@UUID[Compendium.shadowdark.talents.Item.dTEZW21LUNoYL3JU]{Visão Longa (Ataque à Distância)}/@UUID[Compendium.shadowdark.talents.Item.E3EcGGdGYuEWWj47]{Visão Longa (Magia)}: Você recebe um bônus de +1 nas jogadas de ataque com armas à distância <strong>ou</strong> um bônus de +1 nos testes de conjuração.</p>"
+        },
+        "rglUPGtBSAAG3dhK": {"verificado":"ok",
+            "name": "Halfling",
+            "description": "<p>Pequenos e alegres habitantes do campo, com um toque de travessura. Eles apreciam os prazeres simples da vida.</p><p>Você sabe o idioma Comum.</p></p>@UUID[Compendium.shadowdark.talents.Item.zkOiprnKS5uttiO6]{Furtivo}: Uma vez por dia, você pode se tornar invisível por 3 rodadas.</p>"
+        },
+        "w3gbUH2DOBxfZPHO": {"verificado":"ok",
+            "name": "Humano",
+            "description": "<p>Ousados, adaptáveis e diversos, são pessoas que aprendem rápido e realizam grandes feitos.</p><p>Você sabe o idioma Comum e um idioma adicional comum.</p></p>@UUID[Compendium.shadowdark.talents.Item.DYWFJu5XeazJYc0P]{Ambicioso}: Você ganha uma rolagem de talento adicional no 1º nível.</p>"
+        }
+    }
+}

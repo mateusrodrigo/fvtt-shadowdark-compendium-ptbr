@@ -1,0 +1,74 @@
+{
+  "label": "Macros",
+  "folders": {},
+  "entries": {
+    "15E8F4iZ24jq5uE9": {
+      "name": "Abrir Importador de Magias",
+      "command": "/**\n ****************************************************************\n * Esta macro pode ser usada para abrir o importador de magias\n ***************************************************************/\n\nnew shadowdark.apps.SpellImporterSD().render(true);"
+    },
+    "4j286mEmWbt6maGk": {
+      "name": "Gerar Nome Aleatório de Item Mágico",
+      "command": "// Macro para sortear e construir um Item Mágico nomeado, enviado em sussurro\n// ao Mestre.\n\nconst pack = game.packs.get(\"shadowdark.rollable-tables\");\n\nconst firstTableID = pack.index.find(o => o.name === \"Item Mágico: Nome 1\")._id;\nconst firstTable = await pack.getDocument(firstTableID);\nconst firstResult = await firstTable.draw({displayChat: false});\nconst first = firstResult.results.pop().getChatText();\n\nconst secondTableID = pack.index.find(o => o.name === \"Item Mágico: Nome 2\")._id;\nconst secondTable = await pack.getDocument(secondTableID);\nconst secondResult = await secondTable.draw({displayChat: false});\nconst second = secondResult.results.pop().getChatText();\n\nconst thirdTableID = pack.index.find(o => o.name === \"Item Mágico: Nome 3\")._id;\nconst thirdTable = await pack.getDocument(thirdTableID);\nconst thirdResult = await thirdTable.draw({displayChat: false});\nconst third = thirdResult.results.pop().getChatText();\n\nconst message = `<p><b>${first} ${second} ${third}</b></p>`;\n\nconst chatData = {\n\tuser: game.user._id,\n\tspeaker: ChatMessage.getSpeaker(),\n\tcontent: message,\n\twhisper: game.users.filter(u => u.isGM).map(u => u._id),\n};\n\nChatMessage.create(chatData, {});"
+    },
+    "7uF6dXPvaJNKZAM6": {
+      "name": "Sortear Rumor",
+      "command": "// Macro para sortear um rumor e mostrar apenas ao Mestre.\n\nconst pack = game.packs.get(\"shadowdark.rollable-tables\");\n\nconst tableID = pack.index.find(o => o.name === \"Rumores\")._id;\nconst table = await pack.getDocument(tableID);\n\nawait table.draw({ rollMode: CONST.DICE_ROLL_MODES.PRIVATE});"
+    },
+    "B4UwIKe2sBuhSHfs": {
+      "name": "Sortear Armadilha",
+      "command": "const pack = game.packs.get(\"shadowdark.rollable-tables\");\n\nconst trapTableID = pack.index.find(o => o.name === \"Armadilha: Tipo\")._id;\nconst trapTable = await pack.getDocument(trapTableID);\nconst trapResult = await trapTable.draw({displayChat: false});\nconst trap = trapResult.results.pop().getChatText();\n\nconst triggerTableID = pack.index.find(o => o.name === \"Armadilha: Gatilho\")._id;\nconst triggerTable = await pack.getDocument(triggerTableID);\nconst triggerResult = await triggerTable.draw({displayChat: false});\nconst trigger = triggerResult.results.pop().getChatText();\n\nconst effectTableID = pack.index.find(o => o.name === \"Armadilha: Dano ou Efeito\")._id;\nconst effectTable = await pack.getDocument(effectTableID);\nconst effectResult = await effectTable.draw({displayChat: false});\nconst effect = effectResult.results.pop().getChatText();\n\nconst message = `\n<p>\n\tUma armadilha de <b>${trap}</b> que é acionada por <b>${trigger}</b> e causa <b>${effect}</b>\n</p>\n`;\n\nconst chatData = {\n\tuser: game.user._id,\n\tspeaker: ChatMessage.getSpeaker(),\n\tcontent: message,\n\twhisper: game.users.filter(u => u.isGM).map(u => u._id),\n};\n\nChatMessage.create(chatData, {});"
+    },
+    "FNPtH7pEbjesVQlL": {
+      "name": "Sortear Encontro em Ruínas",
+      "command": "// Macro para sortear um encontro em ruínas e mostrar apenas ao Mestre.\n\nconst pack = game.packs.get(\"shadowdark.rollable-tables\");\n\nconst tableID = pack.index.find(o => o.name === \"Encontros nas Ruínas\")._id;\nconst table = await pack.getDocument(tableID);\n\nawait table.draw({ rollMode: CONST.DICE_ROLL_MODES.PRIVATE});"
+    },
+    "J3wuYxC7NYPBvowe": {
+      "name": "Nome Aleatório de Local de Aventura",
+      "command": "// Macro para gerar um nome aleatório para um local de aventura, mostrado apenas ao Mestre.\n\nconst pack = game.packs.get(\"shadowdark.rollable-tables\");\n\nconst nameoneTableID = pack.index.find(o => o.name === \"Nomes de Local de Aventura: Nome 1\")._id;\nconst nameoneTable = await pack.getDocument(nameoneTableID);\nconst nameoneResult = await nameoneTable.draw({displayChat: false});\nconst nameone = nameoneResult.results.pop().getChatText();\n\nconst nametwoTableID = pack.index.find(o => o.name === \"Nomes de Local de Aventura: Nome 2\")._id;\nconst nametwoTable = await pack.getDocument(nametwoTableID);\nconst nametwoResult = await nametwoTable.draw({displayChat: false});\nconst nametwo = nametwoResult.results.pop().getChatText();\n\nconst namethreeTableID = pack.index.find(o => o.name === \"Nomes de Local de Aventura: Nome 3\")._id;\nconst namethreeTable = await pack.getDocument(namethreeTableID);\nconst namethreeResult = await namethreeTable.draw({displayChat: false});\nconst namethree = namethreeResult.results.pop().getChatText();\n\nconst message = `<h3>${nameone} ${nametwo} ${namethree}</h3>`;\n\nconst chatData = {\n\tuser: game.user._id,\n\tspeaker: ChatMessage.getSpeaker(),\n\tcontent: message,\n\twhisper: game.users.filter(u => u.isGM).map(u => u._id),\n};\n\nChatMessage.create(chatData, {});"
+    },
+    "R7UsZq7PRFHEJYjF": {
+      "name": "SoloDark: Gerar Nome de Masmorra",
+      "command": "// Macro para gerar um Nome de Masmorra do SoloDark aleatório, mostrado apenas ao Mestre.\n\nconst pack = game.packs.get(\"shadowdark.rollable-tables\");\n\nconst tableNames = [\n\t\"Nomes de Masmorra: Nome 1\",\n\t\"Nomes de Masmorra: Nome 2\",\n\t\"Nomes de Masmorra: Nome 3\",\n];\n\nconst selected = [];\n\nfor (const name of tableNames) {\n\tconst tableId = pack.index.find(o => o.name === name)._id;\n\tconst table = await pack.getDocument(tableId);\n\tconst result = await table.draw({displayChat: false});\n\tselected.push(result.results.pop().getChatText());\n}\n\nconst message = `<h3>${selected.join(\" \")}</h3>`;\n\nconst chatData = {\n\tuser: game.user._id,\n\tspeaker: ChatMessage.getSpeaker(),\n\tcontent: message,\n\twhisper: game.users.filter(u => u.isGM).map(u => u._id),\n};\n\nChatMessage.create(chatData, {});"
+    },
+    "UOyL6BA8rrpVGhgL": {
+      "name": "Sortear Algo Acontece!",
+      "command": "// Macro para sortear na tabela \"Algo Acontece!\" e mostrar apenas ao Mestre.\n\nconst pack = game.packs.get(\"shadowdark.rollable-tables\");\n\nconst tableID = pack.index.find(o => o.name === \"Algo Acontece!\")._id;\nconst table = await pack.getDocument(tableID);\n\nawait table.draw({ rollMode: CONST.DICE_ROLL_MODES.PRIVATE});"
+    },
+    "VgfWt2xWzYJyVMbA": {
+      "name": "Alternar UI do Rastreador de Luz (Apenas Mestre)",
+      "command": "/**\n ****************************************************************\n * Esta macro pode ser usada para alternar a interface do Rastreador\n * de Fontes de Luz (ligar/desligar).\n *\n * NOTA: Apenas usuários com papel de Mestre de Jogo podem executar\n * esta macro.\n ***************************************************************/\n\ngame.shadowdark.lightSourceTracker.toggleInterface();"
+    },
+    "YOZcP9WGwie1dLIu": {
+      "name": "Solicitar um Teste",
+      "command": "/**\n ************************************************\n * Esta macro abre a caixa de diálogo de solicitar teste\n ************************************************/\n\nnew shadowdark.apps.RequestCheckSD().render(true);"
+    },
+    "ZHeVKaoftxDw9ikn": {
+      "name": "Abrir Gerador de Personagens",
+      "command": "/**\n ****************************************************************\n * Esta macro pode ser usada para abrir o Gerador de Personagens\n ***************************************************************/\n\nnew shadowdark.apps.CharacterGeneratorSD().render(true);"
+    },
+    "iRgzhZVqJIWTuSsn": {
+      "name": "Inicializar Sorte (Apenas Mestre)",
+      "command": "/**\n ****************************************************************\n * Esta macro pode ser usada para inicializar os valores de sorte\n * inicial de todos os personagens dos jogadores da seguinte forma:\n *\n *    - Garantir que todo personagem de jogador tenha um token de sorte.\n *\n *    - Rolar o valor de sorte inicial de um personagem que será usado\n *      no modo Pulp.\n *\n * @param {string} [rollFormula] A fórmula a usar para sorte inicial\n *                               no modo Pulp.\n *                               padrão: \"1d4\"\n *\n * @example\n * shadowdark.macro.initializeLuck();\n *\n * @example\n * shadowdark.macro.initializeLuck(\"2d4\");\n *\n * NOTA: Apenas usuários com papel de Mestre de Jogo podem executar esta\n * macro, e somente personagens ativamente selecionados por um jogador são\n * afetados (esteja ele logado ou não).\n ***************************************************************/\n\nshadowdark.macro.initializeLuck();"
+    },
+    "jS2NVcdDJraaMbDd": {
+      "name": "Sortear Perigo Ambiental",
+      "command": "// Macro para sortear e construir um perigo ambiental, enviado em sussurro ao\n// Mestre.\n\nconst pack = game.packs.get(\"shadowdark.rollable-tables\");\n\nconst movementTableID = pack.index.find(o => o.name === \"Perigo: Movimento\")._id;\nconst movementTable = await pack.getDocument(movementTableID);\nconst movementResult = await movementTable.draw({displayChat: false});\nconst movement = movementResult.results.pop().getChatText();\n\nconst damageTableID = pack.index.find(o => o.name === \"Perigo: Dano\")._id;\nconst damageTable = await pack.getDocument(damageTableID);\nconst damageResult = await damageTable.draw({displayChat: false});\nconst damage = damageResult.results.pop().getChatText();\n\nconst weakenTableID = pack.index.find(o => o.name === \"Perigo: Enfraquecimento\")._id;\nconst weakenTable = await pack.getDocument(weakenTableID);\nconst weakenResult = await weakenTable.draw({displayChat: false});\nconst weaken = weakenResult.results.pop().getChatText();\n\nconst message = `\n<p>\n\tUm local com <b>${movement}</b> que enfraquece os personagens com\n\t<b>${weaken}</b> e causa dano através de <b>${damage}</b>\n</p>\n`;\n\nconst chatData = {\n\tuser: game.user._id,\n\tspeaker: ChatMessage.getSpeaker(),\n\tcontent: message,\n\twhisper: game.users.filter(u => u.isGM).map(u => u._id),\n};\n\nChatMessage.create(chatData, {});"
+    },
+    "phlDVz1PAQLxZU0O": {
+      "name": "Informações de Encontro Aleatório",
+      "command": "// Macro para obter algumas informações sobre encontros aleatórios\nconst pack = game.packs.get(\"shadowdark.rollable-tables\");\n\nif (!actor || (actor.type === \"NPC\")) {\n\tui.notifications.warn(\"Não é possível sortear reações sem um ator de Jogador atribuído/selecionado!\");\n}\n\n// Distância Inicial\nconst distanceTableID = pack.index.find(o => o.name === \"Encontro Aleatório: Distância\")._id;\nconst distanceTable = await pack.getDocument(distanceTableID);\nconst distanceResult = await distanceTable.roll();\nconst distance = distanceResult.results[0].text;\n\n// Atividade\nconst activityTableID = pack.index.find(o => o.name === \"Encontro Aleatório: Atividade\")._id;\nconst activityTable = await pack.getDocument(activityTableID);\nconst activityResult = await activityTable.roll();\nconst activity = activityResult.results[0].text;\n\n// Reação\nconst reactionTableID = pack.index.find(o => o.name === \"Encontro Aleatório: Reação\")._id;\nconst reactionTable = await pack.getDocument(reactionTableID);\nconst actorCha = actor.system.abilities.cha.mod;\nconst reactionRoll = await new Roll(`2d6 + ${actorCha}`).evaluate({async: true});\nconst reaction = reactionTable.getResultsForRoll(reactionRoll._total)[0].text;\n\n// Tesouro\nconst treasureRoll = await new Roll(\"1d100\").evaluate({ async: true });\nconst treasure = (treasureRoll._total >= 50) ? \"têm tesouro\" : \"não têm tesouro\";\n\nconst chatHtml = `\n<div class=\"shadowdark chat-card item-card\">\n\t<header class=\"card-header flexrow\">\n\t\t<img src=\"icons/environment/people/charge.webp\" />\n\t\t<h3>Encontro Aleatório!</h3>\n\t</header>\n\n\t<div class=\"card-content\">\n\t\t<p>As criaturas que <em>${actor.name}</em> encontrou são...</p>\n\t\t<p>A uma distância de: <b>${distance}</b></p>\n\t\t<p>Atualmente fazendo: <b>${activity}</b></p>\n\t\t<p>E a reação delas é: <b>${reaction}</b></p>\n\t\t<p>Elas <b>${treasure}</b></p>\n\t</div>\n</div>\n`;\n\nconst chatData = {\n\tuser: game.user._id,\n\tspeaker: ChatMessage.getSpeaker(),\n\tcontent: chatHtml,\n\twhisper: game.users.filter(u => u.isGM).map(u => u._id),\n};\n\nChatMessage.create(chatData, {});"
+    },
+    "q4lqJ88GbDk9HTlq": {
+      "name": "Abrir Importador de Itens",
+      "command": "/**\n ****************************************************************\n * Esta macro pode ser usada para abrir o importador de itens\n ***************************************************************/\n\nnew shadowdark.apps.ItemImporterSD().render(true);"
+    },
+    "sJTtbWtWigzBHf6N": {
+      "name": "Abrir Importador de Monstros",
+      "command": "/**\n ****************************************************************\n * Esta macro pode ser usada para abrir o importador de monstros\n ***************************************************************/\n\nnew shadowdark.apps.MonsterImporterSD().render(true);"
+    },
+    "voMfAOHKkRnozC9J": {
+      "name": "SoloDark: Abrir Oráculo",
+      "command": "/************************************\n * Esta macro abre o Oráculo do SoloDark\n ************************************/\n\nnew shadowdark.apps.SoloDarkSD().render(true);"
+    }
+  }
+}

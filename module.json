@@ -1,0 +1,40 @@
+{
+  "id": "fvtt-shadowdark-compendium-ptbr",
+  "title": "Shadowdark Compêndio PT-BR",
+  "description": "Tradução completa do compêndio do sistema Shadowdark RPG para Foundry VTT em português do Brasil. Requer o módulo Babele. Este pacote localiza descrições, magias, itens, talentos, diários e outros conteúdos, sem alterar regras ou estatísticas originais.",
+  "authors": [
+    { "name": "Mateus Rodrigo" }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.350"
+  },
+  "esmodules": [
+    "scripts/register.js",
+    "scripts/rename-compendium.js"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module"
+      }
+    ],
+    "systems": [
+      {
+        "id": "shadowdark",
+        "type": "system",
+        "compatibility": {
+          "verified": "3.6.0"
+        }
+      }
+    ]
+  },
+  "license": "MIT",
+  "manifest": "https://raw.githubusercontent.com/mateusrodrigo/fvtt-shadowdark-compendium-ptbr/main/module.json",
+  "download": "https://github.com/mateusrodrigo/fvtt-shadowdark-compendium-ptbr/archive/refs/heads/main.zip",
+  "url": "https://github.com/mateusrodrigo/fvtt-shadowdark-compendium-ptbr",
+  "bugs": "https://github.com/mateusrodrigo/fvtt-shadowdark-compendium-ptbr/issues",
+  "readme": "https://github.com/mateusrodrigo/fvtt-shadowdark-compendium-ptbr#readme"
+}

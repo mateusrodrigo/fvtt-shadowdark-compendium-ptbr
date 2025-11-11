@@ -1,0 +1,2663 @@
+{
+  "label": "Talentos",
+  "mapping": {
+    "description": "system.description",
+    "effects": "effects"
+  },
+  "folders": {
+    "Ancestry": "Ancestralidade",
+    "Class": "Classe",
+    "Level": "Nível",
+    "Patron Boon": "Dom do Patrono"
+  },
+  "entries": {
+    "0WmG5j0Wv685YTqO": {
+      "name": "+1 em Testes de Conjuração",
+      "effects": [
+        {
+          "_id": "QBX0EGnKmDfPJ8gQ",
+          "changes": [
+            {
+              "key": "system.bonuses.spellcastingCheckBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/fire/flame-burning-fist-strike.webp",
+          "name": "Bônus em Teste de Conjuração",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "description": ""
+    },
+    "0xDRcHPPcmO5NHOG": {
+      "name": "Marinheiro",
+      "description": "<p>Você tem vantagem em testes relacionados à navegação e à tripulação de embarcações.</p>",
+      "effects": []
+    },
+    "0yk16c9qcJ9vCekD": {
+      "name": "+1 em Ataques e Dano Corpo a Corpo",
+      "effects": [
+        {
+          "_id": "JOP97BP4aJ0kjcgL",
+          "changes": [
+            {
+              "key": "system.bonuses.meleeDamageBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/strike-axe-blood-red.webp",
+          "name": "Bônus de Dano Corpo a Corpo",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        },
+        {
+          "_id": "c7CGt0FBJHv5BtpM",
+          "changes": [
+            {
+              "key": "system.bonuses.meleeAttackBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+          "name": "Bônus na Jogada de Ataque Corpo a Corpo",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "description": ""
+    },
+    "1TGfDukF1dkrJXpm": {
+      "name": "Entrar em Fúria",
+      "description": "<p>1/dia, entre em @UUID[Compendium.shadowdark.spell-effects.Item.sfeg7jRt0oW5qXO4]{fúria}: fica imune a dano por 3 rodadas.</p><p>duplicado = +1 uso/dia</p>",
+      "effects": []
+    },
+    "279opQ7jDyCaRGAu": {
+      "name": "Adormecer uma Criatura",
+      "description": "<p>1/dia, escolha uma criatura viva de NV 5 ou menor que você possa ver dentro de alcance próximo; ela deve passar em um teste de [[check 15 con]] ou cairá em sono profundo.</p><p>@UUID[Compendium.shadowdark.class-abilities.Item.i0IHFrEbhd0MOvkQ]{Adormecer uma Criatura}</p>",
+      "effects": []
+    },
+    "2IfYKGhWxyd3Ldr5": {
+      "name": "+1 em Ataques e Dano à Distância",
+      "effects": [
+        {
+          "_id": "lodEOfzuI5jDWc4h",
+          "changes": [
+            {
+              "key": "system.bonuses.rangedDamageBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/strike-axe-blood-red.webp",
+          "name": "Bônus de Dano à Distância",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        },
+        {
+          "_id": "OQQ5fxWh3zBw8W5O",
+          "changes": [
+            {
+              "key": "system.bonuses.rangedAttackBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/weapons/ammunition/arrow-head-war-flight.webp",
+          "name": "Bônus na Jogada de Ataque à Distância",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "description": ""
+    },
+    "2RSpr5vnNgaFCbZJ": {
+      "name": "Uso Adicional de Presságio",
+      "description": "<p>Você ganha um uso adicional do seu talento de Presságio a cada dia.</p>",
+      "effects": []
+    },
+    "38PGv4JtkfDumLDu": {
+      "name": "+1 em Dano",
+      "effects": [
+        {
+          "_id": "cefeWMKoAqHxuuU1",
+          "changes": [
+            {
+              "key": "system.bonuses.meleeDamageBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/strike-axe-blood-red.webp",
+          "name": "Bônus de Dano Corpo a Corpo",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        },
+        {
+          "_id": "V7hLOyXMBijj06wB",
+          "changes": [
+            {
+              "key": "system.bonuses.rangedDamageBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/strike-axe-blood-red.webp",
+          "name": "Bônus de Dano à Distância",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "description": ""
+    },
+    "3gJPMZ8M4paFtm1n": {
+      "name": "Prolífico",
+      "description": "<p>Adicione 1d6 aos seus testes de aprendizado. Grupos que festejam com 1 ou mais bardos adicionam 1d6 aos seus testes.</p>",
+      "effects": []
+    },
+    "4pcEgD8oLA5euovK": {
+      "name": "Patrono",
+      "description": "<p>Escolha um patrono a quem servir (veja pág. 17). Seu patrono é a fonte dos seus dons sobrenaturais. Se ele se desagradar de você, pode retirar seus dons temporariamente. Você perde quaisquer talentos concedidos por suas Bençãos do Patrono durante esse período.</p>",
+      "effects": []
+    },
+    "52dWOJ8zzxCwfM1B": {
+      "name": "Resistência à Magia",
+      "description": "<p>Magias hostis que tenham você como alvo são sempre difíceis de conjurar.</p><p>duplicado = rerrolar</p>",
+      "effects": []
+    },
+    "59TWYCe5pl1P6Znj": {
+      "name": "Possessão Demoníaca",
+      "description": "<p>@UUID[Compendium.shadowdark.class-abilities.Item.dsFmHTTuERiQePky]{Possessão Demoníaca}</p><p>3/dia, ganhe um bônus de +1 em suas jogadas de dano que dura 3 rodadas. Além disso, adicione metade do seu nível ao bônus de dano (arredondado para baixo).</p>",
+      "effects": []
+    },
+    "5INkcbMVFxK6cW5Z": {
+      "name": "+1 em Carisma",
+      "effects": [
+        {
+          "_id": "pBT8eBhcaKSnzbcq",
+          "changes": [
+            {
+              "key": "system.abilities.cha.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/hand-grip-staff-yellow-brown.webp",
+          "name": "Melhoria de Atributo (Car)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "description": ""
+    },
+    "5bpWuaT0KTNzuzCu": {
+      "name": "Maestria em Armas",
+      "description": "<p>Escolha um tipo de arma, como espadas longas. Você ganha +1 em ataque e dano com esse tipo de arma. Além disso, adicione metade do seu nível a essas jogadas (arredondado para baixo).</p>",
+      "effects": [
+        {
+          "_id": "E7SwrOhzSAyMZ1Ec",
+          "changes": [
+            {
+              "key": "system.bonuses.weaponMastery",
+              "mode": 2,
+              "priority": null,
+              "value": "REPLACEME"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/weapons-crossed-swords-white-blue.webp",
+          "name": "maestriaEmArmas",
+          "origin": "Compendium.shadowdark.talents.eg8u9L4gcJAxBxVX",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "6iJ6ETUAKC7DR0aT": {
+      "name": "Vantagem de Ataques Corpo-a-Corpo",
+      "description": "<p>1/dia, ganhe vantagem de ataques corpo-a-corpo por 3 rodadas. </p><p>duplicado = +1 uso por dia</p>",
+      "effects": []
+    },
+    "6t06nSjj1hd6o5SV": {
+      "name": "+2 em Força",
+      "effects": [
+        {
+          "_id": "peAz8xVvIeZ6SLHd",
+          "changes": [
+            {
+              "key": "system.abilities.str.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "2"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/hand-grip-staff-yellow-brown.webp",
+          "name": "Melhoria de Atributo (For)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "description": ""
+    },
+    "6tUOlXmD8WspE6UI": {
+      "name": "Investida",
+      "description": "<p>3/dia, você pode @UUID[Compendium.shadowdark.class-abilities.Item.Ecajh7eY7lBEHuMv] em combate movendo-se pelo menos uma distância próxima antes de atacar. Cada vez que fizer isso, seus ataques corpo a corpo causam o dobro de dano naquela rodada.</p>",
+      "effects": []
+    },
+    "71NHQE8WsxOe9ShC": {
+      "name": "Imunidade a Ácido",
+      "effects": [],
+      "description": ""
+    },
+    "7JTDRLtHc6FOrIEc": {
+      "name": "Carregador",
+      "description": "<p>Adicione seu modificador de Constituição, se positivo, aos seus espaços de carga.</p>",
+      "effects": [
+        {
+          "_id": "rqplFhIShnvmV0U4",
+          "changes": [
+            {
+              "key": "system.bonuses.hauler",
+              "mode": 5,
+              "priority": null,
+              "value": "true"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/containers/bags/sack-leather-tan.webp",
+          "name": "Carregador",
+          "origin": "Compendium.shadowdark.talents.7JTDRLtHc6FOrIEc",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "7XtnCM9VdxVmh6D3": {
+      "name": "Conjuração (Bruxa)",
+      "description": "<p>Você pode conjurar magias de bruxa que conhece. </p><p>Você conhece três magias de nível 1 à sua escolha da lista de magias de bruxa (veja pág. 24). </p><p>Cada vez que você sobe de nível, escolhe novas magias de bruxa para aprender de acordo com a Tabela de Magias Conhecidas da Bruxa. </p><p>Você usa seu atributo de Carisma para conjurar magias de bruxa. A CD é 10 + o nível da magia. </p><p>Se você falhar em um teste de conjuração, não poderá lançar essa magia novamente até completar um descanso. </p><p>Se tirar 1 natural em um teste de conjuração, deve também rolar na tabela de Infortúnios Diabólicos correspondente ao nível da magia (veja pág. 22).</p>",
+      "effects": []
+    },
+    "8SXPsiWvG2UcXGgW": {
+      "name": "+1 em Constituição",
+      "effects": [
+        {
+          "_id": "CUwCZOHDW1XRT1ce",
+          "changes": [
+            {
+              "key": "system.abilities.con.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/hand-grip-staff-yellow-brown.webp",
+          "name": "Melhoria de Atributo (Con)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "description": ""
+    },
+    "8x1pq8tUSbf4UH8G": {
+      "name": "Máximo em 2 Rolagens de PV",
+      "description": "<p>Maximize 2 rolagens de pontos de vida (anteriores ou futuras).</p>",
+      "effects": []
+    },
+    "93QoQQ6cI7xa4TCm": {
+      "name": "+1 em Ataques Corpo a Corpo",
+      "effects": [
+        {
+          "_id": "y00ihJhSPjoGVmKZ",
+          "changes": [
+            {
+              "key": "system.bonuses.meleeAttackBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+          "name": "Bônus na Jogada de Ataque Corpo a Corpo",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "description": ""
+    },
+    "98HEgBRJSED5epGt": {
+      "name": "Dado de Dano da Arma Aumentado",
+      "effects": [
+        {
+          "_id": "UGQKMdNcgb1O8qwy",
+          "changes": [
+            {
+              "key": "system.bonuses.weaponDamageDieD12",
+              "mode": 2,
+              "priority": null,
+              "value": "REPLACEME"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/ranged/arrows-flying-salvo-blue-light.webp",
+          "name": "SHADOWDARK.item.effect.predefined_effect.weaponDamageDieD12",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "description": ""
+    },
+    "9K2XPwkAA7BYZQrW": {
+      "name": "+1 XP por Segredos",
+      "description": "<p>+1 XP sempre que você descobrir um segredo valioso ou significativo (rerrolar duplicatas).</p>",
+      "effects": []
+    },
+    "A8Siwy6S27LwEkx5": {
+      "name": "Deuses Antigos",
+      "description": "<p>A cada dia, seu propósito se alinha com um dos Deuses Antigos. Escolha uma das opções abaixo após completar um descanso; você recebe seus benefícios até o próximo descanso.</p><ul><li><p><strong>Odin.</strong> Você recupera 1d4 PV toda vez que matar um inimigo.</p></li><li><p><strong>Freya.</strong> Você ganha uma ficha de sorte se ainda não tiver uma. Cada vez que usar uma ficha de sorte, adicione 1d6 à sua rolagem.</p></li><li><p><strong>Loki.</strong> Você tem vantagem em testes para mentir, se esconder e furtar.</p></li></ul>",
+      "effects": []
+    },
+    "A9nJ9MYVegFPDwva": {
+      "name": "Forma de Gosma",
+      "description": "<p>1/dia, transforme-se em uma poça rastejante de gosma por 3 rodadas.</p><p>duplicado = +1 uso por dia</p>",
+      "effects": []
+    },
+    "Ahy2OiGL4B51Y4vQ": {
+      "name": "Testes de Moral com CD 18",
+      "description": "<p>Quando inimigos que podem ver você realizam um teste de moral, a CD é 18 em vez de 15.</p>",
+      "effects": []
+    },
+    "Az2fXCwgo5C3x2X7": {
+      "name": "Destinado",
+      "description": "<p>Sempre que você usar uma ficha de sorte, adicione [[/roll 1d6]] à rolagem.</p>",
+      "effects": []
+    },
+    "BOOWJDqwiHN5BdxF": {
+      "name": "Aprender Arma Corpo a Corpo",
+      "description": "<p>Aprenda a manejar 1 arma corpo a corpo.</p>",
+      "effects": [
+        {
+          "_id": "cCz1g6lENouunQcI",
+          "changes": [
+            {
+              "key": "",
+              "mode": 2,
+              "priority": null,
+              "value": "REPLACEME"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+          "name": "Aprender Arma Corpo a Corpo",
+          "origin": "Compendium.shadowdark.talents.Item.BOOWJDqwiHN5BdxF",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "BarVISFqT8lpSQ0W": {
+      "name": "Sangue de Basilisco",
+      "description": "<p>Você tem vantagem em testes de Constituição para evitar doenças, venenos ou aflições prejudiciais.</p>",
+      "effects": []
+    },
+    "Brm7tpVnXnx0ZpND": {
+      "name": "Criar um Item Mágico Aleatório",
+      "description": "<p>Crie um item mágico aleatório. Veja o compêndio <em>Itens Mágicos</em>.</p>",
+      "effects": []
+    },
+    "BsRPGhKXYwJBI9ex": {
+      "name": "Maestria em Armaduras",
+      "effects": [
+        {
+          "_id": "0g9MUhj9Tr3AWRXl",
+          "changes": [
+            {
+              "key": "system.bonuses.armorMastery",
+              "mode": 2,
+              "priority": null,
+              "value": "REPLACEME"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/defensive/shield-barrier-deflect-teal.webp",
+          "name": "Maestria em Armaduras",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "description": ""
+    },
+    "CpNGUp8xcCZZpeS2": {
+      "name": "Passo de Fumaça",
+      "description": "<p>3/dia, teleporte-se para um local que possa ver dentro de alcance próximo. Isso não consome sua ação.</p><p>@UUID[Compendium.shadowdark.class-abilities.Item.yDByoMchtApfpKcS]{Passo de Fumaça}</p>",
+      "effects": []
+    },
+    "DGZqkVUtcmxejdm1": {
+      "name": "Determinação (Destreza)",
+      "description": "<p><span class=\"fontstyle0\">Escolha Força ou Destreza. Você tem vantagem em testes desse tipo para superar uma força oposta, como arrombar uma porta emperrada (Força) ou escapar de correntes enferrujadas (Destreza).</span></p>",
+      "effects": []
+    },
+    "DYWFJu5XeazJYc0P": {
+      "name": "Ambicioso",
+      "description": "<p><span class=\"fontstyle0\">Você ganha uma rolagem de talento adicional no 1º nível.</span></p>",
+      "effects": []
+    },
+    "E3EcGGdGYuEWWj47": {
+      "name": "Visão Longa (Magia)",
+      "description": "<p>Você recebe um bônus de +1 nas jogadas de ataque com armas à distância <strong>ou</strong> um bônus de +1 nos testes de conjuração.</p>",
+      "effects": [
+        {
+          "_id": "etJKhGLqpcKvyloB",
+          "changes": [
+            {
+              "key": "system.bonuses.spellcastingCheckBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/fire/flame-burning-fist-strike.webp",
+          "name": "Bônus de Classe conjuradora",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "EUE1pFpmreF9ZMKx": {
+      "name": "Teletransporte",
+      "description": "<p>1/dia, teleporte-se para um local distante que possa ver como seu movimento.</p><p>duplicado = +1 uso por dia</p>",
+      "effects": []
+    },
+    "EYRxfb5BUEzH1w3b": {
+      "name": "Conjuração (Sacerdote)",
+      "description": "<p><span class=\"fontstyle0\"><strong>Conjuração.</strong> </span><span class=\"fontstyle2\">Você pode conjurar magias de sacerdote que conhece.</span></p><p><span class=\"fontstyle2\">Você conhece duas magias de nível 1 à sua escolha da lista de magias de sacerdote na pág. 57.</span></p><p><span class=\"fontstyle2\">Cada vez que sobe de nível, escolhe novas magias de sacerdote para aprender de acordo com a Tabela de Magias Conhecidas do Sacerdote.</span></p><p><span class=\"fontstyle2\">Para conjurar magias de sacerdote, veja Conjuração na pág. 52.</span></p>",
+      "effects": []
+    },
+    "Ey3P0EplF5SHIdey": {
+      "name": "Aprender Magia Extra",
+      "description": "<p><span class=\"fontstyle0\">Aprenda uma magia adicional de qualquer nível que você já conheça.</span></p>",
+      "effects": []
+    },
+    "F0NXUJcnBOYKzhMi": {
+      "name": "Determinação (Força)",
+      "description": "<p><span class=\"fontstyle0\">Escolha Força ou Destreza. Você tem vantagem em testes desse tipo para superar uma força oposta, como arrombar uma porta emperrada (Força) ou escapar de correntes enferrujadas (Destreza).</span></p>",
+      "effects": []
+    },
+    "FB0SAwy4ybT19nFV": {
+      "name": "Andar sobre a Água",
+      "description": "<p>1/dia, você pode andar sobre a água como se fosse sólida por 1d4 rodadas.</p><p>@UUID[Compendium.shadowdark.class-abilities.Item.xwE0DGzMTxMQWqRj]{Andar sobre a Água}</p>",
+      "effects": []
+    },
+    "FIHNdRhD6DHFxSkC": {
+      "name": "Adicionar Sabedoria à Rolagem",
+      "description": "<p>3/dia, adicione seu bônus de Sabedoria a qualquer rolagem (rerrolar duplicatas).</p>",
+      "effects": []
+    },
+    "GVAi0l6mfRillxwZ": {
+      "name": "Talento (Conjuração)",
+      "description": "<p><span class=\"fontstyle0\">Você recebe +1 em testes de conjuração.</span></p>",
+      "effects": [
+        {
+          "_id": "OU9XGvWpbh2ADVNy",
+          "changes": [
+            {
+              "key": "system.bonuses.spellcastingCheckBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/control/sihouette-hold-beam-green.webp",
+          "name": "Knack (Spellcasting)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "Gf5dApLfOorbQn4R": {
+      "name": "Sentidos Aguçados",
+      "description": "<p><span class=\"fontstyle0\">Você não pode ser surpreendido.</span></p>",
+      "effects": []
+    },
+    "H6gRb0879zMVYdiO": {
+      "name": "Forçar Teste de Moral",
+      "description": "<p>1/dia, force uma criatura próxima a realizar um teste de moral, mesmo que seja imune.</p><p>duplicado = +1 uso por dia</p>",
+      "effects": []
+    },
+    "HzzgAIdhoAyfeItJ": {
+      "name": "Ataque Furtivo +1 Dado de Dano",
+      "description": "<p><span class=\"fontstyle0\">Seu Ataque Furtivo causa +1 dado de dano adicional.</span></p>",
+      "effects": [
+        {
+          "_id": "AmcPerJgnykmMwVA",
+          "changes": [
+            {
+              "key": "system.bonuses.backstabDie",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/strike-dagger-white-orange.webp",
+          "name": "Dado Adicional de Ataque Furtivo",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "IDGFaxKnYJWWuWQ7": {
+      "name": "+1 em Força",
+      "effects": [
+        {
+          "_id": "jzxgJvPfazpI6udq",
+          "changes": [
+            {
+              "key": "system.abilities.str.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/hand-grip-staff-yellow-brown.webp",
+          "name": "Melhoria de Atributo (For)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "description": ""
+    },
+    "IZZnFjWhZurAIZPP": {
+      "name": "Vantagem na Conjuração da Magia",
+      "description": "<p>Ganhe vantagem ao conjurar uma magia que você conhece.</p>",
+      "effects": [
+        {
+          "_id": "oEZ9BldTmIl6AS31",
+          "changes": [
+            {
+              "key": "system.bonuses.advantage",
+              "mode": 2,
+              "priority": null,
+              "value": "REPLACEME"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/air/air-smoke-casting.webp",
+          "name": "Vantagem na Conjuração da Magia",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "IbWH7TwcOPMJt842": {
+      "name": "Ler a Mente de uma Criatura",
+      "description": "<p>1/dia, leia a mente de uma criatura que você tocar por 3 rodadas.</p><p>duplicado = +1 uso por dia</p>",
+      "effects": []
+    },
+    "J4KYu5M32T81yE1f": {
+      "name": "Presença",
+      "description": "<p>Faça um teste de [[check 12 cha]] para realizar um dos seguintes efeitos. Se falhar (exceto ao focar), você não pode usar esse efeito novamente até descansar.</p><ul><li><p>@UUID[Compendium.shadowdark.class-abilities.Item.jg2sUC3nIAI8sT18]{Inspirar} CD 12. Um alvo em alcance próximo ganha uma ficha de sorte.</p></li><li><p>@UUID[Compendium.shadowdark.class-abilities.Item.oCNpE6bnZjPIdOO1]{Fascinar} (Foco). Você enfeitiça todos os alvos escolhidos de nível 4 ou inferior dentro de alcance próximo.</p></li></ul>",
+      "effects": []
+    },
+    "JBRFuGnXShMO834j": {
+      "name": "Assassino Triplo",
+      "description": "<p>Você causa triplo dano com seu talento Assassino Treinado.</p>",
+      "effects": []
+    },
+    "KLDZKFY6SrqQKSva": {
+      "name": "Ataque Furtivo",
+      "description": "<p><span class=\"fontstyle0\">Se você acertar uma criatura que não esteja ciente do seu ataque, causa um dado de dano adicional da arma. Adicione dados adicionais de dano iguais à metade do seu nível (arredondado para baixo).</span></p>",
+      "effects": []
+    },
+    "KMMpRWDsIybiDW7u": {
+      "name": "Muralha de Escudos",
+      "description": "<p>Se estiver empunhando um escudo, você pode usar sua ação para adotar uma postura defensiva. Sua CA se torna 20 durante esse período.</p>",
+      "effects": []
+    },
+    "LDJCx5syOcenLMZf": {
+      "name": "+1 em Inteligência",
+      "effects": [
+        {
+          "_id": "7ADLFBANMORl70Nm",
+          "changes": [
+            {
+              "key": "system.abilities.int.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/hand-grip-staff-yellow-brown.webp",
+          "name": "Melhoria de Atributo (Int)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "description": ""
+    },
+    "LFMT8qZ6ZL3LvYFM": {
+      "name": "Aprendendo Magias",
+      "description": "<p><span class=\"fontstyle0\"><strong>Aprendendo Magias.</strong> </span><span class=\"fontstyle2\">Você pode aprender permanentemente uma magia de mago a partir de um pergaminho mágico estudando-o por um dia e obtendo sucesso em um teste de [[check 15 int]].</span></p><p><span class=\"fontstyle2\">Independentemente do sucesso ou fracasso, o pergaminho é consumido.</span></p><p><span class=\"fontstyle2\">As magias aprendidas dessa forma não contam para o limite de magias conhecidas.</span></p>",
+      "effects": []
+    },
+    "LR6h4lXVXwx7AFQ6": {
+      "name": "Poderoso",
+      "description": "<p>Você recebe um bônus de +1 em jogadas de ataque e dano com armas corpo a corpo.</p>",
+      "effects": [
+        {
+          "_id": "iR3hHoX6W9VOCfy0",
+          "changes": [
+            {
+              "key": "system.bonuses.meleeAttackBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+          "name": "Bônus em Jogada de Ataque Corpo a Corpo",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        },
+        {
+          "_id": "9LnTbRJXNUH9wLTy",
+          "changes": [
+            {
+              "key": "system.bonuses.meleeDamageBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/strike-axe-blood-red.webp",
+          "name": "Bônus em Dano Corpo a Corpo",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "LaRNVk9FZkrM1nSJ": {
+      "name": "Aprender Magia de Vidente",
+      "description": "<p><span class=\"fontstyle0\">Aprenda uma magia adicional de vidente de qualquer nível que você já conheça.</span></p>",
+      "effects": []
+    },
+    "LfHTnYW8I65x8Y31": {
+      "name": "Afastar Mortos-Vivos",
+      "description": "<p><span class=\"fontstyle0\">Você conhece a magia </span><span class=\"fontstyle2\">afastar mortos-vivos</span><span class=\"fontstyle0\">. Ela não conta para o número de magias que você conhece.</span></p>",
+      "effects": []
+    },
+    "MW43tnJr6lqE1Ty8": {
+      "name": "Robusto",
+      "description": "<p>Comece com +2 PV. Role os pontos de vida por nível com vantagem.</p>",
+      "effects": [
+        {
+          "_id": "qIFVq4PAB70lPkf9",
+          "changes": [
+            {
+              "key": "system.attributes.hp.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "2"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/life/heart-shadow-red.webp",
+          "name": "PV Máx. Adicional",
+          "origin": "Item.SXuw8zzD6a8dwmJE",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        },
+        {
+          "_id": "0rcSjPSjHdvGwtOu",
+          "changes": [
+            {
+              "key": "system.bonuses.advantage",
+              "mode": 2,
+              "priority": null,
+              "value": "hp"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/life/cross-area-circle-green-white.webp",
+          "name": "Vantagem em Rolagem de PV",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "Mg57SzfhUKFMO9vH": {
+      "name": "Montar Qualquer Criatura",
+      "description": "<p>Você pode usar qualquer criatura que suporte cavaleiro como sua montaria.</p>",
+      "effects": []
+    },
+    "Myeeux8x1WqytayQ": {
+      "name": "Encontrar uma Varinha Aleatória de Sacerdote ou Mago",
+      "description": "<p>Você encontra uma varinha aleatória de sacerdote ou mago (à sua escolha).</p>",
+      "effects": []
+    },
+    "ON5zVUv1xVbHRhbf": {
+      "name": "+1 em Ataques e Dano com Armas",
+      "effects": [
+        {
+          "_id": "1YLz0hdFJKXemMz7",
+          "changes": [
+            {
+              "key": "system.bonuses.attackBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+          "name": "Bônus em Jogada de Ataque com Arma",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": false,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        },
+        {
+          "_id": "euq7Ta3QDNubqAf6",
+          "changes": [
+            {
+              "key": "system.bonuses.damageBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/weapons/ammunition/arrow-head-war-flight.webp",
+          "name": "Bônus em Dano com Arma",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": false,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "description": ""
+    },
+    "Om7QWre7U4Tbh84B": {
+      "name": "Diletante Mágico",
+      "description": "<p>Você pode ativar pergaminhos e varinhas mágicas usando Carisma como seu atributo de conjuração. Se falhar criticamente, role um infortúnio de mago.</p>",
+      "effects": []
+    },
+    "Ovw15rq5cAfDMe1t": {
+      "name": "Imunidade a Veneno",
+      "effects": [],
+      "description": ""
+    },
+    "QqkXMqBROibRbKd3": {
+      "name": "Dom do Patrono",
+      "description": "<p>No 1º nível, você ganha um talento de Dom do Patrono aleatório (veja pág. 18) baseado no patrono escolhido. </p><p>Sempre que ganhar uma nova rolagem de talento, você pode optar por rolar na tabela de Dons do Patrono em vez da tabela de Talentos do Bruxo.</p>",
+      "effects": []
+    },
+    "Qu0KqU3KzzRS1oer": {
+      "name": "Conjuração (Vidente)",
+      "description": "<p>Você pode conjurar magias de vidente que conhece. Você conhece uma magia de nível 1 à sua escolha da lista de magias de vidente (veja pág. 30).</p><p>Cada vez que sobe de nível, escolhe uma nova magia de vidente para aprender de acordo com a Tabela de Magias Conhecidas do Vidente.</p><p>Você usa seu atributo de Sabedoria para conjurar magias de vidente. A CD é 10 + o nível da magia.</p><p>Se falhar em um teste de conjuração, não poderá lançar essa magia novamente até completar um descanso. Se tirar 1 natural em um teste de conjuração, não poderá lançar essa magia novamente até completar a Penitência do Vidente.</p><p><strong>Penitência do Vidente</strong></p><p>Magia de Nível 1: Desista temporariamente de 1d4 PV (mínimo 1 PV); eles retornam em uma semana.</p><p>Magia de Nível 2: Reduza temporariamente seu atributo de Sabedoria em 2 pontos; ele retorna em duas semanas.</p><p>Magia de Nível 3: Sacrifique permanentemente 1 ponto de Carisma.</p><p>Magia de Nível 4: Afunde ritualmente um barco em chamas no mar.</p><p>Magia de Nível 5: Sacrifique ritualmente 9 vidas humanoides.</p>",
+      "effects": []
+    },
+    "QxhyKNW4aDQqolMi": {
+      "name": "Divindade",
+      "description": "<p>Escolha um deus para servir que corresponda ao seu alinhamento (veja Divindades, pág. 30). Você possui um símbolo sagrado de seu deus (não ocupa espaço de equipamento).</p>",
+      "effects": []
+    },
+    "RyaDaPST58N9e7aJ": {
+      "name": "Pele de Pedra",
+      "description": "<p>Adicione 2 + metade do seu nível (arredondado para baixo) à sua CA.</p><p>Você tem vantagem em testes para se esconder em ambientes naturais.</p>",
+      "effects": [
+        {
+          "_id": "4CAhqfyLJIkeEoPW",
+          "changes": [
+            {
+              "key": "system.bonuses.stoneSkinTalent",
+              "mode": 5,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/earth/strike-fist-stone-gray.webp",
+          "name": "Talento Pele de Pedra",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "S4zOvXqPlLLNmGKl": {
+      "name": "+1 em Dano Corpo a Corpo",
+      "effects": [
+        {
+          "_id": "wryUreqZgIx22crJ",
+          "changes": [
+            {
+              "key": "system.bonuses.meleeDamageBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/strike-axe-blood-red.webp",
+          "name": "Bônus em Dano Corpo a Corpo",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "description": ""
+    },
+    "SsgeL6OKpvpltElv": {
+      "name": "Presságio",
+      "description": "<p>@UUID[Compendium.shadowdark.class-abilities.Item.pRO1kFMnFkkcYOgC]</p><p>3/dia, você pode fazer um teste de [[check 9 wis]]. Em caso de sucesso, ganhe uma ficha de sorte (você não pode ter mais de uma ficha de sorte por vez).</p>",
+      "effects": []
+    },
+    "T0wlSdIulbrDOKoZ": {
+      "name": "Florescer",
+      "description": "<p><span>3/dia, recupere 1d6 pontos de vida ao atingir um inimigo com um ataque corpo a corpo. </span></p><p>@UUID[Compendium.shadowdark.class-abilities.Item.6snDwCm38HjvO1uv]{Florescer}</p>",
+      "effects": []
+    },
+    "T5nkdUM75LSnDpu5": {
+      "name": "Aprender Magia de Mago",
+      "description": "<p><span class=\"fontstyle0\">Aprenda uma magia adicional de mago de qualquer nível que você já conheça.</span></p>",
+      "effects": []
+    },
+    "Td6iQW4hVJLZLVLi": {
+      "name": "Conjuração (Mago)",
+      "description": "<p><span class=\"fontstyle0\"><strong>Conjuração.</strong> </span><span class=\"fontstyle2\">Você pode conjurar magias de mago que conhece.</span></p><p><span class=\"fontstyle2\">Você conhece três magias de nível 1 à sua escolha da lista de magias de mago (veja pág. 57).</span></p><p><span class=\"fontstyle2\">Cada vez que sobe de nível, escolhe novas magias de mago para aprender de acordo com a Tabela de Magias Conhecidas do Mago.</span></p><p><span class=\"fontstyle2\">Para conjurar magias de mago, veja Conjuração na pág. 52.</span></p>",
+      "effects": []
+    },
+    "TiaXUSTLoJpjfyxD": {
+      "name": "Ladrão",
+      "description": "<p><span class=\"fontstyle0\">Você é habilidoso em técnicas de furto e possui as ferramentas necessárias escondidas em sua pessoa (elas não ocupam espaço de equipamento).</span></p><p><span class=\"fontstyle0\">Você é treinado nas seguintes tarefas e tem vantagem nos testes associados:</span></p><ul><li><p><span class=\"fontstyle0\">Escalar</span></p></li><li><p><span class=\"fontstyle0\">Furtividade e esconder-se</span></p></li><li><p><span class=\"fontstyle0\">Usar disfarces</span></p></li><li><p><span class=\"fontstyle0\">Encontrar e desarmar armadilhas</span></p></li><li><p><span class=\"fontstyle0\">Tarefas delicadas como batedor de carteiras e abrir fechaduras</span></p></li></ul>",
+      "effects": []
+    },
+    "UE2xABVKD0oCDtdx": {
+      "name": "+2 em Carisma",
+      "effects": [
+        {
+          "_id": "hkfq4SGF4mkDjQmt",
+          "changes": [
+            {
+              "key": "system.abilities.cha.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "2"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/hand-grip-staff-yellow-brown.webp",
+          "name": "Melhoria de Atributo (Car)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "description": ""
+    },
+    "UVsf7VJCOrBm42Yz": {
+      "name": "Vantagem em Iniciativa",
+      "description": "<p>Ganhe vantagem em rolagens de iniciativa (rerrole se duplicado).</p>",
+      "effects": []
+    },
+    "VRZxd1xswPr1GaKs": {
+      "name": "Vantagem com Míssil Mágico",
+      "description": "<p>Magos sempre têm vantagem ao conjurar Míssil Mágico.</p>",
+      "effects": [
+        {
+          "_id": "ZjpQVS9L1baZZ2PF",
+          "changes": [
+            {
+              "key": "system.bonuses.advantage",
+              "mode": 2,
+              "priority": null,
+              "value": "magic-missile"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/air/air-smoke-casting.webp",
+          "name": "Vantagem na Conjuração da Magia",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "VjrDCzm64JmpoqjL": {
+      "name": "Talento (Sorte)",
+      "description": "<p><span class=\"fontstyle0\">Você começa cada sessão com uma ficha de sorte.</span></p>",
+      "effects": []
+    },
+    "WSm6JESNoyFBnkW2": {
+      "name": "+1 em Ataques Corpo a Corpo e à Distância",
+      "effects": [
+        {
+          "_id": "ZTDD2HwlrjLbEIQp",
+          "changes": [
+            {
+              "key": "system.bonuses.meleeAttackBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+          "name": "Bônus em Jogada de Ataque Corpo a Corpo",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        },
+        {
+          "_id": "njtjaSNJ4WQCV7n5",
+          "changes": [
+            {
+              "key": "system.bonuses.rangedAttackBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/weapons/ammunition/arrow-head-war-flight.webp",
+          "name": "Bônus em Jogada de Ataque à Distância",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "description": ""
+    },
+    "XRW3jhpTni15hwFc": {
+      "name": "Conjuração (Cavaleiro de St. Ydris)",
+      "description": "<p>Você pode conjurar magias de bruxa que conhece.</p><p>Cada vez que sobe de nível, escolhe novas magias de bruxa para aprender de acordo com a Tabela de Magias Conhecidas da Bruxa.</p><p>Você usa seu atributo de Carisma para conjurar magias de bruxa. A CD é 10 + o nível da magia.</p><p>Se falhar em um teste de conjuração, não poderá lançar essa magia novamente até completar um descanso.</p><p>Se tirar 1 natural em um teste de conjuração, deve rolar na tabela correspondente de Infortúnios Diabólicos (veja pág. 22) para o nível da magia.</p>",
+      "effects": []
+    },
+    "Y3Ytsye5zrP43w70": {
+      "name": "+1 em Ataques à Distância",
+      "effects": [
+        {
+          "_id": "ODBe0yE8vkVOD2qZ",
+          "changes": [
+            {
+              "key": "system.bonuses.rangedAttackBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/weapons/ammunition/arrow-head-war-flight.webp",
+          "name": "Bônus em Jogada de Ataque à Distância",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "description": ""
+    },
+    "YCI8gRcCC4fA79uS": {
+      "name": "+1 uso diário de Olhar Petrificante",
+      "effects": [],
+      "description": ""
+    },
+    "Z7og9OPv8PKFuWmQ": {
+      "name": "Pontos de Vida Adicionais",
+      "description": "<p>Você ganha um dado adicional de pontos de vida.</p>",
+      "effects": []
+    },
+    "ZYZkbENdQAiNsEL6": {
+      "name": "Aprender Magia de Bruxa",
+      "description": "<p>Aprenda uma magia adicional de bruxa de qualquer nível que você possa conjurar.</p>",
+      "effects": []
+    },
+    "ZfaFn8TDum3NXYZN": {
+      "name": "+2 em Constituição",
+      "effects": [
+        {
+          "_id": "R6opds1dM2LQdca1",
+          "changes": [
+            {
+              "key": "system.abilities.con.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "2"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/hand-grip-staff-yellow-brown.webp",
+          "name": "Melhoria de Atributo (Con)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "description": ""
+    },
+    "ZjCvQZ7k4hBa9y2I": {
+      "name": "Herbalismo",
+      "description": "<p>Faça um teste de INT para preparar um remédio herbal de sua escolha. Se falhar, não poderá preparar esse remédio novamente até descansar com sucesso. Remédios não utilizados expiram em 3 rodadas.</p><p><strong>CD | Efeito</strong></p><p>11 | @UUID[Compendium.shadowdark.class-abilities.Item.UzSmg3aLstFcNsUa]{Unguento}. Cura 1 PV</p><p>12 | @UUID[Compendium.shadowdark.class-abilities.Item.EhaA5tBROfrws1Kx]{Estimulante}. Você não pode ser pego de surpresa por 10 rodadas</p><p>13 | @UUID[Compendium.shadowdark.class-abilities.Item.i8PZF77jaVDkCE6n]{Matainimigo}. Você tem VANT em ataques e dano contra um tipo de criatura à sua escolha por [[/r 1d6]] rodadas</p><p>14 | @UUID[Compendium.shadowdark.class-abilities.Item.3fck7HFRfDywsjQk]{Restaurativo}. Encerra um veneno ou doença</p><p>15 | @UUID[Compendium.shadowdark.class-abilities.Item.Ussun0GbRMiJZ8vP]{Curativo}. Equivale a uma @UUID[Compendium.shadowdark.magic-items.jucTGEjsqJ1znHdf]{Poção de Cura}</p>",
+      "effects": []
+    },
+    "aFltU1eRz4bmIlbj": {
+      "name": "+1 em CA",
+      "description": "<p>Ganhe +1 em sua Classe de Armadura por meio de premonição sobrenatural.</p>",
+      "effects": []
+    },
+    "aRY0hjpvzYpdRbfR": {
+      "name": "+2 em Inteligência",
+      "effects": [
+        {
+          "_id": "lSaJHBE00pEuwfOx",
+          "changes": [
+            {
+              "key": "system.abilities.int.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "2"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/hand-grip-staff-yellow-brown.webp",
+          "name": "Melhoria de Atributo (Int)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "description": ""
+    },
+    "bOzxndFquBDYnQRz": {
+      "name": "Última Resistência",
+      "description": "<p><span>Você se levanta da beira da morte com 1 ponto de vida ao tirar 18–20 em um d20 natural.</span></p>",
+      "effects": []
+    },
+    "bjZGm9FtinFh2ltV": {
+      "name": "Implacável",
+      "description": "<p><span>3/dia, quando for reduzido a 0 PV, faça um teste de [[check 18 con]] (o talento Implacável se aplica a esta rolagem). Em caso de sucesso, você fica com 1 PV em vez de cair inconsciente. </span></p><p>@UUID[Compendium.shadowdark.class-abilities.Item.z5uKTDf4wtkipQ4s]{Implacável}</p>",
+      "effects": []
+    },
+    "cOIRoHL3D9zGpOyX": {
+      "name": "Imunidade ao Frio",
+      "effects": [],
+      "description": ""
+    },
+    "cUz7U8n0amQd5QQM": {
+      "name": "Batedor",
+      "description": "<p>Você tem vantagem em testes relacionados a:</p><ul><li><p>Navegação</p></li><li><p>Rastreamento</p></li><li><p>Sobrevivência na natureza</p></li><li><p>Furtividade</p></li><li><p>Animais selvagens</p></li></ul>",
+      "effects": []
+    },
+    "dTEZW21LUNoYL3JU": {
+      "name": "Visão Longa (Ataque à Distância)",
+      "description": "<p>Você recebe um bônus de +1 nas jogadas de ataque com armas à distância <strong>ou</strong> um bônus de +1 nos testes de conjuração.</p>",
+      "effects": [
+        {
+          "_id": "p0eEwLNQh9oSEtEj",
+          "changes": [
+            {
+              "key": "system.bonuses.rangedAttackBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/weapons/ammunition/arrow-head-war-flight.webp",
+          "name": "Bônus de Ataque à Distância",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "dWqqxABbZKmJLnff": {
+      "name": "Treinamento com Venenos",
+      "description": "<p>Você é treinado no uso de venenos (veja pág. 27).</p><p>duplicado = rerrole</p>",
+      "effects": []
+    },
+    "eJHwfYQZ9LmLQeSn": {
+      "name": "+1 em Destreza",
+      "effects": [
+        {
+          "_id": "GJXEM96MY9ydNQ47",
+          "changes": [
+            {
+              "key": "system.abilities.str.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "0"
+            },
+            {
+              "key": "system.abilities.int.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "0"
+            },
+            {
+              "key": "system.abilities.wis.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "0"
+            },
+            {
+              "key": "system.abilities.con.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "0"
+            },
+            {
+              "key": "system.abilities.cha.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "0"
+            },
+            {
+              "key": "system.abilities.dex.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/hand-grip-staff-yellow-brown.webp",
+          "name": "Melhoria de Atributo",
+          "origin": "Item.6iZplEBazA2f66A3",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "description": ""
+    },
+    "excvhYcpm1qd09IV": {
+      "name": "+2 em Sabedoria",
+      "effects": [
+        {
+          "_id": "rG2EB3u5Q4eUDash",
+          "changes": [
+            {
+              "key": "system.abilities.wis.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "2"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/hand-grip-staff-yellow-brown.webp",
+          "name": "Melhoria de Atributo (Sab)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "description": ""
+    },
+    "fXOG1tWCuBTQdgEl": {
+      "name": "Montaria",
+      "description": "<p>Você possui um camelo ou cavalo comum com um temperamento confiável ou amável (veja pág. 29). Ele vem quando chamado e nunca se assusta. Você só pode ter uma montaria desse tipo por vez.</p><p>Enquanto estiver montado, você e sua montaria recebem um bônus de CA igual à metade do seu nível (arredondado para baixo). Sua montaria também ganha níveis adicionais iguais à metade do seu nível (arredondado para baixo). Você pode subir ou descer livremente da montaria uma vez por rodada.</p><p>Se perder sua montaria, pode usar seu tempo livre para adquirir e treinar outra. Faça um teste de [[check 15 cha]] para que a nova criatura se torne sua montaria. Reduza a CD em um ponto a cada tentativa.</p>",
+      "effects": []
+    },
+    "gJDAfJhKIXyvlI6B": {
+      "name": "Cura Aprimorada de Florescer",
+      "description": "<p>Aumente os PV recuperados por Florescer em [[/r 1d6]].</p>",
+      "effects": []
+    },
+    "gJoFdBNHWVutU68y": {
+      "name": "Ovo de Basilisco",
+      "description": "<p><span class=\"fontstyle0\">Você encontra um @UUID[Compendium.shadowdark.gear.Item.zU6dopKBk3pKS9F9]{Ovo de Basilisco}; um filhote leal choca em [[/r 1d4]] dias.</span></p>",
+      "effects": []
+    },
+    "gRyFoUtbbnkwcxy9": {
+      "name": "CD Aprimorada de Presença",
+      "description": "<p>Os efeitos de sua Presença passam a ter CD 9 para serem realizados.</p><p>duplicado = rerrole</p>",
+      "effects": []
+    },
+    "gaJf2pvxfJVuCeZq": {
+      "name": "Evitar Aprisionamento/Ferimento",
+      "description": "<p>Você tem vantagem em testes de Destreza para evitar ser aprisionado ou ferido.</p>",
+      "effects": []
+    },
+    "iLyOJbUwWHObtBQG": {
+      "name": "Teleporte até o Familiar",
+      "description": "<p>1/dia, teleporte-se para a localização do seu familiar como uma ação de movimento.</p><p>duplicado = +1 uso por dia</p><p><strong>Habilidade de Classe:</strong> @UUID[Compendium.shadowdark.class-abilities.Item.cXyvO6H22jfOxcz4]{Teleporte até o Familiar}</p>",
+      "effects": []
+    },
+    "j4a9tc7JoXyVObkZ": {
+      "name": "Aprender a Usar um Arco Longo",
+      "effects": [],
+      "description": ""
+    },
+    "j7nfbsMivwfCVkN0": {
+      "name": "Artes Bárdicas",
+      "description": "<p>Você é treinado em oratória, artes performáticas, conhecimento e diplomacia. Você tem vantagem em testes relacionados.</p>",
+      "effects": []
+    },
+    "kX94lNYCOdjAuSYx": {
+      "name": "Aprimorar Dado de Destino",
+      "description": "<p>Aumente a categoria do dado do seu talento Destinado em um nível.</p>",
+      "effects": []
+    },
+    "mOje5GCpl0pQ9WdM": {
+      "name": "Lótus Negra",
+      "description": "<p>Você conquistou o direito de comer uma pétala da lendária flor de lótus negra — e sobreviveu aos seus efeitos arcanos.</p><p>Role um talento na tabela @UUID[Compendium.shadowdark.rollable-tables.RollTable.pQAyZAcfrs9JrG0Q]{Talentos da Lótus Negra}. Você pode rerrolar duplicatas ou mantê-las.</p>",
+      "effects": []
+    },
+    "mgRrWET5MEaGLVNo": {
+      "name": "Aprender uma Magia de Mago",
+      "description": "<p>Aprenda uma magia de mago de nível igual à metade do seu nível. Conjure-a usando INT.</p>",
+      "effects": [
+        {
+          "_id": "XlKUkXYPhdOGlU9v",
+          "changes": [
+            {
+              "key": "system.bonuses.spellcastingClasses",
+              "mode": 2,
+              "priority": null,
+              "value": "wizard"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/sundries/documents/document-sealed-brown-red.webp",
+          "name": "Bônus de Classe conjuradora",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "oB9wBu7jggoRpHcK": {
+      "name": "Implacável",
+      "description": "<p><span>Você tem vantagem em testes de Constituição para resistir a ferimentos, venenos ou suportar ambientes extremos.</span></p>",
+      "effects": []
+    },
+    "oLk969u726Pfpx1W": {
+      "name": "Andar em Superfícies Verticais",
+      "description": "<p>1/dia, você pode andar em superfícies verticais, como paredes, por 1d4 rodadas.</p><p>@UUID[Compendium.shadowdark.class-abilities.Item.1hc2HGy3pZ89jvGM]{Andar em Superfícies Verticais}</p>",
+      "effects": []
+    },
+    "otS81dwxCjBjxPLa": {
+      "name": "Paralisar um Alvo",
+      "description": "<p>1/dia, paralise um alvo de NV 9 ou menos que você feriu com uma arma por 1d4 rodadas.</p><p>@UUID[Compendium.shadowdark.class-abilities.Item.vndvnruyp9aZ3f5l]{Paralisar um Alvo}</p>",
+      "effects": []
+    },
+    "p4Zh8LNyBp8UwhRD": {
+      "name": "Vantagem em Testes de Herbalismo",
+      "description": "<p>Você ganha VANT em testes de Herbalismo para uma erva de sua escolha.</p>",
+      "effects": []
+    },
+    "pOuKrF2CMkxt7EQG": {
+      "name": "Assassino Treinado",
+      "description": "<p>Você tem vantagem em testes de furtividade e esconder-se. Seus ataques causam o dobro de dano contra alvos que não estão cientes de sua presença.</p>",
+      "effects": []
+    },
+    "qmK8gzmaAcowPP4f": {
+      "name": "Esconder-se de Criatura",
+      "description": "<p>1/dia, escolha uma criatura de NV 9 ou menos que você possa ver; ela deve passar em um teste de [[check 15 wis]] ou não poderá vê-lo ou ouvi-lo por 1d4 rodadas.</p><p>@UUID[Compendium.shadowdark.class-abilities.Item.KfaSyGxX13IBVmKO]{Esconder-se de Criatura}</p>",
+      "effects": []
+    },
+    "quYUUqTTAX3QlAGa": {
+      "name": "+1 CA com Duas Armas",
+      "description": "<p>Você recebe +1 em sua CA ao empunhar uma arma corpo a corpo em cada mão.</p><p><em><strong>Nota:</strong> Lembre-se de alternar o efeito ativo <strong>+1 CA com Duas Armas</strong> na aba de Efeitos da sua ficha quando necessário.</em></p>",
+      "effects": [
+        {
+          "_id": "cGGttIknipaR4UIo",
+          "changes": [
+            {
+              "key": "system.bonuses.acBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": true,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/swords-parry-block-blue.webp",
+          "name": "+1 CA com Duas Armas",
+          "origin": "Compendium.shadowdark.talents.Item.quYUUqTTAX3QlAGa",
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ]
+    },
+    "rR2cWiNEmjVLzSnb": {
+      "name": "Uso Adicional de Investida",
+      "description": "<p>Ganhe um uso adicional do seu talento Investida por dia.</p>",
+      "effects": []
+    },
+    "rtCyEISzbgf6ZuJb": {
+      "name": "Hipnotizar",
+      "description": "<p>1/dia, hipnotize uma criatura de NV 5 ou menos por 3 rodadas.</p><p>duplicado = +1 uso por dia</p>",
+      "effects": []
+    },
+    "sb3i47Vr6bthh48x": {
+      "name": "Olhar Petrificante",
+      "description": "<p>@UUID[Compendium.shadowdark.class-abilities.Item.Jkl9j4RZ2WYy0Gmd]{Olhar Petrificante}</p><p>Uma criatura do seu nível ou menor que cruzar seu olhar deve passar em um teste de CON CD 15 ou será petrificada por 1d4 rodadas. Ela ainda sofre dano normalmente enquanto petrificada.</p><p>Você pode usar este talento um número de vezes por dia igual ao seu modificador de CON (mínimo 1).</p>",
+      "effects": []
+    },
+    "sp8lphDMg3vOGHex": {
+      "name": "Ignorar Todo o Dano",
+      "description": "<p>1/dia, ignore todo o dano e efeitos de um único ataque.</p><p>duplicado = uso adicional por dia</p><p>@UUID[Compendium.shadowdark.class-abilities.Item.MbC7YucyY4D9dYre]{Ignorar Todo o Dano}</p>",
+      "effects": []
+    },
+    "t7aT7LapP8xm9LX4": {
+      "name": "Uso Adicional de Passo de Fumaça",
+      "description": "<p>Ganhe um uso adicional do seu talento Passo de Fumaça.</p>",
+      "effects": []
+    },
+    "tfM77lqANyzu0kMy": {
+      "name": "Dualidade",
+      "description": "<p>Escolha dois efeitos diferentes de @UUID[Compendium.shadowdark.talents.Item.A8Siwy6S27LwEkx5]{Deuses Antigos} por dia.</p><p>duplicado = rerrole</p>",
+      "effects": []
+    },
+    "uO91xIibpFDLiPSF": {
+      "name": "Familiar",
+      "description": "<p>Você possui um pequeno animal, como um corvo, rato ou sapo, que o serve lealmente. Ele pode falar o idioma Comum.</p><p>Seu familiar pode ser a origem das magias que você conjura. Considere-o como se fosse você para determinar o alcance das magias.</p><p>Se seu familiar morrer, você pode restaurá-lo à vida sacrificando permanentemente 1d4 pontos de vida.</p>",
+      "effects": []
+    },
+    "vIbwotCa1eqCVZMU": {
+      "name": "+2 em Destreza",
+      "effects": [
+        {
+          "_id": "sx2uVw9MzQNA7mnd",
+          "changes": [
+            {
+              "key": "system.abilities.dex.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "2"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/hand-grip-staff-yellow-brown.webp",
+          "name": "Melhoria de Atributo (Des)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "description": ""
+    },
+    "vRW8GSIKWXyOAKbw": {
+      "name": "+1 em Sabedoria",
+      "effects": [
+        {
+          "_id": "isMVMARzqqQVLmZ4",
+          "changes": [
+            {
+              "key": "system.abilities.wis.bonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/skills/melee/hand-grip-staff-yellow-brown.webp",
+          "name": "Melhoria de Atributo (Sab)",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "description": ""
+    },
+    "vWtHRiL8lNiisrXy": {
+      "name": "Forçar Rerrolagem do Mestre",
+      "description": "<p>1/dia, force o Mestre a rerrolar uma única rolagem.</p><p>duplicado = +1 uso por dia</p>",
+      "effects": []
+    },
+    "x4xTNUsimUpO3JBt": {
+      "name": "+1 em Testes de Diletante Mágico",
+      "effects": [
+        {
+          "_id": "QBX0EGnKmDfPJ8gQ",
+          "changes": [
+            {
+              "key": "system.bonuses.spellcastingCheckBonus",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "img": "icons/magic/symbols/runes-triangle-magenta.webp",
+          "name": "Bônus de Diletante Mágico",
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "type": "base",
+          "_stats": {
+            "coreVersion": "13.350",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "sort": 0,
+          "flags": {}
+        }
+      ],
+      "description": ""
+    },
+    "y3QGGarLOmrJX31P": {
+      "name": "Bônus de Possessão Demoníaca",
+      "description": "<p>O bônus da sua Possessão Demoníaca aumenta em 1 ponto.</p>",
+      "effects": []
+    },
+    "yPHtmJsHRFQs3sID": {
+      "name": "Talento Adicional de Lótus Negra",
+      "description": "<p>Role um talento adicional na tabela @UUID[Compendium.shadowdark.rollable-tables.RollTable.pQAyZAcfrs9JrG0Q]{Talentos da Lótus Negra}.</p>",
+      "effects": []
+    },
+    "zkOiprnKS5uttiO6": {
+      "name": "Furtivo",
+      "description": "<p><span class=\"fontstyle0\">Uma vez por dia, você pode se tornar invisível por 3 rodadas.</span></p>",
+      "effects": []
+    }
+  }
+}

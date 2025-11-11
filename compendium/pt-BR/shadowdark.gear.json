@@ -1,0 +1,252 @@
+{
+  "label": "Equipamentos",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "Armor": "Armadura",
+    "Basic Gear": "Equipamento Básico",
+    "Herbal Remedies": "Remédios Herbais",
+    "Starting Gear": "Equipamento Inicial",
+    "Weapons": "Armas"
+  },
+  "entries": {
+    "15X5GTX96y339EKY": {
+      "name": "Vara",
+      "description": "<p>De madeira, 3 metros de comprimento.</p>"
+    },
+    "1T8oUkfkBtYTLNF3": {
+      "name": "Espada Bastarda"
+    },
+    "3DxwBvjceq0FxcsC": {
+      "name": "Machadinha",
+      "description": "<p><strong>Leveza (F).</strong> Você pode usar sua Força ou Destreza ao atacar com esta arma.</p><p><strong>Arremessável (Th).</strong> Você pode arremessá-la para realizar um ataque à distância usando Força.</p>"
+    },
+    "4nmzFv43ua8nZDS7": {
+      "name": "Pique",
+      "description": "<p><strong>Alcance:</strong> 2x Curto</p><p>Requer 2 espaços.</p>"
+    },
+    "6ZRwVHFlh5QiyZWC": {
+      "name": "Corda, 18 m",
+      "description": "<p>Corda de cânhamo, 18 metros de comprimento.</p>"
+    },
+    "80bCpXdZcj0Cz1fE": {
+      "name": "Frasco de óleo",
+      "description": "<p>Alimenta uma lanterna por uma hora de tempo real. Um frasco cobre uma área curta e queima por 4 rodadas, causando 1d4 de dano por rodada.</p>"
+    },
+    "9Pnhl6SOsbf6qDmt": {
+      "name": "Machado Grande"
+    },
+    "9eTpsuEuzL3Vaxge": {
+      "name": "Cajado"
+    },
+    "B3ZPeUtbChN8lrDm": {
+      "name": "Lança Curta"
+    },
+    "BAJQqFdkN9lGFAyZ": {
+      "name": "Armadura de Placas de Mithril"
+    },
+    "BBDG7QpHOFXG6sKe": {
+      "name": "Magia de Luz (Alcance Duplo)",
+      "description": "<p>Item fictício que atua como uma fonte de luz conjurada pela magia @UUID[Compendium.shadowdark.spells.N4v17mtxJlVBbgpn]{Luz} com alcance dobrado.</p>"
+    },
+    "BThyJ1NC6JcRXxeX": {
+      "name": "Maça Estrelada"
+    },
+    "C3mc5OlKPSJNMrng": {
+      "name": "Adaga"
+    },
+    "DKBDkJ3LcRv8scLv": {
+      "name": "Cimitarra"
+    },
+    "DeqtKQQzI6HTYvV0": {
+      "name": "Cota de Malha"
+    },
+    "EPndk3DPOEOSvbga": {
+      "name": "Pregos de Ferro",
+      "description": "<p>Pinos resistentes, cada um com um furo para passar corda. Podem ser martelados com armas ou outros pinos.</p>"
+    },
+    "ERprfuTIFRFEix9G": {
+      "name": "Pederneira e Aço",
+      "description": "<p>Um pequeno iniciador de fogo. Com ele, tentativas rotineiras de acender fogo sempre são bem-sucedidas.</p>"
+    },
+    "EoTEHXApVDS7rHfw": {
+      "name": "Armadura de Couro"
+    },
+    "FWgFPQDKkBiTMYhd": {
+      "name": "Funda"
+    },
+    "FeoRamUTz5jakMJ8": {
+      "name": "Foebane",
+      "description": "<p>Vantagem em ataques e dano contra um tipo de criatura à sua escolha por [[/r 1d6]] rodadas.</p>"
+    },
+    "FkcwP4cmpdM5pcOm": {
+      "name": "Zarabatana"
+    },
+    "GUqtnSXkcytZnNiO": {
+      "name": "Espelho",
+      "description": "<p>Um pequeno espelho polido.</p>"
+    },
+    "GX6OmWQiE7MzTmjX": {
+      "name": "Rações",
+      "description": "<p>Um dia de comida e água para uma pessoa.</p>"
+    },
+    "GbO6CggW71qMkgrG": {
+      "name": "Pé de Cabra",
+      "description": "<p>Concede vantagem em testes para abrir objetos emperrados.</p>"
+    },
+    "GgSheZNm2cOQYpZP": {
+      "name": "Chicote",
+      "description": "<p><strong>Tipo:</strong> Corpo a Corpo ou Distância.</p><p><strong>Alcance:</strong> Curto ou Médio.</p><p><strong>Leveza (F).</strong> Você pode usar FOR ou DES ao atacar com esta arma.</p><p><strong>Açoite (La).</strong> Ao realizar um ataque à distância com esta arma, ela não sai do seu alcance.</p>"
+    },
+    "GzA5T0aewhouRsa3": {
+      "name": "Arco Longo"
+    },
+    "JM2XN855QYNhgtre": {
+      "name": "Clava"
+    },
+    "KQTWQwznjK80gVEU": {
+      "name": "Espada Curta"
+    },
+    "LW3MgxeOaEPPaiY2": {
+      "name": "Corrente Laminada"
+    },
+    "NaoAGwkshXqkDyoV": {
+      "name": "Lança (Obsidiana)"
+    },
+    "P4aAkDkgwR9zcATw": {
+      "name": "Bastão"
+    },
+    "PkQXG3AaHNMVwGTc": {
+      "name": "Magia de Luz",
+      "description": "<p>Item fictício que atua como uma fonte de luz conjurada pela magia @UUID[Compendium.shadowdark.spells.N4v17mtxJlVBbgpn]{Luz}.</p>"
+    },
+    "QV93CYmgcgJ3UCPf": {
+      "name": "Restaurativo",
+      "description": "<p>Cura um veneno ou doença.</p>"
+    },
+    "RSNMsNqyV39N9C29": {
+      "name": "Escudo Redondo"
+    },
+    "SzpjMuJrhF5nMJ7H": {
+      "name": "Estrepes",
+      "description": "<p>Pequenos espinhos de ferro em forma de triângulo. Criaturas vivas que pisarem neles recebem 1 de dano e se movem à metade da velocidade por 10 rodadas.</p>"
+    },
+    "TQ0x7zmYfTCykZOh": {
+      "name": "Adaga (Obsidiana)"
+    },
+    "UDyHeJCreIFZ9y2I": {
+      "name": "Cota de Malha de Mithril"
+    },
+    "UWp4WkkiaBMSXYPE": {
+      "name": "Escudo"
+    },
+    "UfHAWj5weH111Bea": {
+      "name": "Arco Curto"
+    },
+    "VjFsjhM6CZjZ04RT": {
+      "name": "Curativo",
+      "description": "<p><strong>Efeito:</strong> O usuário recupera pontos de vida com base em seu nível.</p><p><strong>NV 1–3:</strong> [[/r 1d6]] PV.</p><p><strong>NV 4–6:</strong> [[/r 2d8]] PV.</p><p><strong>NV 7–9:</strong> [[/r 3d10]] PV.</p><p><strong>NV 10+:</strong> [[/r 4d12]] PV.</p>"
+    },
+    "W2fFimb0y85wmOMb": {
+      "name": "Frasco",
+      "description": "<p>Recipiente de vidro que contém uma dose de líquido.</p>"
+    },
+    "XXwA9ZWajYEDmcea": {
+      "name": "Flechas",
+      "description": "<p>Munição para arcos curtos ou longos.</p>"
+    },
+    "YFoaXoW5JCM4z768": {
+      "name": "Lançador de Lanças",
+      "description": "<p>Ao usar para lançar uma lança, aumenta o alcance da lança para longo.</p>"
+    },
+    "ZAWTt3ORcrZRXgfQ": {
+      "name": "Clava (Obsidiana)"
+    },
+    "ZPUhNMmwXXrtbCXi": {
+      "name": "Espada Longa"
+    },
+    "bGrhQMkhE2qwjL4j": {
+      "name": "Garrafa",
+      "description": "<p>Recipiente de vidro que contém uma dose de líquido.</p>"
+    },
+    "brIFMH0sOVmqX02N": {
+      "name": "Lança"
+    },
+    "dBQr9YPyhvwyPm0g": {
+      "name": "Estimulante",
+      "description": "<p>Você não pode ser pego de surpresa por 10 rodadas.</p><p>@UUID[Compendium.shadowdark.conditions.MUNwczWej0Bo8x4S]{Efeito: Estimulante}</p>"
+    },
+    "dILnVh0uKk3lRjbH": {
+      "name": "Bumerangue"
+    },
+    "eeVEJexfirwWzOVu": {
+      "name": "Besta"
+    },
+    "eqUuf9OGupuGPsBM": {
+      "name": "Espada Grande"
+    },
+    "fJHwwn6TEfbdr8CM": {
+      "name": "Kit de Escalada",
+      "description": "<p>Custa 7 po, ocupa 7 espaços e contém os seguintes itens:</p><ul><li><p>@UUID[Compendium.shadowdark.gear.oSnfz4qcWlUL6cDZ]{Mochila}</p></li><li><p>@UUID[Compendium.shadowdark.gear.ERprfuTIFRFEix9G]{Pederneira e Aço}</p></li><li><p>2x @UUID[Compendium.shadowdark.gear.z3xc7HGysC4ZCU8e]{Tocha}</p></li><li><p>@UUID[Compendium.shadowdark.gear.EPndk3DPOEOSvbga]{Pregos de Ferro}</p></li><li><p>@UUID[Compendium.shadowdark.gear.GX6OmWQiE7MzTmjX]{Rações}</p></li><li><p>@UUID[Compendium.shadowdark.gear.fqsLWV46NWH0L53l]{Gancho de Escalada}</p></li><li><p>@UUID[Compendium.shadowdark.gear.6ZRwVHFlh5QiyZWC]{Corda, 18 m}</p></li></ul>"
+    },
+    "fqsLWV46NWH0L53l": {
+      "name": "Gancho de Escalada",
+      "description": "<p>Âncora de corda com três ganchos curvos.</p>"
+    },
+    "iMu2tHuqGfJ7XjsS": {
+      "name": "Bolas"
+    },
+    "iv8fMPiRYfsN8ICy": {
+      "name": "Virotes de Besta",
+      "description": "<p>Munição para bestas.</p>"
+    },
+    "jGZyVuFJnW7QcBFX": {
+      "name": "Maça"
+    },
+    "lCWOUkVp4N1geMRt": {
+      "name": "Lanterna",
+      "description": "<p>Emite luz até uma distância média dupla (ver Luz, pág. 46). Requer óleo e possui uma veneziana para ocultar a luz.</p>"
+    },
+    "m857P6MI00wAONTp": {
+      "name": "Unguento",
+      "description": "<p>Cura 1 PV.</p>"
+    },
+    "mSDuPGnQZA8ArsVP": {
+      "name": "Ferramentas de Ladrão",
+      "description": "<p>Vantagem em testes para escalar, se esconder, disfarçar, encontrar e desarmar armadilhas e realizar tarefas delicadas.</p>"
+    },
+    "o0261gnDqGC5hQB1": {
+      "name": "Armadura de Placas"
+    },
+    "oSnfz4qcWlUL6cDZ": {
+      "name": "Mochila",
+      "description": "<p>Carrega todo o equipamento que você pode levar. Não a perca.</p>"
+    },
+    "rjNBToTJCYLLdVcT": {
+      "name": "Magia de Luz (Duração Dupla)",
+      "description": "<p>Item fictício que atua como uma fonte de luz conjurada pela magia @UUID[Compendium.shadowdark.spells.N4v17mtxJlVBbgpn]{Luz}.</p>"
+    },
+    "sDHZZx1xaCRPmhXY": {
+      "name": "Shuriken"
+    },
+    "tDNafhuDDdiVNUMy": {
+      "name": "Flechas",
+      "description": "<p>Munição para arcos curtos ou longos.</p>"
+    },
+    "uS2iSw8NLx8V0jb7": {
+      "name": "Símbolo Sagrado"
+    },
+    "z3xc7HGysC4ZCU8e": {
+      "name": "Tocha",
+      "description": "<p>Emite luz até uma distância média (ver Fontes de Luz, pág. 46). Queima por uma hora de tempo real.</p>"
+    },
+    "z98LNu4yOIe1B1eg": {
+      "name": "Martelo de Guerra"
+    },
+    "zU6dopKBk3pKS9F9": {
+      "name": "Ovo de Basilisco",
+      "description": "<p>Um filhote leal choca em [[/r 1d4]] dias.</p>"
+    }
+  }
+}
