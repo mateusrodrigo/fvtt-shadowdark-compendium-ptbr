@@ -37,7 +37,7 @@
       "description": "<p>Gigantes, ogros, trolls</p>"
     },
     "Goblin": {"verificado":"ok",
-      "name": "Goblinóide",
+      "name": "Goblin",
       "description": "<p>Bugbears, goblins, hobgoblins</p>"
     },
     "Merran": {"verificado":"ok",

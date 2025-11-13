@@ -7,31 +7,31 @@
     "entries": {
         "0lJ8Pj0UPsbSSUTm": {"verificado":"ok",
             "name": "Meio-Orc",
-            "description": "<p>Guerreiros imponentes e de presas afiadas, tão audaciosos quanto os humanos e tão implacáveis quanto os orcs.</p></p>Você sabe os idiomas Comum e Orc.</p></p>@UUID[Compendium.shadowdark.talents.Item.LR6h4lXVXwx7AFQ6]{Poderoso}: Você recebe um bônus de +1 nas jogadas de ataque e de dano com armas corpo a corpo.</p>"
+            "description": "Guerreiros imponentes e de presas afiadas, tão audaciosos quanto os humanos e tão implacáveis quanto os orcs.</p>Você sabe os idiomas @UUID[Compendium.shadowdark.languages.Item.DQzHvoMWSZ0eiRWP]{Comum} e @UUID[Compendium.shadowdark.languages.Item.1iECxGKqGpV3k6VZ]{Órquico}.</p>@UUID[Compendium.shadowdark.talents.Item.LR6h4lXVXwx7AFQ6]{Poderoso}: Você recebe um bônus de +1 nas jogadas de ataque e de dano com armas corpo a corpo.</p>"
         },
         "80h0XXptGDZvGAIZ": {"verificado":"ok",
             "name": "Anão",
-            "description": "Bravos e firmes, um povo tão resistente quanto os reinos de pedra que esculpem nas entranhas das montanhas.</p><p>Você sabe os idiomas Comum e Anão.</p></p>@UUID[Compendium.shadowdark.talents.Item.MW43tnJr6lqE1Ty8]{Robusto}: Comece com +2 PV. Role os pontos de vida por nível com vantagem.</p>"
+            "description": "Bravos e firmes, um povo tão resistente quanto os reinos de pedra que esculpem nas entranhas das montanhas.</p>Você sabe os idiomas @UUID[Compendium.shadowdark.languages.Item.DQzHvoMWSZ0eiRWP]{Comum} e @UUID[Compendium.shadowdark.languages.Item.DBK9gi6d0SGVlRwv]{Anânico}.</p>@UUID[Compendium.shadowdark.talents.Item.MW43tnJr6lqE1Ty8]{Robusto}: Comece com +2 PV. Role os pontos de vida por nível com vantagem.</p>"
         },
         "855WNm4l1T7S8akj": {"verificado":"ok",
             "name": "Kobold",
-            "description": "<p>Pequenos humanoides com aparência de cães-lagartos, conhecidos por seu talento em engenhocas, construção de armadilhas e um toque de magia.</p></p>Você sabe os idiomas Comum e Dracônico.</p></p>@UUID[]{Talento}: Você recebe +1 em testes de conjuração ou pode começar cada sessão com uma ficha de sorte.</p>"
+            "description": "Pequenos humanoides com aparência de cães-lagartos, conhecidos por seu talento em engenhocas, construção de armadilhas e um toque de magia.</p>Você sabe os idiomas @UUID[Compendium.shadowdark.languages.Item.DQzHvoMWSZ0eiRWP]{Comum} e Dracônico.</p>@UUID[Compendium.shadowdark.talents.Item.GVAi0l6mfRillxwZ]{Talento (Conjuração)}/@UUID[Compendium.shadowdark.talents.Item.VjrDCzm64JmpoqjL]{Talento (Sorte)}: Você recebe +1 em testes de conjuração ou pode começar cada sessão com uma ficha de sorte.</p>"
         },
         "QG1lAZeLfBtXR6zh": {"verificado":"ok",
             "name": "Goblin",
-            "description": "<p>Verdes e astutos, são seres que prosperam em lugares escuros e apertados. Tão ferozes quanto são pequenos.</p><p>Você sabe os idiomas Comum e Goblin.</p></p>@UUID[Compendium.shadowdark.talents.Item.Gf5dApLfOorbQn4R]{Sentidos Aguçados}: Você não pode ser surpreendido.</p>"
+            "description": "Verdes e astutos, são seres que prosperam em lugares escuros e apertados. Tão ferozes quanto são pequenos.</p>Você sabe os idiomas @UUID[Compendium.shadowdark.languages.Item.DQzHvoMWSZ0eiRWP]{Comum} e @UUID[Compendium.shadowdark.languages.Item.NN9wFGgwk49oOQeN]{Goblin}.</p>@UUID[Compendium.shadowdark.talents.Item.Gf5dApLfOorbQn4R]{Sentidos Aguçados}: Você não pode ser surpreendido.</p>"
         },
         "mpqXJtii4nj4ukKk": {"verificado":"ok",
             "name": "Elfo",
-            "description": "<p>Etéreos e graciosos, um povo que reverencia o conhecimento e a beleza. Os elfos enxergam longe e vivem por muito tempo.</p><p>Você sabe os idiomas Comum, Élfico e Silvano.</p></p>@UUID[Compendium.shadowdark.talents.Item.dTEZW21LUNoYL3JU]{Visão Longa (Ataque à Distância)}/@UUID[Compendium.shadowdark.talents.Item.E3EcGGdGYuEWWj47]{Visão Longa (Magia)}: Você recebe um bônus de +1 nas jogadas de ataque com armas à distância <strong>ou</strong> um bônus de +1 nos testes de conjuração.</p>"
+            "description": "Etéreos e graciosos, um povo que reverencia o conhecimento e a beleza. Os elfos enxergam longe e vivem por muito tempo.</p>Você sabe os idiomas @UUID[Compendium.shadowdark.languages.Item.DQzHvoMWSZ0eiRWP]{Comum}, @UUID[Compendium.shadowdark.languages.Item.wABiw5UhzG2G8Kpa]{Élfico} e @UUID[Compendium.shadowdark.languages.Item.Lf6kATbC1uNPLnPi]{Silvestre}.</p>@UUID[Compendium.shadowdark.talents.Item.dTEZW21LUNoYL3JU]{Visão Longa (Ataque à Distância)}/@UUID[Compendium.shadowdark.talents.Item.E3EcGGdGYuEWWj47]{Visão Longa (Magia)}: Você recebe um bônus de +1 nas jogadas de ataque com armas à distância <strong>ou</strong> um bônus de +1 nos testes de conjuração.</p>"
         },
         "rglUPGtBSAAG3dhK": {"verificado":"ok",
             "name": "Halfling",
-            "description": "<p>Pequenos e alegres habitantes do campo, com um toque de travessura. Eles apreciam os prazeres simples da vida.</p><p>Você sabe o idioma Comum.</p></p>@UUID[Compendium.shadowdark.talents.Item.zkOiprnKS5uttiO6]{Furtivo}: Uma vez por dia, você pode se tornar invisível por 3 rodadas.</p>"
+            "description": "Pequenos e alegres habitantes do campo, com um toque de travessura. Eles apreciam os prazeres simples da vida.</p>Você sabe o idioma @UUID[Compendium.shadowdark.languages.Item.DQzHvoMWSZ0eiRWP]{Comum}.</p>@UUID[Compendium.shadowdark.talents.Item.zkOiprnKS5uttiO6]{Furtivo}: Uma vez por dia, você pode se tornar invisível por 3 rodadas.</p>"
         },
         "w3gbUH2DOBxfZPHO": {"verificado":"ok",
             "name": "Humano",
-            "description": "<p>Ousados, adaptáveis e diversos, são pessoas que aprendem rápido e realizam grandes feitos.</p><p>Você sabe o idioma Comum e um idioma adicional comum.</p></p>@UUID[Compendium.shadowdark.talents.Item.DYWFJu5XeazJYc0P]{Ambicioso}: Você ganha uma rolagem de talento adicional no 1º nível.</p>"
+            "description": "Ousados, adaptáveis e diversos, são pessoas que aprendem rápido e realizam grandes feitos.</p>Você sabe o idioma @UUID[Compendium.shadowdark.languages.Item.DQzHvoMWSZ0eiRWP]{Comum} e um idioma adicional comum.</p>@UUID[Compendium.shadowdark.talents.Item.DYWFJu5XeazJYc0P]{Ambicioso}: Você ganha uma rolagem de talento adicional no 1º nível.</p>"
         }
     }
 }

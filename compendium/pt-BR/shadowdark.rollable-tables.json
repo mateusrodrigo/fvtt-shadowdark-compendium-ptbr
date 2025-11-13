@@ -524,7 +524,7 @@
       }
     },
     "CtkKBhsOpV1v5YjX": {
-      "name": "Talentos de Classe: Sacerdote",
+      "name": "Talentos de Classe: Clérigo",
       "description": "",
       "results": {
         "2-2": "Vantagem em Conjurar Magias",
@@ -542,14 +542,14 @@
         "2-2": "Adaga",
         "3-3": "Vara",
         "4-4": "Arco Curto + Flechas",
-        "5-5": "Corda, 18 m",
+        "5-5": "Corda, 18 metros",
         "6-6": "Frasco de óleo",
         "7-7": "Pé de Cabra",
         "8-8": "Pregos de Ferro",
         "9-9": "Pederneira e Aço",
         "10-10": "Gancho de Escalada",
         "11-11": "Clava",
-        "12-12": "Estrepes"
+        "12-12": "Estrepes (caltrops)"
       }
     },
     "EmBGQUSaf5L7ojKJ": {
@@ -616,7 +616,7 @@
       "results": {
         "1-1": "Uma besta blindada do tamanho de um navio está em fúria nas proximidades",
         "2-3": "Um grupo de assassinos está a caminho para matar seu grupo",
-        "4-5": "O governante local colocou uma recompensa de 2.000 po em suas cabeças",
+        "4-5": "O governante local colocou uma recompensa de 2.000 PO em suas cabeças",
         "6-7": "O culto de Shune está planejando um golpe incendiário à meia-noite",
         "8-9": "Uma antiga porta de pedra foi encontrada no porão do castelo",
         "10-11": "Homens-lagarto têm atacado caravanas perto do pântano",
@@ -874,7 +874,7 @@
       "name": "Alinhamento Aleatório",
       "description": "",
       "results": {
-        "1-3": "Ordeiro",
+        "1-3": "Leal",
         "4-5": "Neutro",
         "6-6": "Caótico"
       }
@@ -943,7 +943,7 @@
       "results": {
         "3-6": "+1 em Testes de Diletantismo Mágico",
         "7-9": "+1 em Sabedoria",
-        "2-2": "Encontra uma Varinha Aleatória de Sacerdote ou Mago",
+        "2-2": "Encontra uma Varinha Aleatória de Clérigo ou Mago",
         "10-11": "CD de Presença Aprimorada",
         "12-12": "Distribuir em Atributos"
       }
@@ -1117,7 +1117,7 @@
       "description": "",
       "results": {
         "1-1": "Guerreiro",
-        "2-2": "Sacerdote",
+        "2-2": "Clérigo",
         "3-3": "Ladrão",
         "4-4": "Mago",
         "5-5": "Bardo",
@@ -1455,7 +1455,7 @@
       "description": "",
       "results": {
         "1-1": "Areia movediça",
-        "2-2": "Estrepes",
+        "2-2": "Estrepes (caltrops)",
         "3-3": "Detritos soltos",
         "4-4": "Campo de piche",
         "5-5": "Videiras agarradoras",
@@ -1502,14 +1502,14 @@
         "2-2": "Adaga",
         "3-3": "Vara",
         "4-4": "Rações",
-        "5-5": "Corda, 18 m",
+        "5-5": "Corda, 18 metros",
         "6-6": "Frasco de óleo",
         "7-7": "Pé de Cabra",
         "8-8": "Pregos de Ferro",
         "9-9": "Pederneira e Aço",
         "10-10": "Gancho de Escalada",
         "11-11": "Clava",
-        "12-12": "Estrepes"
+        "12-12": "Estrepes (caltrops)"
       }
     },
     "zIJh954RRbmssIFq": {"verificado":"ok",

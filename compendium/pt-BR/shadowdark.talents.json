@@ -947,8 +947,8 @@
       "effects": []
     },
     "EYRxfb5BUEzH1w3b": {
-      "name": "Conjuração (Sacerdote)",
-      "description": "<p><span class=\"fontstyle0\"><strong>Conjuração.</strong> </span><span class=\"fontstyle2\">Você pode conjurar magias de sacerdote que conhece.</span></p><p><span class=\"fontstyle2\">Você conhece duas magias de nível 1 à sua escolha da lista de magias de sacerdote na pág. 57.</span></p><p><span class=\"fontstyle2\">Cada vez que sobe de nível, escolhe novas magias de sacerdote para aprender de acordo com a Tabela de Magias Conhecidas do Sacerdote.</span></p><p><span class=\"fontstyle2\">Para conjurar magias de sacerdote, veja Conjuração na pág. 52.</span></p>",
+      "name": "Conjuração (Clérigo)",
+      "description": "<p><span class=\"fontstyle0\"><strong>Conjuração.</strong> </span><span class=\"fontstyle2\">Você pode conjurar magias de clérigo que conhece.</span></p><p><span class=\"fontstyle2\">Você conhece duas magias de nível 1 à sua escolha da lista de magias de clérigo na pág. 57.</span></p><p><span class=\"fontstyle2\">Cada vez que sobe de nível, escolhe novas magias de clérigo para aprender de acordo com a Tabela de Magias Conhecidas do Clérigo.</span></p><p><span class=\"fontstyle2\">Para conjurar magias de clérigo, veja Conjuração na pág. 52.</span></p>",
       "effects": []
     },
     "Ey3P0EplF5SHIdey": {
@@ -1456,8 +1456,8 @@
       "effects": []
     },
     "Myeeux8x1WqytayQ": {
-      "name": "Encontrar uma Varinha Aleatória de Sacerdote ou Mago",
-      "description": "<p>Você encontra uma varinha aleatória de sacerdote ou mago (à sua escolha).</p>",
+      "name": "Encontrar uma Varinha Aleatória de Clérigo ou Mago",
+      "description": "<p>Você encontra uma varinha aleatória de clérigo ou mago (à sua escolha).</p>",
       "effects": []
     },
     "ON5zVUv1xVbHRhbf": {

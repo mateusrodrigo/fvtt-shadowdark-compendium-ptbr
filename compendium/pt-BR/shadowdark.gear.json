@@ -27,7 +27,7 @@
       "description": "<p><strong>Alcance:</strong> 2x Curto</p><p>Requer 2 espaços.</p>"
     },
     "6ZRwVHFlh5QiyZWC": {
-      "name": "Corda, 18 m",
+      "name": "Corda, 18 metros",
       "description": "<p>Corda de cânhamo, 18 metros de comprimento.</p>"
     },
     "80bCpXdZcj0Cz1fE": {
@@ -63,7 +63,7 @@
       "name": "Cota de Malha"
     },
     "EPndk3DPOEOSvbga": {
-      "name": "Pregos de Ferro",
+      "name": "Pinos de Ferro",
       "description": "<p>Pinos resistentes, cada um com um furo para passar corda. Podem ser martelados com armas ou outros pinos.</p>"
     },
     "ERprfuTIFRFEix9G": {
@@ -129,7 +129,7 @@
       "name": "Escudo Redondo"
     },
     "SzpjMuJrhF5nMJ7H": {
-      "name": "Estrepes",
+      "name": "Estrepes (caltrops)",
       "description": "<p>Pequenos espinhos de ferro em forma de triângulo. Criaturas vivas que pisarem neles recebem 1 de dano e se movem à metade da velocidade por 10 rodadas.</p>"
     },
     "TQ0x7zmYfTCykZOh": {
@@ -188,7 +188,7 @@
     },
     "fJHwwn6TEfbdr8CM": {
       "name": "Kit de Escalada",
-      "description": "<p>Custa 7 po, ocupa 7 espaços e contém os seguintes itens:</p><ul><li><p>@UUID[Compendium.shadowdark.gear.oSnfz4qcWlUL6cDZ]{Mochila}</p></li><li><p>@UUID[Compendium.shadowdark.gear.ERprfuTIFRFEix9G]{Pederneira e Aço}</p></li><li><p>2x @UUID[Compendium.shadowdark.gear.z3xc7HGysC4ZCU8e]{Tocha}</p></li><li><p>@UUID[Compendium.shadowdark.gear.EPndk3DPOEOSvbga]{Pregos de Ferro}</p></li><li><p>@UUID[Compendium.shadowdark.gear.GX6OmWQiE7MzTmjX]{Rações}</p></li><li><p>@UUID[Compendium.shadowdark.gear.fqsLWV46NWH0L53l]{Gancho de Escalada}</p></li><li><p>@UUID[Compendium.shadowdark.gear.6ZRwVHFlh5QiyZWC]{Corda, 18 m}</p></li></ul>"
+      "description": "<p>Custa 7 po, ocupa 7 espaços e contém os seguintes itens:</p><ul><li><p>@UUID[Compendium.shadowdark.gear.oSnfz4qcWlUL6cDZ]{Mochila}</p></li><li><p>@UUID[Compendium.shadowdark.gear.ERprfuTIFRFEix9G]{Pederneira e Aço}</p></li><li><p>2x @UUID[Compendium.shadowdark.gear.z3xc7HGysC4ZCU8e]{Tocha}</p></li><li><p>@UUID[Compendium.shadowdark.gear.EPndk3DPOEOSvbga]{Pregos de Ferro}</p></li><li><p>@UUID[Compendium.shadowdark.gear.GX6OmWQiE7MzTmjX]{Rações}</p></li><li><p>@UUID[Compendium.shadowdark.gear.fqsLWV46NWH0L53l]{Gancho de Escalada}</p></li><li><p>@UUID[Compendium.shadowdark.gear.6ZRwVHFlh5QiyZWC]{Corda, 18 metros}</p></li></ul>"
     },
     "fqsLWV46NWH0L53l": {
       "name": "Gancho de Escalada",

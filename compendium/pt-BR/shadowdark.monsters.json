@@ -25092,7 +25092,7 @@
           "flags": {}
         }
       ],
-      "notes": "\n\t<p><i> Goblinoides brutais, de orelhas de morcego e cobertos por pelos castanhos. </i></p>\n\t\n\t<p><strong>CA</strong> 13 (couro + escudo), <strong>PV</strong> 14, <strong>ATQ</strong> 2 maça com espinhos +3 (1d6), <strong>DESL</strong> perto, <strong>F</strong> +3, <strong>D</strong> +0, <strong>C</strong> +1, <strong>I</strong> -1, <strong>S</strong> +0, <strong>CAR</strong> -2, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 3</p>\n\t<p><strong>Furtivo</strong>. VANT em testes para se esconder ou mover furtivamente.</p>"
+      "notes": "\n\t<p><i> Goblins brutais, de orelhas de morcego e cobertos por pelos castanhos. </i></p>\n\t\n\t<p><strong>CA</strong> 13 (couro + escudo), <strong>PV</strong> 14, <strong>ATQ</strong> 2 maça com espinhos +3 (1d6), <strong>DESL</strong> perto, <strong>F</strong> +3, <strong>D</strong> +0, <strong>C</strong> +1, <strong>I</strong> -1, <strong>S</strong> +0, <strong>CAR</strong> -2, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 3</p>\n\t<p><strong>Furtivo</strong>. VANT em testes para se esconder ou mover furtivamente.</p>"
     },
     "qhy4sxYqEkl171L5": {
       "name": "Diabo, Ímpio",
@@ -27670,8 +27670,8 @@
       "notes": "\n\t<p><i> Um orc imponente, coberto por cicatrizes que cruzam seu corpo. </i></p>\n\t\n\t<p><strong>CA</strong> 14 (cota de malha), <strong>PV</strong> 19, <strong>ATQ</strong> 2 machado grande +4 (1d10), <strong>DESL</strong> perto, <strong>F</strong> +2, <strong>D</strong> +1, <strong>C</strong> +1, <strong>I</strong> -1, <strong>S</strong> +0, <strong>CAR</strong> -1, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 4</p>\n\t<p><strong>Fúria</strong>. 1/dia, imune a testes de moral, +1d4 de dano (3 rodadas).</p>"
     },
     "vRn6zM7a0nrqSiY5": {
-      "name": "Sacerdote",
-      "tokenName": "Sacerdote",
+      "name": "Clérigo",
+      "tokenName": "Clérigo",
       "items": [
         {
           "_id": "gZ5D9N6OsdgutW6k",
@@ -27844,7 +27844,7 @@
           "img": "icons/magic/symbols/runes-star-magenta.webp",
           "name": "Repreender",
           "system": {
-            "description": "<p>Foco. Criaturas caóticas não podem atacar o sacerdote nem se aproximar a alcance próximo enquanto durar o efeito.</p>",
+            "description": "<p>Foco. Criaturas caóticas não podem atacar o clérigo nem se aproximar a alcance próximo enquanto durar o efeito.</p>",
             "source": {
               "title": ""
             },
@@ -27875,7 +27875,7 @@
           "flags": {}
         }
       ],
-      "notes": "\n\t<p><i> Um membro respeitado do clero que conduz rituais e cerimônias sagradas. </i></p>\n\t\n\t<p><strong>CA</strong> 15 (cota de malha + escudo), <strong>PV</strong> 23, <strong>ATQ</strong> 2 maça +3 (1d6) ou 1 magia +3, <strong>DESL</strong> perto, <strong>F</strong> +1, <strong>D</strong> +0, <strong>C</strong> +1, <strong>I</strong> +0, <strong>S</strong> +2, <strong>CAR</strong> +1, <strong>AL</strong> L, <strong>NV</strong> 5</p>\n\t<p><strong>Ungir (MAGIA SAB)</strong>. CD 12. Perto. Uma arma ou armadura torna-se uma versão mágica +2 por 10 rodadas.</p><p><strong>Toque Curativo (MAGIA SAB)</strong>. CD 11. Cura uma criatura a curta distância em 2d4 PV.</p><p><strong>Chama Sagrada (MAGIA SAB)</strong>. CD 13. Próprio. As armas se inflamam com chamas mágicas e causam 1d6 de dano adicional por 5 rodadas.</p><p><strong>Repreender (MAGIA SAB)</strong>. CD 13. Foco. Criaturas caóticas não podem atacar o sacerdote nem se aproximar a alcance próximo enquanto durar o efeito.</p>"
+      "notes": "\n\t<p><i> Um membro respeitado do clero que conduz rituais e cerimônias sagradas. </i></p>\n\t\n\t<p><strong>CA</strong> 15 (cota de malha + escudo), <strong>PV</strong> 23, <strong>ATQ</strong> 2 maça +3 (1d6) ou 1 magia +3, <strong>DESL</strong> perto, <strong>F</strong> +1, <strong>D</strong> +0, <strong>C</strong> +1, <strong>I</strong> +0, <strong>S</strong> +2, <strong>CAR</strong> +1, <strong>AL</strong> L, <strong>NV</strong> 5</p>\n\t<p><strong>Ungir (MAGIA SAB)</strong>. CD 12. Perto. Uma arma ou armadura torna-se uma versão mágica +2 por 10 rodadas.</p><p><strong>Toque Curativo (MAGIA SAB)</strong>. CD 11. Cura uma criatura a curta distância em 2d4 PV.</p><p><strong>Chama Sagrada (MAGIA SAB)</strong>. CD 13. Próprio. As armas se inflamam com chamas mágicas e causam 1d6 de dano adicional por 5 rodadas.</p><p><strong>Repreender (MAGIA SAB)</strong>. CD 13. Foco. Criaturas caóticas não podem atacar o clérigo nem se aproximar a alcance próximo enquanto durar o efeito.</p>"
     },
     "vSA5WApOVd99itBh": {
       "name": "Bruxa Marinha",
@@ -29378,7 +29378,7 @@
           "img": "icons/creatures/abilities/dragon-breath-purple.webp",
           "name": "Maldição",
           "system": {
-            "description": "<p>O dano causado pelo esmagar só pode ser curado por sacerdotes de nível 5 ou superior.</p>",
+            "description": "<p>O dano causado pelo esmagar só pode ser curado por clérigos de nível 5 ou superior.</p>",
             "source": {
               "title": ""
             },
@@ -29403,7 +29403,7 @@
           "flags": {}
         }
       ],
-      "notes": "\n\t<p><i> Um humanoide colossal e sem rosto, moldado em argila reluzente. </i></p>\n\t\n\t<p><strong>CA</strong> 14, <strong>PV</strong> 40, <strong>ATQ</strong> 3 esmagar +6 (1d8), <strong>DESL</strong> perto, <strong>F</strong> +4, <strong>D</strong> +0, <strong>C</strong> +4, <strong>I</strong> -2, <strong>S</strong> +0, <strong>CAR</strong> -2, <strong>AL</strong> N, <strong>NV</strong> 8</p>\n\t<p><strong>Golem</strong>. Imune a dano de fogo, frio, eletricidade ou fontes não mágicas. Curado por ácido.</p><p><strong>Maldição</strong>. O dano causado pelo esmagar só pode ser curado por sacerdotes de nível 5 ou superior.</p>"
+      "notes": "\n\t<p><i> Um humanoide colossal e sem rosto, moldado em argila reluzente. </i></p>\n\t\n\t<p><strong>CA</strong> 14, <strong>PV</strong> 40, <strong>ATQ</strong> 3 esmagar +6 (1d8), <strong>DESL</strong> perto, <strong>F</strong> +4, <strong>D</strong> +0, <strong>C</strong> +4, <strong>I</strong> -2, <strong>S</strong> +0, <strong>CAR</strong> -2, <strong>AL</strong> N, <strong>NV</strong> 8</p>\n\t<p><strong>Golem</strong>. Imune a dano de fogo, frio, eletricidade ou fontes não mágicas. Curado por ácido.</p><p><strong>Maldição</strong>. O dano causado pelo esmagar só pode ser curado por clérigos de nível 5 ou superior.</p>"
     },
     "yMyZ18conSZhwlpg": {
       "name": "Oni",

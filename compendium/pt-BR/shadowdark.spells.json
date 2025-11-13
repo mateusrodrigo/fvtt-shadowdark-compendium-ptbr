@@ -4,7 +4,7 @@
     "description": "system.description"
   },
   "folders": {
-    "Priest": "Sacerdote",
+    "Priest": "Clérigo",
     "Seer": "Vidente",
     "Tier 1": "Círculo 1",
     "Tier 2": "Círculo 2",

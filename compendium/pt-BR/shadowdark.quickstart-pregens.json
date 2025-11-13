@@ -373,7 +373,7 @@
           "effects": [],
           "folder": null,
           "img": "icons/sundries/survival/rope-wrapped-brown.webp",
-          "name": "Corda, 18 m",
+          "name": "Corda, 18 metros",
           "system": {
             "description": "<p>Feita de cânhamo, com 18 metros de comprimento.</p>",
             "source": {
@@ -1719,7 +1719,7 @@
           "img": "icons/tools/fasteners/pin-spiked.webp",
           "name": "Pinos de Ferro",
           "system": {
-            "description": "<p>Pinos resistentes. Cada um tem um furo para passar</p><p>corda. Podem ser martelados com armas ou outros pinos de ferro.</p>",
+            "description": "<p>Pinos resistentes. Cada um tem um furo para passar</p><p>corda. Podem ser martelados com armas ou outros Pinos de Ferro.</p>",
             "source": {
               "title": "",
               "page": 0
@@ -1835,7 +1835,7 @@
           "effects": [],
           "folder": null,
           "img": "icons/sundries/survival/rope-wrapped-brown.webp",
-          "name": "Corda, 60'",
+          "name": "Corda, 18 metros",
           "system": {
             "description": "<p>Cânhamo, 60’ de comprimento.</p>",
             "source": {
@@ -2922,7 +2922,7 @@
           "effects": [],
           "folder": null,
           "img": "icons/consumables/potions/potion-bottle-corked-blue.webp",
-          "name": "Óleo, Frasco",
+          "name": "Frasco de óleo",
           "system": {
             "description": "<p>Alimenta uma lamparina por uma hora de tempo real. Um frasco cobre uma área próxima e queima por 4 rodadas, causando 1d4 de dano por rodada.</p>",
             "source": {
@@ -2981,7 +2981,7 @@
           "effects": [],
           "folder": null,
           "img": "icons/consumables/potions/potion-bottle-corked-blue.webp",
-          "name": "Óleo, Frasco",
+          "name": "Frasco de óleo",
           "system": {
             "description": "<p>Alimenta uma lamparina por uma hora de tempo real. Um frasco cobre uma área próxima e queima por 4 rodadas, causando 1d4 de dano por rodada.</p>",
             "source": {
@@ -3099,7 +3099,7 @@
           "effects": [],
           "folder": null,
           "img": "icons/sundries/survival/rope-wrapped-brown.webp",
-          "name": "Corda, 60'",
+          "name": "Corda, 18 metros",
           "system": {
             "description": "<p>Cânhamo, 60’ de comprimento.</p>",
             "source": {
@@ -3921,9 +3921,9 @@
           "effects": [],
           "folder": null,
           "img": "icons/commodities/metal/fragments-steel-barbed.webp",
-          "name": "Estrepes",
+          "name": "Estrepes (caltrops)",
           "system": {
-            "description": "<p>Pequenos pinos de ferro em forma de triângulo. Criaturas vivas que pisam em estrepes sofrem 1 de dano e só podem se mover à metade da velocidade por 10 rodadas.</p>",
+            "description": "<p>Pequenos Pinos de Ferro em forma de triângulo. Criaturas vivas que pisam em Estrepes (caltrops) sofrem 1 de dano e só podem se mover à metade da velocidade por 10 rodadas.</p>",
             "source": {
               "title": "",
               "page": 0
@@ -3980,7 +3980,7 @@
           "effects": [],
           "folder": null,
           "img": "icons/sundries/survival/rope-wrapped-brown.webp",
-          "name": "Corda, 60'",
+          "name": "Corda, 18 metros",
           "system": {
             "description": "<p>Cânhamo, 60’ de comprimento.</p>",
             "source": {
@@ -5179,7 +5179,7 @@
           "effects": [],
           "folder": null,
           "img": "icons/sundries/survival/rope-wrapped-brown.webp",
-          "name": "Corda, 60'",
+          "name": "Corda, 18 metros",
           "system": {
             "description": "<p>Corda de cânhamo, 60 pés de comprimento.</p>",
             "source": {
@@ -6402,7 +6402,7 @@
           "effects": [],
           "folder": null,
           "img": "icons/sundries/survival/rope-wrapped-brown.webp",
-          "name": "Corda, 60'",
+          "name": "Corda, 18 metros",
           "system": {
             "description": "<p>Corda de cânhamo, 60 pés de comprimento.</p>",
             "source": {
@@ -7353,7 +7353,7 @@
           "effects": [],
           "folder": null,
           "img": "icons/sundries/survival/rope-wrapped-brown.webp",
-          "name": "Corda, 60'",
+          "name": "Corda, 18 metros",
           "system": {
             "description": "<p>Corda de cânhamo, 60 pés de comprimento.</p>",
             "source": {
@@ -9124,7 +9124,7 @@
           "effects": [],
           "folder": null,
           "img": "icons/sundries/survival/rope-wrapped-brown.webp",
-          "name": "Corda, 60'",
+          "name": "Corda, 18 metros",
           "system": {
             "description": "<p>Corda de cânhamo, 60 pés de comprimento.</p>",
             "source": {
